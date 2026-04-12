@@ -1278,8 +1278,8 @@ function skipUpsell() {
 // ─── DOWNSELL ────────────────────────────────────────
 function renderDownsell() {
   return `
-    <div class="screen-title" style="font-size:18px;margin-bottom:8px">Wait! Before you go...</div>
-    <div class="screen-title" style="font-size:14px;color:var(--text-muted);font-weight:500;margin-top:-16px;margin-bottom:24px">We understand the full plan might not be right for everyone.</div>
+    <div class="screen-title" style="font-size:20px;margin-bottom:4px">Wait! Before you go...</div>
+    <p style="font-size:14px;color:var(--text-muted);text-align:center;margin-bottom:24px;line-height:1.5">We understand the full plan might not be right for everyone.</p>
 
     <div class="offer-section">
       <div class="upsell-card" style="border-color:var(--accent)">
@@ -1442,19 +1442,12 @@ function goToScreen(type) {
 }
 
 // ─── EXIT INTENT (DOWNSELL TRIGGER) ──────────────────
+// Downsell is triggered ONLY by the back button on the offer page (handled in goBack).
+// We intentionally do NOT use mouseleave — it causes false triggers when users
+// move their mouse to the address bar, tabs, or other browser UI elements.
 function setupExitIntent() {
-  // On mobile: back button press on offer page
-  // On desktop: mouse leaving viewport
-  document.addEventListener('mouseleave', (e) => {
-    if (e.clientY < 0 && questions[step]?.type === 'offer' && !showedDownsell) {
-      showedDownsell = true;
-      goToScreen('downsell');
-    }
-  });
+  // Intentionally empty — back button handler in goBack() handles downsell
 }
-
-// Override back button on offer page
-const originalGoBack = goBack;
 
 // ─── SUCCESS (legacy fallback) ───────────────────────
 function showSuccess() {
