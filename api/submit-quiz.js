@@ -42,7 +42,7 @@ export default async function handler(req, res) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        sender: { name: 'PelvicFit Men', email: 'support@pelvicfitmen.com' },
+        sender: { name: 'PelvicFit Men', email: 'support@pelvicfit.xyz' },
         to: [{ email: email }],
         subject: '✅ Your personalized plan is being prepared',
         htmlContent: `
