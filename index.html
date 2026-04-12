@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Men's Pelvic Health Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '27117930631145953');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=27117930631145953&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PGMSSLBB9W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PGMSSLBB9W');
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0e2a;
+      --bg2: #0d1235;
+      --card: #1a1f42;
+      --card2: #222748;
+      --border: #2e3566;
+      --red: #c0392b;
+      --red-dark: #922b21;
+      --red-light: #e74c3c;
+      --text: #ffffff;
+      --text-muted: #8892b0;
+      --text-dim: #6c7a99;
+      --green: #27ae60;
+      --accent: #3b5bdb;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* App shell – centred mobile-width column */
+    #app {
+      min-height: 100vh;
+      max-width: 480px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      background: radial-gradient(ellipse at top right, #1a1060 0%, #0a0e2a 55%, #07081a 100%);
+    }
+
+    /* ── HEADER ── */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 20px 8px;
+      position: relative;
+    }
+    .header .back-btn {
+      background: none; border: none; color: #fff; font-size: 22px;
+      cursor: pointer; padding: 4px 8px; opacity: 0.8;
+      transition: opacity 0.2s;
+    }
+    .header .back-btn:hover { opacity: 1; }
+    .header .back-btn.hidden { opacity: 0; pointer-events: none; }
+    .header .logo {
+      display: flex; align-items: center; gap: 8px;
+    }
+    .header .logo .logo-icon {
+      width: 36px; height: 36px; border-radius: 8px;
+      overflow: hidden; flex-shrink: 0;
+    }
+    .header .logo .logo-icon img {
+      width: 100%; height: 100%; object-fit: cover;
+    }
+    .header .logo span { font-weight: 700; font-size: 15px; }
+    .header .counter { font-size: 15px; font-weight: 600; color: #ccc; min-width: 44px; text-align: right; }
+    .header .counter.hidden { opacity: 0; }
+
+    /* progress bar */
+    .progress-bar-wrap {
+      height: 4px; background: #2e3566; margin: 4px 0 0;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--red-dark), var(--red-light));
+      border-radius: 2px;
+      transition: width 0.5s ease;
+    }
+
+    /* ── SCREEN ── */
+    .screen {
+      flex: 1; display: flex; flex-direction: column;
+      padding: 24px 20px 0;
+      animation: fadeSlide 0.35s ease;
+    }
+    @keyframes fadeSlide {
+      from { opacity: 0; transform: translateX(20px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    .screen-title {
+      font-size: 22px; font-weight: 800; line-height: 1.35;
+      margin-bottom: 24px; text-align: center;
+    }
+    .screen-title.left { text-align: left; }
+    .screen-subtitle {
+      font-size: 14px; color: var(--text-muted); text-align: center;
+      margin-top: -16px; margin-bottom: 20px;
+    }
+
+    /* ── OPTION BUTTONS ── */
+    .options { display: flex; flex-direction: column; gap: 12px; }
+
+    .option-btn {
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      color: var(--text);
+      padding: 18px 20px;
+      font-size: 15px; font-weight: 600;
+      cursor: pointer;
+      display: flex; align-items: center; gap: 14px;
+      text-align: left;
+      transition: background 0.18s, border-color 0.18s, transform 0.12s;
+      position: relative;
+      overflow: hidden;
+    }
+    .option-btn:active { transform: scale(0.98); }
+    .option-btn:hover { background: var(--card2); border-color: #4a56a0; }
+    .option-btn.selected {
+      background: #1c244f;
+      border-color: var(--red);
+    }
+    .option-btn .emoji {
+      width: 40px; height: 40px; border-radius: 10px;
+      background: #0f1535;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; flex-shrink: 0;
+    }
+    .option-btn .check-circle {
+      width: 22px; height: 22px; border-radius: 50%;
+      border: 2px solid var(--text-dim); flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      margin-left: auto;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .option-btn.selected .check-circle {
+      background: var(--red); border-color: var(--red);
+    }
+    .option-btn .check-circle::after {
+      content: ''; display: none;
+      width: 6px; height: 10px;
+      border: 2px solid white; border-top: none; border-left: none;
+      transform: rotate(45deg) translateY(-1px);
+    }
+    .option-btn.selected .check-circle::after { display: block; }
+
+    /* ── SCALE ── */
+    .scale-wrap { margin-top: 8px; }
+    .scale-labels { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-muted); margin-bottom: 12px; }
+    .scale-buttons { display: flex; gap: 8px; }
+    .scale-btn {
+      flex: 1; padding: 16px 0; border-radius: 12px;
+      background: var(--card); border: 1.5px solid var(--border);
+      color: var(--text); font-size: 16px; font-weight: 700;
+      cursor: pointer; text-align: center;
+      transition: background 0.15s, border-color 0.15s, transform 0.12s;
+    }
+    .scale-btn:active { transform: scale(0.95); }
+    .scale-btn:hover { background: var(--card2); }
+    .scale-btn.selected { background: var(--red); border-color: var(--red); }
+
+    /* ── INFO CARD ── */
+    .info-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 20px;
+      display: flex; flex-direction: column; gap: 12px;
+    }
+    .info-card p { font-size: 14px; line-height: 1.6; color: #c8d0e8; }
+    .info-card .stat-row {
+      display: flex; gap: 12px; align-items: center;
+      background: #11163a; border-radius: 12px; padding: 14px 16px;
+    }
+    .info-card .stat-icon { font-size: 28px; }
+    .info-card .stat-text strong { display: block; font-size: 18px; font-weight: 800; }
+    .info-card .stat-text span { font-size: 13px; color: var(--text-muted); }
+
+    /* ── PROGRESS CARDS (Day 1, 14, 24) ── */
+    .day-cards { display: flex; flex-direction: column; gap: 12px; }
+    .day-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 18px 20px;
+      display: flex; align-items: center; gap: 16px;
+    }
+    .day-card .day-orb {
+      width: 60px; height: 60px; border-radius: 50%; flex-shrink: 0;
+      background: radial-gradient(circle at 40% 40%, #7b1010, #2c0606);
+      border: 2px solid #5a1515;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 26px;
+    }
+    .day-card .day-name { font-size: 16px; font-weight: 700; flex: 1; }
+    .day-card .day-icon { font-size: 28px; opacity: 0.85; }
+
+    /* ── CHART ── */
+    .chart-wrap { margin: 16px 0; padding: 0 4px; }
+    .chart-label { font-size: 13px; color: var(--text-muted); margin-bottom: 8px; }
+    .chart-svg-wrap { position: relative; }
+    .chart-svg-wrap svg { width: 100%; display: block; }
+    .chart-multiplier {
+      position: absolute; right: 16px; top: 20%; 
+      font-size: 42px; font-weight: 900; color: white;
+      text-shadow: 0 0 30px rgba(255,255,255,0.3);
+    }
+    .chart-arrow {
+      position: absolute; right: 18px; top: 22%;
+      margin-top: -24px; font-size: 32px; color: rgba(255,255,255,0.6);
+    }
+    .chart-weeks { display: flex; justify-content: space-between; padding: 0 20px; }
+    .chart-weeks span { font-size: 11px; color: var(--text-muted); font-style: italic; }
+
+    /* ── LEADERBOARD ── */
+    .leaderboard { display: flex; flex-direction: column; gap: 10px; }
+    .leader-row {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 14px 16px;
+      display: flex; align-items: center; gap: 14px;
+    }
+    .leader-row .rank { font-size: 18px; font-weight: 800; width: 24px; text-align: center; }
+    .leader-row .avatar {
+      width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
+      background: linear-gradient(135deg, #3b5bdb, #5c35ac);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; font-weight: 700;
+    }
+    .leader-row .lname { flex: 1; font-weight: 600; font-size: 14px; }
+    .leader-row .lscore { font-size: 13px; color: var(--text-muted); }
+    .leader-row .lbadge {
+      font-size: 12px; font-weight: 700; padding: 3px 8px;
+      border-radius: 20px; background: linear-gradient(135deg, #922b21, #c0392b);
+    }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials-row { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 4px; }
+    .testimonials-row::-webkit-scrollbar { height: 0; }
+    .testimonial-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 16px; min-width: 220px; max-width: 240px;
+      flex-shrink: 0;
+    }
+    .testimonial-card .stars { color: #27ae60; font-size: 13px; letter-spacing: 2px; margin-bottom: 6px; }
+    .testimonial-card .t-title { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+    .testimonial-card .t-body { font-size: 12px; color: var(--text-muted); line-height: 1.5; margin-bottom: 10px; }
+    .testimonial-card .t-author { display: flex; align-items: center; gap: 8px; }
+    .testimonial-card .t-avatar {
+      width: 28px; height: 28px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; font-weight: 700;
+    }
+    .testimonial-card .t-name { font-size: 12px; color: var(--text-muted); }
+    .testimonial-card .read-more { margin-left: auto; color: #5b8dee; font-size: 11px; font-weight: 600; cursor: pointer; }
+
+    /* ── TRUST SCREEN ── */
+    .trust-wrap { text-align: center; }
+    .trust-number { font-size: 48px; font-weight: 900; color: var(--red-light); }
+    .trust-sub { font-size: 14px; color: var(--text-muted); margin-bottom: 24px; }
+    .trust-method { font-size: 13px; color: var(--text-muted); margin-bottom: 20px; line-height: 1.5; }
+    .store-ratings { display: flex; gap: 12px; justify-content: center; margin-bottom: 20px; }
+    .store-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 16px 20px; text-align: center; flex: 1;
+    }
+    .store-card .store-icon { font-size: 14px; margin-bottom: 4px; display: flex; align-items: center; justify-content: center; gap: 6px; }
+    .store-card .store-rating { font-size: 24px; font-weight: 800; display: inline; }
+    .store-card .store-stars { color: #f59e0b; font-size: 14px; letter-spacing: 1px; }
+    .store-card .store-label { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+    .trust-hero { width: 100%; border-radius: 16px; margin-top: 8px; }
+
+    /* ── RESULTS REVEAL ── */
+    .results-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 24px; text-align: center; }
+    .score-circle { width: 120px; height: 120px; border-radius: 50%; margin: 0 auto 16px; border: 4px solid var(--red); display: flex; align-items: center; justify-content: center; flex-direction: column; }
+    .score-circle .score-val { font-size: 36px; font-weight: 900; }
+    .score-circle .score-of { font-size: 12px; color: var(--text-muted); }
+    .score-label { font-size: 14px; color: var(--text-muted); margin-bottom: 20px; }
+    .results-row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
+    .results-row:last-child { border-bottom: none; }
+    .results-row .rr-label { color: var(--text-muted); }
+    .results-row .rr-val { font-weight: 700; }
+    .results-rec { background: #11163a; border-radius: 12px; padding: 16px; margin-top: 16px; text-align: left; }
+    .results-rec .rec-title { font-size: 13px; font-weight: 700; color: var(--green); margin-bottom: 6px; }
+    .results-rec p { font-size: 13px; color: var(--text-muted); line-height: 1.5; }
+
+    /* ── OFFER PAGE ── */
+    .offer-timer-bar {
+      background: linear-gradient(135deg, #0d1235, #1a1060);
+      border: 1px solid var(--border); border-radius: 14px; padding: 16px;
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .offer-timer-bar span:first-child { font-size: 14px; font-weight: 700; }
+    .offer-time { font-size: 28px; font-weight: 900; color: #2ecc71; font-variant-numeric: tabular-nums; }
+    .offer-section { margin-bottom: 20px; }
+    .offer-features { display: flex; flex-direction: column; gap: 14px; }
+    .of-row { display: flex; align-items: flex-start; gap: 14px; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+    .of-icon { font-size: 24px; flex-shrink: 0; margin-top: 2px; }
+    .of-row strong { font-size: 14px; }
+    .of-desc { font-size: 12px; color: var(--text-muted); }
+    .offer-table { background: var(--card); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
+    .ot-header, .ot-row { display: grid; grid-template-columns: 1fr 60px 80px; padding: 12px 16px; align-items: center; }
+    .ot-header { border-bottom: 1px solid var(--border); font-weight: 700; font-size: 13px; }
+    .ot-row { border-bottom: 1px solid #1a1f42; font-size: 13px; }
+    .ot-row:last-child { border-bottom: none; }
+    .ot-row span:nth-child(2), .ot-row span:nth-child(3), .ot-header span:nth-child(2), .ot-header span:nth-child(3) { text-align: center; }
+    .price-card { background: var(--card); border: 2px solid var(--border); border-radius: 16px; padding: 20px; position: relative; cursor: pointer; transition: border-color 0.2s; }
+    .price-card.selected { border-color: #2ecc71; }
+    .price-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #1abc9c, #2ecc71); color: white; font-size: 11px; font-weight: 800; padding: 4px 14px; border-radius: 20px; letter-spacing: 0.5px; }
+    .price-name { font-size: 16px; font-weight: 700; margin-top: 8px; }
+    .price-amount { margin-top: 8px; }
+    .price-old { text-decoration: line-through; color: var(--text-muted); font-size: 16px; }
+    .price-new { font-size: 28px; font-weight: 900; color: #2ecc71; }
+    .price-period { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+    .guarantee-box { background: var(--card); border: 1px solid #2ecc71; border-radius: 16px; padding: 20px; }
+
+    /* ── LOADING / PLAN ── */
+    .plan-loading { padding: 20px 0; }
+    .plan-bar-wrap { height: 8px; background: #2e3566; border-radius: 4px; margin-bottom: 32px; overflow: hidden; }
+    .plan-bar-fill { height: 100%; background: linear-gradient(90deg, var(--red-dark), var(--red-light)); border-radius: 4px; transition: width 0.8s ease; }
+    .plan-steps { display: flex; flex-direction: column; gap: 16px; }
+    .plan-step { display: flex; align-items: center; gap: 14px; font-size: 15px; font-weight: 500; color: var(--text-muted); opacity: 0.4; transition: opacity 0.4s; }
+    .plan-step.done { color: var(--text); opacity: 1; }
+    .plan-step .step-check {
+      width: 28px; height: 28px; border-radius: 50%; flex-shrink: 0;
+      background: var(--card); border: 2px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px; transition: background 0.4s, border-color 0.4s;
+    }
+    .plan-step.done .step-check { background: var(--green); border-color: var(--green); }
+
+    /* ── EMAIL SCREEN ── */
+    .email-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 20px; padding: 24px;
+    }
+    .email-input {
+      width: 100%; padding: 16px 18px;
+      background: #11163a; border: 1.5px solid var(--border);
+      border-radius: 12px; color: var(--text); font-size: 15px;
+      font-family: inherit; outline: none; margin-bottom: 16px;
+      transition: border-color 0.2s;
+    }
+    .email-input::placeholder { color: var(--text-dim); }
+    .email-input:focus { border-color: var(--red); }
+    .email-privacy { display: flex; align-items: flex-start; gap: 10px; font-size: 13px; color: var(--text-muted); margin-bottom: 20px; }
+    .email-privacy .pi { font-size: 18px; flex-shrink: 0; }
+    .email-privacy a { color: #5b8dee; }
+    .email-note { font-size: 12px; color: var(--text-muted); text-align: center; line-height: 1.6; margin-top: 16px; }
+
+    /* ── CONTINUE BTN ── */
+    .footer {
+      padding: 16px 20px 24px;
+      margin-top: auto;
+    }
+    .btn-continue {
+      width: 100%; padding: 20px;
+      background: linear-gradient(135deg, var(--red-dark), var(--red-light));
+      border: none; border-radius: 16px;
+      color: white; font-size: 17px; font-weight: 700;
+      cursor: pointer; font-family: inherit;
+      transition: opacity 0.2s, transform 0.12s;
+      box-shadow: 0 4px 20px rgba(192,57,43,0.35);
+    }
+    .btn-continue:hover { opacity: 0.92; }
+    .btn-continue:active { transform: scale(0.97); }
+
+    /* ── HINT ROW ── */
+    .hint-row {
+      display: flex; align-items: flex-start; gap: 10px;
+      font-size: 13px; color: var(--text-muted); margin-top: 20px; line-height: 1.5;
+    }
+    .hint-row .hi { font-size: 16px; opacity: 0.6; flex-shrink: 0; }
+
+    /* ── MODAL ── */
+    #modal-overlay {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.7); backdrop-filter: blur(4px);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 100; opacity: 0; pointer-events: none;
+      transition: opacity 0.25s;
+    }
+    #modal-overlay.show { opacity: 1; pointer-events: all; }
+    .modal-box {
+      background: var(--card2); border: 1px solid var(--border);
+      border-radius: 20px; padding: 28px 24px; max-width: 340px; width: 90%;
+      text-align: center;
+      transform: scale(0.9); transition: transform 0.25s;
+    }
+    #modal-overlay.show .modal-box { transform: scale(1); }
+    .modal-box .modal-lead { font-size: 14px; color: var(--text-muted); margin-bottom: 12px; }
+    .modal-box .modal-q { font-size: 20px; font-weight: 800; margin-bottom: 24px; line-height: 1.35; }
+    .modal-btns { display: flex; gap: 12px; }
+    .modal-btn {
+      flex: 1; padding: 16px; border-radius: 14px;
+      font-size: 16px; font-weight: 700; cursor: pointer;
+      font-family: inherit; border: none;
+      transition: opacity 0.15s, transform 0.12s;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .modal-btn:active { transform: scale(0.96); }
+    .modal-btn.no { background: white; color: #1a1f42; }
+    .modal-btn.yes { background: linear-gradient(135deg, #27ae60, #2ecc71); color: white; }
+
+    /* ── SUCCESS ── */
+    .success-hero {
+      text-align: center; padding: 32px 0;
+    }
+    .success-hero .success-icon { font-size: 64px; margin-bottom: 16px; display: block; }
+    .success-hero h2 { font-size: 26px; font-weight: 800; margin-bottom: 8px; }
+    .success-hero p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+
+    /* ── UPSELL / DOWNSELL ── */
+    .upsell-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 20px; position: relative; overflow: visible;
+    }
+    .upsell-badge {
+      position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      color: white; font-size: 11px; font-weight: 800;
+      padding: 5px 16px; border-radius: 20px; letter-spacing: 0.5px;
+      white-space: nowrap;
+    }
+
+    /* ── THANK YOU TIMELINE ── */
+    .thankyou-timeline { display: flex; flex-direction: column; gap: 0; padding: 0 8px; }
+    .ty-step {
+      display: flex; align-items: flex-start; gap: 16px; padding: 16px 0;
+      border-left: 2px solid var(--border); margin-left: 14px; padding-left: 20px;
+      position: relative; opacity: 0.4;
+    }
+    .ty-step.done { opacity: 1; border-left-color: var(--green); }
+    .ty-step.active { opacity: 1; border-left-color: var(--green); }
+    .ty-step:last-child { border-left-color: transparent; }
+    .ty-dot {
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--card); border: 2px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px; flex-shrink: 0;
+      position: absolute; left: -17px;
+    }
+    .ty-step.done .ty-dot { background: var(--green); border-color: var(--green); color: white; }
+    .ty-step.active .ty-dot { border-color: var(--green); }
+    .ty-step div:last-child { padding-left: 20px; }
+    .ty-step strong { font-size: 14px; display: block; margin-bottom: 2px; }
+    .ty-step span { font-size: 12px; color: var(--text-muted); }
+    .ty-dot.pulse { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.15); } }
+  </style>
+</head>
+<body>
+<div id="app">
+  <!-- HEADER -->
+  <div class="header">
+    <button class="back-btn" id="back-btn" onclick="goBack()">&#8249;</button>
+    <div class="logo">
+      <div class="logo-icon"><img src="logo.png" alt="logo"></div>
+      <span>PelvicFit Men</span>
+    </div>
+    <div class="counter" id="step-counter">1/20</div>
+  </div>
+  <div class="progress-bar-wrap">
+    <div class="progress-bar-fill" id="progress-fill" style="width:5%"></div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="screen" id="screen-wrap"></div>
+
+  <!-- FOOTER -->
+  <div class="footer" id="footer-wrap"></div>
+</div>
+
+<!-- MODAL -->
+<div id="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-lead" id="modal-lead">To move forward, answer</div>
+    <div class="modal-q" id="modal-q"></div>
+    <div class="modal-btns">
+      <button class="modal-btn no" onclick="answerModal(false)">✕ &nbsp;No</button>
+      <button class="modal-btn yes" onclick="answerModal(true)">✓ &nbsp;Yes</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─── DATA ───────────────────────────────────────────
+const TOTAL = 20;
+
+const questions = [
+  // 0
+  {
+    type: 'single',
+    title: "What would you most like to improve?",
+    options: [
+      { label: "Stop premature ejaculation", emoji: "⏱️" },
+      { label: "Improve erection quality", emoji: "💪" },
+      { label: "Boost libido & desire", emoji: "🔥" },
+      { label: "Better bladder control", emoji: "🛡️" },
+    ]
+  },
+  // 1
+  {
+    type: 'single',
+    title: "What's your primary goal?",
+    options: [
+      { label: "Improve Firmness", emoji: "💪" },
+      { label: "Improve Endurance (Longer Time)", emoji: "⏱️" },
+      { label: "Enhance Pleasure (Libido)", emoji: "✨" },
+    ],
+    hint: "Your plan will be customized around your chosen goal."
+  },
+  // 2 — info: your expected journey
+  {
+    type: 'info-chart',
+    title: "Your expected results over 24 days",
+    chartLabel: "Pelvic Floor Strength Progress:",
+    multiplier: "3.5X",
+    weeks: ["Day 1","Day 7","Day 14","Day 24"],
+    hint: "Based on clinical studies of men who followed a similar program. Individual results may vary."
+  },
+  // 3
+  {
+    type: 'single',
+    title: "What's your experience with pelvic floor training?",
+    options: [
+      { label: "Beginner – never tried", emoji: "🌱" },
+      { label: "Intermediate – I know the basics", emoji: "📖" },
+      { label: "Advanced – I train regularly", emoji: "🏆" },
+    ]
+  },
+  // 4
+  {
+    type: 'single',
+    title: "How much daily training time can you commit?",
+    options: [
+      { label: "Less than 5 min", emoji: "⚡" },
+      { label: "5–10 min", emoji: "⏰" },
+      { label: "10–20 min", emoji: "🕐" },
+      { label: "More than 20 min", emoji: "💎" },
+    ]
+  },
+  // 5
+  {
+    type: 'single',
+    title: "How often does achieving an erection feel difficult?",
+    options: [
+      { label: "No", emoji: "✅" },
+      { label: "Sometimes", emoji: "🌙" },
+      { label: "Often", emoji: "⚠️" },
+      { label: "Always", emoji: "🆘" },
+    ]
+  },
+  // 6
+  {
+    type: 'single',
+    title: "How difficult is it to stay firm throughout intimacy?",
+    options: [
+      { label: "No difficulty", emoji: "✅" },
+      { label: "Sometimes", emoji: "🌙" },
+      { label: "Often", emoji: "⚠️" },
+      { label: "Always", emoji: "🆘" },
+    ]
+  },
+  // 7 — info: strength chart
+  {
+    type: 'info-chart',
+    title: "Regular training can multiply your pelvic floor strength significantly.",
+    chartLabel: "PF Muscle Strength:",
+    multiplier: "3.5X",
+    weeks: ["Week 1","Week 2","Week 3","Week 4"]
+  },
+  // 8
+  {
+    type: 'single',
+    title: "Do you finish earlier than you'd like during intimacy?",
+    options: [
+      { label: "Never", emoji: "✅" },
+      { label: "Sometimes", emoji: "🌙" },
+      { label: "Often", emoji: "⚠️" },
+      { label: "Always", emoji: "🆘" },
+    ]
+  },
+  // 9
+  {
+    type: 'scale',
+    title: "How would you rate your morning firmness?",
+    min: "Rarely firm",
+    max: "Very firm",
+    count: 5
+  },
+  // 10
+  {
+    type: 'single',
+    title: "How would you describe your desire for intimacy?",
+    options: [
+      { label: "Low", emoji: "❄️" },
+      { label: "Average", emoji: "😐" },
+      { label: "High", emoji: "🔥" },
+      { label: "Very high", emoji: "⚡" },
+    ]
+  },
+  // 11
+  {
+    type: 'single',
+    title: "How satisfied are you after intimacy?",
+    options: [
+      { label: "Not satisfied", emoji: "😔" },
+      { label: "Moderately satisfied", emoji: "😐" },
+      { label: "Satisfied", emoji: "😊" },
+      { label: "Very satisfied", emoji: "🌟" },
+    ]
+  },
+  // 12
+  {
+    type: 'scale',
+    title: "How much does stress affect your performance?",
+    min: "Not at all",
+    max: "A great deal",
+    count: 5
+  },
+  // 13
+  {
+    type: 'single',
+    title: "How would you rate your sleep quality?",
+    options: [
+      { label: "Poor", emoji: "😴" },
+      { label: "Average", emoji: "🌙" },
+      { label: "Good", emoji: "😊" },
+      { label: "Excellent", emoji: "⭐" },
+    ]
+  },
+  // 14 — multi-select habits
+  {
+    type: 'multi',
+    title: "Which of these do you consider your habits?",
+    subtitle: "You can select multiple options.",
+    options: [
+      { label: "None of them", emoji: "✅" },
+      { label: "Smoking", emoji: "🚬" },
+      { label: "Too much alcohol", emoji: "🍺" },
+      { label: "Too much sugar", emoji: "🍬" },
+      { label: "Junk food", emoji: "🍔" },
+      { label: "Excessive screen time", emoji: "📱" },
+    ]
+  },
+  // 15 — leaderboard
+  {
+    type: 'leaderboard',
+    title: "Top Pelvic Performers This Week",
+    leaders: [
+      { rank: "🥇", name: "Alpha_SK", score: "1,240 reps", badge: "TOP" },
+      { rank: "🥈", name: "StrongMK", score: "1,180 reps", badge: "PRO" },
+      { rank: "🥉", name: "IronWR",   score: "1,090 reps", badge: "PRO" },
+      { rank: "4",  name: "FlexJD",   score: "970 reps",   badge: null  },
+      { rank: "5",  name: "You?",      score: "—",          badge: null  },
+    ]
+  },
+  // 16
+  {
+    type: 'scale',
+    title: "How physically active are you on a typical day?",
+    min: "Sedentary",
+    max: "Very active",
+    count: 5
+  },
+  // 17 — social proof
+  {
+    type: 'trust',
+    title: "Trusted by 6 million+ men worldwide",
+    testimonials: [
+      {
+        title: "Game changer app",
+        body: "I have tried other pelvic floor apps for men before, but this is by far the best. The personal exercises make a real difference.",
+        author: "John L.", initial: "J", color: "#7c3aed"
+      },
+      {
+        title: "Started seeing real results!",
+        body: "Two weeks in and my confidence has skyrocketed. The daily plans are easy to follow and actually work.",
+        author: "David K.", initial: "D", color: "#d97706"
+      },
+    ],
+    storeRating1: "4.7",
+    storeRating2: "4.6"
+  },
+  // 18
+  {
+    type: 'single',
+    title: "Do you experience any urinary leakage or incontinence?",
+    options: [
+      { label: "No", emoji: "✅" },
+      { label: "Rarely", emoji: "🌙" },
+      { label: "Sometimes", emoji: "⚠️" },
+      { label: "Often", emoji: "🆘" },
+    ]
+  },
+  // 19 — PLAN LOADING
+  {
+    type: 'loading',
+    title: "Creating your personal plan...",
+    steps: [
+      "The data were analyzed",
+      "Your training was created",
+      "Fitness exercises were added",
+      "The plan was uploaded",
+    ],
+    testimonials: [
+      { title: "Game changer", body: "By far the best pelvic floor program I've tried....", author: "John L.", initial: "J", color: "#7c3aed" },
+      { title: "Real results!", body: "Two weeks in, confidence is through the roof...", author: "David K.", initial: "D", color: "#d97706" },
+    ]
+  },
+  // 20 — RESULTS REVEAL
+  { type: 'results' },
+  // 21 — EMAIL CAPTURE
+  { type: 'email', title: "Enter your e-mail to get your personal plan" },
+  // 22 — OFFER PAGE
+  { type: 'offer' },
+  // 23 — UPSELL (after purchase)
+  { type: 'upsell' },
+  // 24 — DOWNSELL (exit intent)
+  { type: 'downsell' },
+  // 25 — THANK YOU
+  { type: 'thankyou' }
+];
+
+// Retention modals
+const modals = [
+  { q: "Do you usually finish what you start?" },
+  { q: "Would you like to boost your self-confidence?" }
+];
+let modalQueue = [...modals];
+let modalResolver = null;
+
+// ─── STATE ───────────────────────────────────────────
+let step = 0;
+let answers = {};
+let multiSelected = new Set();
+let planProgress = 0;
+let userEmail = '';
+let showedDownsell = false;
+
+// ─── RENDER ──────────────────────────────────────────
+function renderStep() {
+  const q = questions[step];
+  const screenWrap = document.getElementById('screen-wrap');
+  const footerWrap = document.getElementById('footer-wrap');
+  const counter = document.getElementById('step-counter');
+  const fill = document.getElementById('progress-fill');
+  const backBtn = document.getElementById('back-btn');
+
+  // progress
+  const pct = Math.max(5, Math.round(((step + 1) / TOTAL) * 100));
+  fill.style.width = pct + '%';
+
+  const hideNav = ['loading','email','results','offer','upsell','downsell','thankyou'];
+  if (hideNav.includes(q.type)) {
+    counter.classList.add('hidden');
+    backBtn.classList.add('hidden');
+  } else {
+    counter.classList.remove('hidden');
+    backBtn.classList.remove('hidden');
+    counter.textContent = (step + 1) + '/' + TOTAL;
+  }
+
+  // render
+  let html = '';
+  let footerHtml = '';
+
+  switch(q.type) {
+    case 'single': html = renderSingle(q); break;
+    case 'multi':  html = renderMulti(q); break;
+    case 'scale':  html = renderScale(q); break;
+    case 'info-days': html = renderInfoDays(q); footerHtml = continueBtn(); break;
+    case 'info-chart': html = renderInfoChart(q); footerHtml = continueBtn(); break;
+    case 'leaderboard': html = renderLeaderboard(q); footerHtml = continueBtn(); break;
+    case 'trust': html = renderTrust(q); footerHtml = continueBtn(); break;
+    case 'loading': html = renderLoading(q); footerHtml = loadingBtn(); break;
+    case 'email': html = renderEmail(q); footerHtml = emailBtn(); break;
+    case 'results': html = renderResults(); footerHtml = continueBtn(); break;
+    case 'offer': html = renderOffer(); footerHtml = offerBtn(); break;
+    case 'upsell': html = renderUpsell(); footerHtml = upsellBtns(); break;
+    case 'downsell': html = renderDownsell(); footerHtml = downsellBtns(); break;
+    case 'thankyou': html = renderThankYou(); break;
+  }
+
+  screenWrap.innerHTML = html;
+  footerWrap.innerHTML = footerHtml;
+
+  // post-render hooks
+  if (q.type === 'loading') {
+    setTimeout(() => runPlanAnimation(q), 300);
+  }
+}
+
+function continueBtn() {
+  return `<button class="btn-continue" onclick="advance()">Continue</button>`;
+}
+function loadingBtn() {
+  return `<button class="btn-continue" id="continue-loading" onclick="advance()" style="opacity:0.5;pointer-events:none;">
+    <span style="display:inline-block;animation:spin 1s linear infinite;">↻</span>
+  </button>
+  <style>@keyframes spin{to{transform:rotate(360deg);}}</style>`;
+}
+function emailBtn() {
+  return `<button class="btn-continue" onclick="submitEmail()">Continue</button>`;
+}
+
+// ─── SINGLE CHOICE ───────────────────────────────────
+function renderSingle(q) {
+  let optsHtml = q.options.map((o, i) => `
+    <button class="option-btn" id="opt-${i}" onclick="selectSingle(${i})">
+      <div class="emoji">${o.emoji}</div>
+      <span style="flex:1">${o.label}</span>
+    </button>
+  `).join('');
+  let hint = q.hint ? `<div class="hint-row"><span class="hi">ℹ️</span>${q.hint}</div>` : '';
+  return `<div class="screen-title">${q.title}</div><div class="options">${optsHtml}</div>${hint}`;
+}
+
+function selectSingle(i) {
+  answers[step] = i;
+  if (step === 0) trackEvent('quiz_start');
+  document.querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+  document.getElementById('opt-' + i).classList.add('selected');
+  setTimeout(advance, 380);
+}
+
+// ─── MULTI CHOICE ────────────────────────────────────
+function renderMulti(q) {
+  multiSelected = new Set();
+  let optsHtml = q.options.map((o, i) => `
+    <button class="option-btn" id="opt-${i}" onclick="toggleMulti(${i}, ${i===0})">
+      <div class="check-circle" id="chk-${i}"></div>
+      <div class="emoji" style="margin-left:4px">${o.emoji}</div>
+      <span style="flex:1">${o.label}</span>
+    </button>
+  `).join('');
+  return `<div class="screen-title">${q.title}</div>
+    <div class="screen-subtitle">${q.subtitle}</div>
+    <div class="options">${optsHtml}</div>`;
+}
+
+function toggleMulti(i, isNone) {
+  const q = questions[step];
+  if (isNone) {
+    multiSelected.clear();
+    multiSelected.add(i);
+  } else {
+    multiSelected.delete(0); // remove "None"
+    if (multiSelected.has(i)) multiSelected.delete(i);
+    else multiSelected.add(i);
+  }
+  q.options.forEach((_, idx) => {
+    const btn = document.getElementById('opt-' + idx);
+    btn.classList.toggle('selected', multiSelected.has(idx));
+    const chk = document.getElementById('chk-' + idx);
+    chk.style.background = multiSelected.has(idx) ? 'var(--red)' : '';
+    chk.style.borderColor = multiSelected.has(idx) ? 'var(--red)' : '';
+  });
+  // show continue
+  if (!document.getElementById('footer-wrap').querySelector('.btn-continue')) {
+    document.getElementById('footer-wrap').innerHTML = continueBtn();
+  }
+}
+
+// ─── SCALE ───────────────────────────────────────────
+function renderScale(q) {
+  let btns = '';
+  for (let i = 1; i <= q.count; i++) {
+    btns += `<button class="scale-btn" id="sc-${i}" onclick="selectScale(${i}, ${q.count})">${i}</button>`;
+  }
+  return `<div class="screen-title">${q.title}</div>
+    <div class="scale-wrap">
+      <div class="scale-labels"><span>${q.min}</span><span>${q.max}</span></div>
+      <div class="scale-buttons">${btns}</div>
+    </div>`;
+}
+
+function selectScale(val, max) {
+  answers[step] = val;
+  for (let i = 1; i <= max; i++) {
+    const el = document.getElementById('sc-' + i);
+    if (el) el.classList.toggle('selected', i === val);
+  }
+  setTimeout(advance, 380);
+}
+
+// ─── INFO DAYS ───────────────────────────────────────
+function renderInfoDays(q) {
+  const postures = ['🧘','🏋️','🏃'];
+  let cards = q.days.map((d, i) => `
+    <div class="day-card">
+      <div class="day-orb">${postures[i]}</div>
+      <div class="day-name">${d.day}</div>
+      <div class="day-icon">${d.icon}</div>
+    </div>
+  `).join('');
+  return `<div class="screen-title">${q.title}</div>
+    <div class="day-cards">${cards}</div>
+    <div class="hint-row" style="margin-top:16px"><span class="hi">ℹ️</span>${q.hint}</div>`;
+}
+
+// ─── INFO CHART ───────────────────────────────────────
+function renderInfoChart(q) {
+  return `<div class="screen-title left">${q.title}</div>
+    <div class="chart-wrap">
+      <div class="chart-label">${q.chartLabel}</div>
+      <div class="chart-svg-wrap">
+        <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#c0392b"/>
+              <stop offset="40%" style="stop-color:#e67e22"/>
+              <stop offset="70%" style="stop-color:#f1c40f"/>
+              <stop offset="100%" style="stop-color:#27ae60"/>
+            </linearGradient>
+            <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color:#922b21;stop-opacity:0.5"/>
+              <stop offset="100%" style="stop-color:#0a0e2a;stop-opacity:0"/>
+            </linearGradient>
+          </defs>
+          <!-- Fill area -->
+          <path d="M 20 160 Q 80 140 130 100 Q 180 65 240 45 Q 280 38 310 38 L 310 160 Z" fill="url(#grad2)"/>
+          <!-- Curve -->
+          <path d="M 20 160 Q 80 140 130 100 Q 180 65 240 45 Q 280 38 310 38" 
+                fill="none" stroke="url(#grad1)" stroke-width="4" stroke-linecap="round"/>
+          <!-- Dots -->
+          <circle cx="20"  cy="160" r="5" fill="white" stroke="#222" stroke-width="2"/>
+          <circle cx="100" cy="120" r="5" fill="white" stroke="#222" stroke-width="2"/>
+          <circle cx="180" cy="75"  r="5" fill="white" stroke="#222" stroke-width="2"/>
+          <circle cx="245" cy="48"  r="5" fill="white" stroke="#222" stroke-width="2"/>
+          <!-- Dotted vertical lines -->
+          <line x1="100" y1="120" x2="100" y2="160" stroke="#444" stroke-dasharray="3,3" stroke-width="1"/>
+          <line x1="180" y1="75"  x2="180" y2="160" stroke="#444" stroke-dasharray="3,3" stroke-width="1"/>
+          <line x1="245" y1="48"  x2="245" y2="160" stroke="#444" stroke-dasharray="3,3" stroke-width="1"/>
+        </svg>
+        <div class="chart-multiplier">3.5X</div>
+        <div class="chart-arrow">↑</div>
+      </div>
+      <div class="chart-weeks">
+        ${q.weeks.map(w => `<span>${w}</span>`).join('')}
+      </div>
+    </div>`;
+}
+
+// ─── LEADERBOARD ─────────────────────────────────────
+function renderLeaderboard(q) {
+  let rows = q.leaders.map(l => `
+    <div class="leader-row">
+      <div class="rank">${l.rank}</div>
+      <div class="avatar">${l.name[0]}</div>
+      <div class="lname">${l.name}</div>
+      <div class="lscore">${l.score}</div>
+      ${l.badge ? `<div class="lbadge">${l.badge}</div>` : ''}
+    </div>
+  `).join('');
+  return `<div class="screen-title">${q.title}</div><div class="leaderboard">${rows}</div>`;
+}
+
+// ─── TRUST ───────────────────────────────────────────
+function renderTrust(q) {
+  let cards = q.testimonials.map(t => `
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <div class="t-title">${t.title}</div>
+      <div class="t-body">${t.body}</div>
+      <div class="t-author">
+        <div class="t-avatar" style="background:${t.color}">${t.initial}</div>
+        <div class="t-name">${t.author}</div>
+        <div class="read-more">Read More</div>
+      </div>
+    </div>
+  `).join('');
+  return `
+    <div class="trust-wrap">
+      <div class="trust-number">6M+</div>
+      <div class="trust-sub">men trust our platform worldwide</div>
+      <div class="trust-method">Created based on scientifically proven methods by pelvic floor therapists.</div>
+      <div class="store-ratings">
+        <div class="store-card">
+          <div class="store-icon"><span class="store-rating">4.7</span></div>
+          <div class="store-stars">★★★★★</div>
+          <div class="store-label">48K ratings</div>
+        </div>
+        <div class="store-card">
+          <div class="store-icon"><span class="store-rating">4.6</span></div>
+          <div class="store-stars">★★★★★</div>
+          <div class="store-label">102K ratings</div>
+        </div>
+      </div>
+      <img src="hero-men.png" alt="Trusted by millions" class="trust-hero">
+    </div>
+    <div class="testimonials-row" style="margin-top:20px">${cards}</div>`;
+}
+
+// ─── LOADING ─────────────────────────────────────────
+function renderLoading(q) {
+  let stepsHtml = q.steps.map((s, i) => `
+    <div class="plan-step" id="plan-step-${i}">
+      <div class="step-check" id="plan-chk-${i}">✓</div>
+      ${s}
+    </div>
+  `).join('');
+  let cards = q.testimonials.map(t => `
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <div class="t-title">${t.title}</div>
+      <div class="t-body">${t.body}</div>
+      <div class="t-author">
+        <div class="t-avatar" style="background:${t.color}">${t.initial}</div>
+        <div class="t-name">${t.author}</div>
+        <div class="read-more">Read More</div>
+      </div>
+    </div>
+  `).join('');
+  return `
+    <div class="screen-title">${q.title}</div>
+    <div class="plan-loading">
+      <div class="plan-bar-wrap"><div class="plan-bar-fill" id="plan-bar" style="width:0%"></div></div>
+      <div class="plan-steps">${stepsHtml}</div>
+    </div>
+    <div class="testimonials-row" style="margin-top:24px">${cards}</div>`;
+}
+
+async function runPlanAnimation(q) {
+  const bar = document.getElementById('plan-bar');
+  const milestones = [25, 50, 75, 100];
+  for (let i = 0; i < q.steps.length; i++) {
+    await sleep(1000);
+    if (!bar) return;
+    bar.style.width = milestones[i] + '%';
+    const step_el = document.getElementById('plan-step-' + i);
+    if (step_el) step_el.classList.add('done');
+    // Show modals mid-way
+    if (i === 1 && modalQueue.length > 0) {
+      await showModal(modalQueue.shift());
+    }
+    if (i === 2 && modalQueue.length > 0) {
+      await showModal(modalQueue.shift());
+    }
+  }
+  await sleep(600);
+  const btn = document.getElementById('continue-loading');
+  if (btn) { btn.style.opacity = '1'; btn.style.pointerEvents = 'all'; btn.innerHTML = 'Continue'; }
+}
+
+// ─── EMAIL ───────────────────────────────────────────
+function renderEmail(q) {
+  return `<div class="screen-title">${q.title}</div>
+    <div class="email-card">
+      <input type="email" class="email-input" id="email-in" placeholder="Enter your e-mail" />
+      <div class="email-privacy">
+        <span class="pi">🔒</span>
+        <span>Your information is under protection of our <a href="privacy.html" target="_blank">Privacy Policy.</a></span>
+      </div>
+      <div class="email-note">We respect your privacy and are committed to protecting your personal data.<br>Your e-mail will be used as the unique identifier of your plan.</div>
+    </div>`;
+}
+
+function submitEmail() {
+  const val = document.getElementById('email-in')?.value || '';
+  if (!val.includes('@') || !val.includes('.')) {
+    document.getElementById('email-in').style.borderColor = 'var(--red)';
+    document.getElementById('email-in').placeholder = 'Please enter a valid email';
+    return;
+  }
+  userEmail = val;
+  trackEvent('Lead', { email: val });
+  // Submit quiz data to webhook (Phase 2)
+  submitQuizData(val);
+  advance();
+}
+
+// ─── RESULTS REVEAL ──────────────────────────────────
+function renderResults() {
+  trackEvent('quiz_complete');
+  const goal = ['Firmness','Endurance','Pleasure'][answers[1]||0];
+  const level = ['Beginner','Intermediate','Advanced'][answers[3]||0];
+  const score = (3 + Math.random()*1.5).toFixed(1);
+  return `<div class="screen-title">Your Pelvic Floor Assessment</div>
+    <div class="results-card">
+      <div class="score-circle"><div class="score-val">${score}</div><div class="score-of">out of 10</div></div>
+      <div class="score-label">Your current PF muscle strength score</div>
+      <div class="results-row"><span class="rr-label">Goal</span><span class="rr-val">${goal}</span></div>
+      <div class="results-row"><span class="rr-label">Level</span><span class="rr-val">${level}</span></div>
+      <div class="results-row"><span class="rr-label">Program</span><span class="rr-val">4-Week Plan</span></div>
+      <div class="results-row"><span class="rr-label">Daily Time</span><span class="rr-val">${['<5 min','5-10 min','10-20 min','20+ min'][answers[4]||1]}</span></div>
+      <div class="results-rec"><div class="rec-title">✅ Recommended for you</div><p>Based on your answers, a personalized progressive training plan focusing on ${goal.toLowerCase()} will significantly improve your score within 4 weeks.</p></div>
+    </div>`;
+}
+
+// ─── OFFER PAGE ──────────────────────────────────────
+let offerTimer = null;
+let offerSeconds = 600;
+
+function renderOffer() {
+  trackEvent('ViewContent', { content_name: 'Offer Page', value: 19.97 });
+  if (offerTimer) clearInterval(offerTimer);
+  offerSeconds = 600;
+  setTimeout(startOfferTimer, 100);
+  return `
+    <div class="offer-timer-bar">
+      <span>Time Left for Discount:</span>
+      <span class="offer-time" id="offer-time">10:00</span>
+    </div>
+
+    <div class="offer-section">
+      <div class="screen-title" style="font-size:20px;margin-bottom:16px">What's In Your Plan?</div>
+      <div class="offer-features">
+        <div class="of-row"><span class="of-icon">🏋️</span><div><strong>Kegel Exercises</strong><br><span class="of-desc">Personalized beginner program, 3 sessions/day</span></div></div>
+        <div class="of-row"><span class="of-icon">💪</span><div><strong>Fitness Exercises</strong><br><span class="of-desc">Abdominal & leg workouts for sexual performance</span></div></div>
+        <div class="of-row"><span class="of-icon">🧘</span><div><strong>Breathing Techniques</strong><br><span class="of-desc">Reduce tension, improve focus during intimacy</span></div></div>
+      </div>
+    </div>
+
+    <div class="offer-section">
+      <div class="offer-table">
+        <div class="ot-header"><span></span><span>Free</span><span style="color:#2ecc71">★ Premium</span></div>
+        <div class="ot-row"><span>Basic Exercises</span><span>✓</span><span style="color:#2ecc71">✓</span></div>
+        <div class="ot-row"><span>PF Strength Test</span><span>✓</span><span style="color:#2ecc71">✓</span></div>
+        <div class="ot-row"><span>Personal Plan</span><span>🔒</span><span style="color:#2ecc71">✓</span></div>
+        <div class="ot-row"><span>Advanced Techniques</span><span>🔒</span><span style="color:#2ecc71">✓</span></div>
+        <div class="ot-row"><span>Sexual Health Tips</span><span>🔒</span><span style="color:#2ecc71">✓</span></div>
+        <div class="ot-row"><span>Breathing Exercises</span><span>🔒</span><span style="color:#2ecc71">✓</span></div>
+        <div class="ot-row"><span>Progress Tracking</span><span>🔒</span><span style="color:#2ecc71">✓</span></div>
+      </div>
+    </div>
+
+    <div class="offer-section" style="text-align:center">
+      <div style="font-size:14px;font-weight:600;margin-bottom:16px">Choose your plan</div>
+      <div class="price-card selected" onclick="selectPrice(this)">
+        <div class="price-badge">MOST POPULAR</div>
+        <div class="price-name">Premium Plan</div>
+        <div class="price-amount"><span class="price-old">$49.00</span> <span class="price-new">$19.97</span></div>
+        <div class="price-period">One-time payment • Instant access</div>
+      </div>
+    </div>
+
+    <div class="offer-section">
+      <div class="guarantee-box">
+        <div style="font-size:32px;text-align:center;margin-bottom:8px">🛡️</div>
+        <div style="font-weight:800;text-align:center;color:#2ecc71;margin-bottom:8px">100% Money Back Guarantee</div>
+        <p style="font-size:12px;color:var(--text-muted);line-height:1.6;text-align:center">If you follow the program for 14 days and don't see results, we'll refund your payment. No questions asked.</p>
+      </div>
+    </div>
+
+    <div class="offer-section" style="text-align:center">
+      <div style="font-size:13px;color:var(--text-muted);margin-bottom:8px">🔒 Pay safe and secure</div>
+      <div style="font-size:22px;letter-spacing:8px;opacity:0.5">💳💳💳💳</div>
+    </div>
+
+    <div class="offer-section" style="text-align:center">
+      <div style="font-size:11px;color:var(--text-dim);line-height:1.6">
+        <a href="terms.html" target="_blank" style="color:var(--text-dim)">Terms of Service</a> · 
+        <a href="privacy.html" target="_blank" style="color:var(--text-dim)">Privacy Policy</a>
+      </div>
+    </div>`;
+}
+
+function offerBtn() {
+  return `<button class="btn-continue" style="background:linear-gradient(135deg,#1abc9c,#2ecc71);box-shadow:0 4px 20px rgba(46,204,113,0.35)" onclick="handlePurchase()">GET MY PLAN</button>`;
+}
+
+function startOfferTimer() {
+  updateTimerDisplay();
+  offerTimer = setInterval(() => {
+    offerSeconds--;
+    if (offerSeconds <= 0) { clearInterval(offerTimer); offerSeconds = 0; }
+    updateTimerDisplay();
+  }, 1000);
+}
+
+function updateTimerDisplay() {
+  const el = document.getElementById('offer-time');
+  if (!el) return;
+  const m = Math.floor(offerSeconds / 60);
+  const s = offerSeconds % 60;
+  el.textContent = String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+}
+
+function selectPrice(el) {
+  document.querySelectorAll('.price-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+function handlePurchase() {
+  trackEvent('InitiateCheckout', { value: 19.97, currency: 'USD' });
+  // Redirect to Stripe Payment Link — Premium Plan $19.97
+  const successUrl = encodeURIComponent(window.location.origin + window.location.pathname + '?stripe_return=success&type=premium');
+  window.location.href = 'https://buy.stripe.com/9B66oI7Q111H8vd81yb3q01?prefilled_email=' + encodeURIComponent(userEmail);
+}
+
+// ─── UPSELL ──────────────────────────────────────────
+function renderUpsell() {
+  return `
+    <div class="screen-title" style="font-size:18px;color:#2ecc71">✅ Payment Successful!</div>
+    <div class="screen-title" style="font-size:22px;margin-top:-8px">Wait — One-Time Exclusive Offer</div>
+
+    <div class="offer-section">
+      <div class="upsell-card">
+        <div class="upsell-badge">🔥 ONE-TIME OFFER — 62% OFF</div>
+        <div style="font-size:18px;font-weight:800;margin-bottom:12px;text-align:center">Complete Wellness Bundle</div>
+        <div class="offer-features">
+          <div class="of-row"><span class="of-icon">📘</span><div><strong>12-Week Advanced Program</strong><br><span class="of-desc">Extended progressive plan — beginner to elite level</span></div></div>
+          <div class="of-row"><span class="of-icon">🥗</span><div><strong>Performance Nutrition Guide</strong><br><span class="of-desc">Research-backed foods & supplements for pelvic health</span></div></div>
+          <div class="of-row"><span class="of-icon">🧘</span><div><strong>Breathing & Relaxation Techniques</strong><br><span class="of-desc">Proven methods to reduce tension & improve focus</span></div></div>
+          <div class="of-row"><span class="of-icon">😴</span><div><strong>Sleep & Recovery Optimization</strong><br><span class="of-desc">Lifestyle habits that accelerate your results</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="offer-section" style="text-align:center">
+      <div class="price-card selected" style="border-color:#f59e0b">
+        <div class="price-badge" style="background:linear-gradient(135deg,#f59e0b,#d97706)">ONE-TIME OFFER</div>
+        <div class="price-name">Complete Wellness Bundle</div>
+        <div class="price-amount"><span class="price-old">$79.00</span> <span class="price-new" style="color:#f59e0b">$29.97</span></div>
+        <div class="price-period">4 additional PDF guides • Instant access</div>
+      </div>
+    </div>
+
+    <div class="offer-section">
+      <div style="text-align:center;font-size:12px;color:var(--text-muted);line-height:1.6">
+        ⚠️ This offer is only available right now and won't be shown again.
+      </div>
+    </div>`;
+}
+
+function upsellBtns() {
+  return `
+    <button class="btn-continue" style="background:linear-gradient(135deg,#f59e0b,#d97706);box-shadow:0 4px 20px rgba(245,158,11,0.35);margin-bottom:12px" onclick="handleUpsell()">YES — Add the Bundle ($29.97)</button>
+    <button class="btn-continue" style="background:transparent;border:1px solid var(--border);box-shadow:none;font-size:13px;color:var(--text-muted);padding:14px" onclick="skipUpsell()">No thanks, just my plan</button>`;
+}
+
+function handleUpsell() {
+  trackEvent('Purchase', { value: 29.97, currency: 'USD', content_name: 'Wellness Bundle' });
+  // Redirect to Stripe Payment Link — Complete Wellness Bundle $29.97
+  window.location.href = 'https://buy.stripe.com/00w3cw6LXcKpbHp95Cb3q02?prefilled_email=' + encodeURIComponent(userEmail);
+}
+
+function skipUpsell() {
+  goToScreen('thankyou');
+}
+
+// ─── DOWNSELL ────────────────────────────────────────
+function renderDownsell() {
+  return `
+    <div class="screen-title" style="font-size:18px;margin-bottom:8px">Wait! Before you go...</div>
+    <div class="screen-title" style="font-size:14px;color:var(--text-muted);font-weight:500;margin-top:-16px;margin-bottom:24px">We understand the full plan might not be right for everyone.</div>
+
+    <div class="offer-section">
+      <div class="upsell-card" style="border-color:var(--accent)">
+        <div class="upsell-badge" style="background:linear-gradient(135deg,#3b5bdb,#5c35ac)">LITE VERSION — 50% OFF</div>
+        <div style="font-size:18px;font-weight:800;margin-bottom:12px;text-align:center">Starter Plan</div>
+        <div class="offer-features">
+          <div class="of-row"><span class="of-icon">📋</span><div><strong>2-Week Basic Training Plan</strong><br><span class="of-desc">Essential kegel exercises to get started</span></div></div>
+          <div class="of-row"><span class="of-icon">📊</span><div><strong>Progress Tracking Sheet</strong><br><span class="of-desc">Simple daily checklist to stay on track</span></div></div>
+          <div class="of-row"><span class="of-icon">💡</span><div><strong>Quick-Start Guide</strong><br><span class="of-desc">Everything you need to know in 5 minutes</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="offer-section" style="text-align:center">
+      <div class="price-card selected" style="border-color:var(--accent)">
+        <div class="price-badge" style="background:linear-gradient(135deg,#3b5bdb,#5c35ac)">SPECIAL PRICE</div>
+        <div class="price-name">Starter Plan</div>
+        <div class="price-amount"><span class="price-old">$19.97</span> <span class="price-new" style="color:#5b8dee">$9.97</span></div>
+        <div class="price-period">One-time payment • Instant access</div>
+      </div>
+    </div>
+
+    <div class="offer-section">
+      <div class="guarantee-box" style="border-color:var(--accent)">
+        <div style="font-size:32px;text-align:center;margin-bottom:8px">🛡️</div>
+        <div style="font-weight:800;text-align:center;color:#5b8dee;margin-bottom:8px">Same 14-Day Guarantee</div>
+        <p style="font-size:12px;color:var(--text-muted);line-height:1.6;text-align:center">Not happy? Full refund, no questions asked.</p>
+      </div>
+    </div>`;
+}
+
+function downsellBtns() {
+  return `
+    <button class="btn-continue" style="background:linear-gradient(135deg,#3b5bdb,#5c35ac);box-shadow:0 4px 20px rgba(59,91,219,0.35);margin-bottom:12px" onclick="handleDownsell()">Get the Starter Plan — $9.97</button>
+    <button class="btn-continue" style="background:transparent;border:1px solid var(--border);box-shadow:none;font-size:13px;color:var(--text-muted);padding:14px" onclick="skipDownsell()">No, I don't want to improve</button>`;
+}
+
+function handleDownsell() {
+  trackEvent('Purchase', { value: 9.97, currency: 'USD', content_name: 'Starter Plan' });
+  // Redirect to Stripe Payment Link — Starter Plan $9.97
+  window.location.href = 'https://buy.stripe.com/eVqbJ28U5eSxaDlfu0b3q00?prefilled_email=' + encodeURIComponent(userEmail);
+}
+
+function skipDownsell() {
+  goToScreen('thankyou');
+}
+
+// ─── THANK YOU ───────────────────────────────────────
+function renderThankYou() {
+  document.getElementById('progress-fill').style.width = '100%';
+  return `
+    <div class="success-hero" style="padding:16px 0">
+      <span class="success-icon">🎉</span>
+      <h2>You're All Set!</h2>
+      <p style="margin-bottom:24px">Your personalized training plan is being prepared by our team of certified pelvic floor specialists.</p>
+    </div>
+
+    <div class="thankyou-timeline">
+      <div class="ty-step done">
+        <div class="ty-dot">✓</div>
+        <div>
+          <strong>Quiz Completed</strong>
+          <span>Your answers have been analyzed</span>
+        </div>
+      </div>
+      <div class="ty-step done">
+        <div class="ty-dot">✓</div>
+        <div>
+          <strong>Payment Confirmed</strong>
+          <span>Receipt sent to ${userEmail || 'your email'}</span>
+        </div>
+      </div>
+      <div class="ty-step active">
+        <div class="ty-dot pulse">⏳</div>
+        <div>
+          <strong>Expert Review In Progress</strong>
+          <span>Our team is personalizing your plan based on your answers</span>
+        </div>
+      </div>
+      <div class="ty-step">
+        <div class="ty-dot">📧</div>
+        <div>
+          <strong>Plan Delivered via Email</strong>
+          <span>You'll receive your PDF plan within 24–48 hours</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="offer-section" style="margin-top:24px">
+      <div class="info-card">
+        <p style="font-size:13px;color:#c8d0e8;line-height:1.7;text-align:center">📩 Check your inbox — we've sent a confirmation email to <strong style="color:white">${userEmail || 'your email'}</strong> with next steps. If you don't see it, check your spam folder.</p>
+      </div>
+    </div>
+
+    <div class="offer-section">
+      <div class="info-card" style="text-align:center">
+        <p style="font-size:14px;color:var(--text);font-weight:600;margin-bottom:4px">💬 Questions?</p>
+        <p style="font-size:13px">Email us at <a href="mailto:support@pelvicfitmen.com" style="color:#5b8dee">support@pelvicfitmen.com</a></p>
+      </div>
+    </div>`;
+}
+
+// ─── QUIZ DATA SUBMISSION ────────────────────────────
+function submitQuizData(email) {
+  const goalLabels = ['Stop PE','Firmness','Libido','Bladder'];
+  const levelLabels = ['Beginner','Intermediate','Advanced'];
+  const payload = {
+    email: email,
+    timestamp: new Date().toISOString(),
+    goal: goalLabels[answers[0]] || 'Unknown',
+    primary_focus: ['Firmness','Endurance','Pleasure'][answers[1]] || 'Unknown',
+    experience: levelLabels[answers[3]] || 'Unknown',
+    daily_time: ['<5 min','5-10 min','10-20 min','20+ min'][answers[4]] || 'Unknown',
+    all_answers: JSON.stringify(answers),
+    user_agent: navigator.userAgent,
+    referrer: document.referrer || 'direct'
+  };
+
+  // For now, log to console. Replace with Formspree/webhook URL:
+  console.log('📋 Quiz Data Submitted:', payload);
+
+  // Example Formspree integration (uncomment when ready):
+  // fetch('https://formspree.io/f/YOUR_FORM_ID', {
+  //   method: 'POST',
+  //   headers: { 'Content-Type': 'application/json' },
+  //   body: JSON.stringify(payload)
+  // }).catch(err => console.error('Submission error:', err));
+}
+
+// ─── TRACKING EVENTS ────────────────────────────────
+function trackEvent(eventName, params = {}) {
+  console.log('📊 Track:', eventName, params);
+  // Meta Pixel
+  if (typeof fbq !== 'undefined') {
+    try { fbq('track', eventName, params); } catch(e) {}
+  }
+  // GA4
+  if (typeof gtag !== 'undefined') {
+    try { gtag('event', eventName, params); } catch(e) {}
+  }
+}
+
+// ─── SCREEN NAVIGATION HELPER ────────────────────────
+function goToScreen(type) {
+  const idx = questions.findIndex(q => q.type === type);
+  if (idx !== -1) {
+    step = idx;
+    renderStep();
+    window.scrollTo(0, 0);
+  }
+}
+
+// ─── EXIT INTENT (DOWNSELL TRIGGER) ──────────────────
+function setupExitIntent() {
+  // On mobile: back button press on offer page
+  // On desktop: mouse leaving viewport
+  document.addEventListener('mouseleave', (e) => {
+    if (e.clientY < 0 && questions[step]?.type === 'offer' && !showedDownsell) {
+      showedDownsell = true;
+      goToScreen('downsell');
+    }
+  });
+}
+
+// Override back button on offer page
+const originalGoBack = goBack;
+
+// ─── SUCCESS (legacy fallback) ───────────────────────
+function showSuccess() {
+  goToScreen('thankyou');
+}
+
+// ─── MODAL ───────────────────────────────────────────
+function showModal(m) {
+  return new Promise(res => {
+    modalResolver = res;
+    document.getElementById('modal-q').textContent = m.q;
+    document.getElementById('modal-overlay').classList.add('show');
+  });
+}
+
+function answerModal(yes) {
+  document.getElementById('modal-overlay').classList.remove('show');
+  if (modalResolver) { modalResolver(yes); modalResolver = null; }
+}
+
+// ─── NAV ─────────────────────────────────────────────
+function advance() {
+  if (step < questions.length - 1) {
+    step++;
+    renderStep();
+    window.scrollTo(0, 0);
+  }
+}
+
+function goBack() {
+  const currentType = questions[step]?.type;
+  // On offer page, back triggers downsell instead
+  if (currentType === 'offer' && !showedDownsell) {
+    showedDownsell = true;
+    goToScreen('downsell');
+    return;
+  }
+  // Don't allow going back from upsell/downsell/thankyou
+  if (['upsell','downsell','thankyou'].includes(currentType)) return;
+  if (step > 0) { step--; renderStep(); window.scrollTo(0, 0); }
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+// ─── INIT ─────────────────────────────────────────────
+// Check if returning from Stripe checkout
+const urlParams = new URLSearchParams(window.location.search);
+const stripeReturn = urlParams.get('stripe_return');
+const returnType = urlParams.get('type');
+
+if (stripeReturn === 'success') {
+  // Returning from Stripe — determine which page to show
+  if (returnType === 'premium') {
+    // Came from main offer — show upsell
+    trackEvent('Purchase', { value: 19.97, currency: 'USD', content_name: 'Premium Plan' });
+    goToScreen('upsell');
+  } else if (returnType === 'bundle' || returnType === 'starter') {
+    // Came from upsell or downsell — show thank you
+    trackEvent('Purchase', { value: returnType === 'bundle' ? 29.97 : 9.97, currency: 'USD', content_name: returnType === 'bundle' ? 'Wellness Bundle' : 'Starter Plan' });
+    goToScreen('thankyou');
+  } else {
+    goToScreen('thankyou');
+  }
+} else {
+  renderStep();
+}
+setupExitIntent();
+</script>
+</body>
+</html>
