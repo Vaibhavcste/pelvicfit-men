@@ -1,0 +1,817 @@
+{
+  "meta": {
+    "id": "bladder",
+    "title": "28-Day Bladder Control Protocol",
+    "description": "A research-backed program to eliminate post-void dribbling, reduce urgency, and restore confident bladder control through structured pelvic floor rehabilitation.",
+    "duration": "28 days",
+    "dailyTime": "7–12 minutes",
+    "goal": "Bladder"
+  },
+  "assessment": {
+    "description": "Your personalized protocol based on your assessment results.",
+    "disclaimer": "This program is educational and does not replace medical advice. Consult a urologist for persistent urinary symptoms."
+  },
+  "phases": [
+    {
+      "name": "Phase 1 — Reset & Awareness",
+      "duration": "Days 1–7",
+      "description": "Many bladder issues stem from a pelvic floor that's either too tight or too weak. This phase establishes your baseline and resets your resting muscle tone before we strengthen.",
+      "days": [
+        {
+          "day": 1,
+          "headline": "Pelvic Floor Discovery",
+          "totalDuration": "7 min",
+          "exercises": [
+            {
+              "name": "360-Degree Umbrella Breath",
+              "duration": "5 min (10 breaths × 3 sets)",
+              "steps": [
+                "Lie on your back, knees bent, feet flat. One hand on chest, one on lower belly.",
+                "Inhale 4 seconds — ribs expand front, sides, AND back. Chest hand stays still.",
+                "Imagine your pelvic floor as an umbrella opening downward on each inhale.",
+                "Exhale 6 seconds through pursed lips. Feel the gentle pelvic floor recoil — don't squeeze.",
+                "10 breaths, 3 sets. Rest 30 seconds between sets."
+              ],
+              "image": "supine_breathing.png"
+            },
+            {
+              "name": "Bladder Awareness Check",
+              "duration": "2 min",
+              "steps": [
+                "Notice your perineum without changing anything. Rate tension 0–10.",
+                "Notice how frequently you feel urinary urgency during the day. Rate urgency frequency 0–10.",
+                "Notice post-void dribbling: does urine leak after you've finished urinating? Rate 0–10.",
+                "Write these numbers down — they're your Day 1 baseline."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Chronic pelvic floor tension (hypertonicity) physically compresses the bladder, signaling the brain to 'go' even when the bladder is only 20% full. This creates urgency, frequency, and incomplete emptying. The Umbrella Breath begins resetting the resting tone, reducing the false urgency signals. Counterintuitively, the first step to better bladder control is RELAXATION, not strengthening.",
+            "coachCorner": "If you urinate more than 8 times per day or wake up more than once per night, pelvic floor tension may be amplifying your urgency signals. This week focuses on reducing that baseline tension.",
+            "selfCheck": "During the Umbrella Breath, can you feel your pelvic floor descending on inhale? If yes, you've found the muscles. If not, try the 'Breathe Into Your Butt' cue — direct your inhale toward your anus."
+          }
+        },
+        {
+          "day": 2,
+          "headline": "The Urgency Override",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Anal Breath (The Drop)",
+              "duration": "5 min (10 breaths × 3 sets)",
+              "steps": [
+                "Lying on back. On inhale, focus on the anal sphincter expanding outward.",
+                "Cue: 'like a flower blooming' or 'a mouth yawning.' Feel gentle widening.",
+                "Exhale through pursed lips. Let the sphincter return naturally — don't clench.",
+                "10 breaths, 3 sets, 30-second rest between sets."
+              ],
+              "image": "supine_breathing.png"
+            },
+            {
+              "name": "Urgency Response Drill",
+              "duration": "3 min",
+              "steps": [
+                "Practice this technique for when you feel a sudden urge to urinate:",
+                "Instead of rushing to the bathroom (which increases tension and urgency), STOP.",
+                "Perform 5 slow Drop breaths right where you are. Feel the pelvic floor descend and relax.",
+                "This signal tells your bladder to CALM DOWN without clenching.",
+                "After 5 breaths: the urgency should reduce by 30–50%. Now walk calmly to the bathroom.",
+                "Practice this technique the next time you feel urgency — even at home."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Urgency is a signal, not an emergency. The bladder detrusor muscle contracts when it senses fullness — but a hypertonic pelvic floor presses on the bladder, creating false fullness signals. The Drop relaxes the pelvic floor, reducing the mechanical pressure on the bladder. This tells the detrusor to stand down. It's the opposite of what your instinct says to do (clench and hold).",
+            "watchOut": "The instinct to rush to the bathroom reinforces the urgency-panic cycle. Every time you rush, your brain learns 'urgency = emergency.' Every time you pause and Drop, your brain learns 'urgency = manageable signal.' This retraining takes 2–4 weeks of consistent practice."
+          }
+        },
+        {
+          "day": 3,
+          "headline": "Pelvic Floor Stretching",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Deep Squat + Drop Breathing",
+              "duration": "4 min (10 breaths × 2 sets)",
+              "steps": [
+                "Back against wall, feet shoulder-width, 12–18 inches from wall. Sink until thighs are parallel.",
+                "Elbows pry knees outward gently. Perform 10 slow Drop breaths.",
+                "Gravity helps stretch the pelvic floor into a lengthened position.",
+                "2 sets with 30-second rest."
+              ],
+              "image": "deep_squat.png"
+            },
+            {
+              "name": "Happy Baby + Butterfly Flow",
+              "duration": "4 min",
+              "steps": [
+                "Happy Baby: Lie on back, knees to armpits, grab feet edges. 10 Drop breaths.",
+                "Butterfly: Sit on pillow edge, feet together, knees wide. 10 Drop breaths.",
+                "These poses open the pelvic bowl and reduce compression on the bladder."
+              ],
+              "image": "butterfly_pose.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Sitting 8+ hours per day 'crushes' the pelvic floor, driving chronic compression of the bladder and prostate. These stretching poses restore space in the pelvic bowl, reducing mechanical pressure. The Sit-Bone Expansion stretch is used by physiotherapists specifically to alleviate bladder urgency caused by postural compression.",
+            "coachCorner": "If you sit for work, a 2-minute deep squat break every 2 hours reduces cumulative pelvic floor compression significantly. Think of it as 'decompressing' your bladder."
+          }
+        },
+        {
+          "day": 4,
+          "headline": "The Double Void",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Tennis Ball Perineal Release",
+              "duration": "5 min",
+              "steps": [
+                "Tennis ball on firm chair, seated on perineum.",
+                "Modulate pressure with arms. 10 Drop breaths on each tension point.",
+                "Find 2–3 spots. 60 seconds each. This releases tension around the urethra and bladder base."
+              ],
+              "image": "tennis_ball.png"
+            },
+            {
+              "name": "The Double Void Technique",
+              "duration": "3 min",
+              "steps": [
+                "Practice this every time you urinate starting today:",
+                "1. Urinate normally until you think you're done.",
+                "2. Wait 10 seconds. Stay on the toilet.",
+                "3. Perform a strong, quick Kegel 'flick' — one firm 1-second contraction.",
+                "4. This clears the remaining 5–10ml of urine trapped in the bulbous urethra.",
+                "5. You should feel a small additional release of urine.",
+                "This eliminates post-void dribbling — the most common male bladder complaint."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Post-void dribbling (PVD) occurs because urine pools in the bulbous urethra after the bladder finishes emptying. The Bulbospongiosus muscle should contract to expel this residual urine, but in many men this contraction is weak or absent. The Double Void technique manually triggers this natural mechanism. The Dorey Protocol (2005 clinical study) showed that this single technique, combined with structured Kegels, resolved PVD in the majority of participants within 12 weeks.",
+            "coachCorner": "The Double Void is the single highest-impact technique in this entire protocol for PVD. Many men get 50%+ improvement in dribbling within the first week just from this one practice."
+          }
+        },
+        {
+          "day": 5,
+          "headline": "Full Relaxation Sequence",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "5-Position Relaxation Flow",
+              "duration": "10 min (2 min per position)",
+              "steps": [
+                "Position 1 — Supine: 10 Umbrella Breaths (2 min).",
+                "Position 2 — Happy Baby: 10 Drop Breaths (2 min).",
+                "Position 3 — Butterfly: 10 breaths, chest forward (2 min).",
+                "Position 4 — Deep Squat: 10 breaths with Drop cue (2 min).",
+                "Position 5 — Frog Pose: 10 dynamic rocks with breath coordination (2 min).",
+                "Flow smoothly between positions."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Multi-position relaxation training teaches your pelvic floor to release in every body orientation. Bladder control issues persist partly because pelvic floor tension patterns are position-specific — you might relax well lying down but hold tension sitting. This flow ensures comprehensive release.",
+            "selfCheck": "After the full flow, notice your urgency baseline. Is it lower than Day 1? Most men report a 1–3 point decrease in background urgency by Day 5."
+          }
+        },
+        {
+          "day": 6,
+          "headline": "Seated & Standing Awareness",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Seated Pelvic Floor Drop",
+              "duration": "5 min",
+              "steps": [
+                "Seated, feet flat. Notice sit bones pressing into the seat.",
+                "10 breaths: inhale, sit bones spread apart. Exhale, they settle.",
+                "Add the Drop: inhale, pelvic floor descends between sit bones.",
+                "3 sets of 10 breaths. This teaches relaxation in your most common position."
+              ],
+              "image": "seated.png"
+            },
+            {
+              "name": "Standing Urgency Override",
+              "duration": "3 min",
+              "steps": [
+                "Standing, feet hip-width. Perform 5 Drop breaths.",
+                "Imagine feeling a strong urge to urinate. Instead of clenching, Drop.",
+                "Practice the response: urgency → pause → 5 Drop breaths → calm walk.",
+                "Repeat 3 mental rehearsals of this sequence."
+              ],
+              "image": "standing.png"
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "You now have two active techniques: the Urgency Override (Drop breathing to reduce false signals) and the Double Void (to clear residual urine). Practice both consistently this week."
+          }
+        },
+        {
+          "day": 7,
+          "headline": "Phase 1 Assessment",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Full Relaxation Flow",
+              "duration": "8 min",
+              "steps": [
+                "Run through all 5 positions from Day 5.",
+                "Notice improvements in depth and smoothness since Day 1."
+              ]
+            },
+            {
+              "name": "Phase 1 Self-Assessment",
+              "duration": "2 min",
+              "steps": [
+                "Re-rate: Perineal tension (vs Day 1). Target: 2+ point decrease.",
+                "Re-rate: Daily urgency frequency. Target: noticeable decrease.",
+                "Re-rate: Post-void dribbling (with Double Void). Target: 50%+ improvement.",
+                "Rate: Urgency Override confidence — can you pause and breathe instead of rushing?",
+                "Record all numbers."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Typical Day 7: tension down 2–3 points, urgency noticeably reduced, PVD improved with Double Void, Override confidence growing. Phase 2 adds the strength component — proper Kegels for bladder support."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 2 — Strengthening",
+      "duration": "Days 8–14",
+      "description": "With your resting tone reset, it's time to build strength. The Dorey Protocol — clinically validated Kegel progressions — forms the backbone of this phase.",
+      "days": [
+        {
+          "day": 8,
+          "headline": "The Dorey Flick — Fast Twitch",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Drop Reset",
+              "duration": "2 min",
+              "steps": [
+                "5 Umbrella Breaths + 5 Drop breaths. Full relaxation before strengthening."
+              ]
+            },
+            {
+              "name": "Quick Flicks (Dorey Protocol)",
+              "duration": "6 min (3 sets × 10 reps)",
+              "steps": [
+                "Lying on back. Quick, firm contraction: 'stop the flow of urine' + 'shorten the penis.'",
+                "1-second squeeze, 2-second full release. Glutes and abs stay completely relaxed.",
+                "10 reps × 3 sets. Between sets: 3 Drop breaths.",
+                "These quick flicks train the fast-twitch fibers that snap shut during urgency (cough, sneeze, jump)."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The Dorey Protocol (2005 study) is the most extensively studied Kegel regimen for male bladder control. It combines quick flicks (fast-twitch fiber training) with long holds (slow-twitch endurance) over 12 weeks. The quick flicks train the reflex closure mechanism — the same mechanism that should fire when you cough, sneeze, or jump to prevent leakage.",
+            "watchOut": "Always relax before you strengthen. If you skip the warm-up Drop breathing and go straight to Flicks, you're clenching an already-tight muscle. This leads to worsening symptoms, not improvement.",
+            "selfCheck": "Correct Flick check: you should see your penis retract slightly and/or jump. If your butt lifts, you're using glutes. Keep everything relaxed except the pelvic floor."
+          }
+        },
+        {
+          "day": 9,
+          "headline": "The Dorey Hold — Slow Twitch",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Drop Reset",
+              "duration": "2 min",
+              "steps": [
+                "5 Umbrella Breaths + 5 Drop breaths."
+              ]
+            },
+            {
+              "name": "Endurance Holds (Dorey Protocol)",
+              "duration": "6 min",
+              "steps": [
+                "Set 1 (Lying): 5 holds × 5 seconds at 50% intensity. Full release between each.",
+                "Set 2 (Lying): 5 holds × 7 seconds at 50% intensity. Breathe normally throughout.",
+                "Set 3 (Lying): 3 holds × 10 seconds at 70% intensity. If abs engage, reduce hold time.",
+                "Between sets: 3 Drop breaths. The release matters as much as the hold."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Slow-twitch endurance fibers maintain the baseline closure pressure that prevents leakage during daily activities. The 10-second hold target is the clinical standard — research shows that the ability to hold for 10 seconds with proper form correlates strongly with continence outcomes.",
+            "coachCorner": "Can't hold 10 seconds without losing form? That's normal. Build gradually: 5 → 7 → 10 over the next 2 weeks. A clean 7-second hold beats a sloppy 10-second one."
+          }
+        },
+        {
+          "day": 10,
+          "headline": "Seated Kegel Progression",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Seated Dorey Routine",
+              "duration": "8 min",
+              "steps": [
+                "Warm-up: 5 Seated Drop breaths.",
+                "Set 1: 10 quick Flicks seated. Gravity increases the challenge.",
+                "Set 2: 5 × 5-second holds seated. Keep butt 'dead weight' on the chair.",
+                "Set 3: 5 quick Flicks + 3 × 7-second holds. Mixed set.",
+                "Between sets: 3 Drop breaths to reset.",
+                "Practice the Double Void at your next bathroom visit."
+              ],
+              "image": "seated.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Progressive loading: lying down → seated → standing. Each position adds gravitational challenge. Research confirms that pelvic floor exercises in upright positions produce better functional outcomes because muscles strengthen best in the positions they're used in.",
+            "coachCorner": "Seated Kegels are invisible. Build the habit: every time you sit down at your desk, do 10 quick Flicks. Nobody knows you're training."
+          }
+        },
+        {
+          "day": 11,
+          "headline": "Standing Kegel Progression",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Standing Dorey Routine",
+              "duration": "8 min",
+              "steps": [
+                "Warm-up: 5 standing Drop breaths.",
+                "Set 1: 10 quick standing Flicks. Feel the pelvic floor working against full body weight.",
+                "Set 2: 5 × 5-second standing holds. Weight evenly distributed.",
+                "Set 3: 3 × 7-second standing holds at 70%.",
+                "Cool-down: 5 Drop breaths. Ensure full release after strengthening."
+              ],
+              "image": "standing.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Standing is the most functional position for bladder control. Leakage happens standing (coughing, sneezing, lifting, running). Training standing Kegels builds the strength where you need it most.",
+            "selfCheck": "Standing Flicks should feel noticeably harder than lying ones. If they feel the same, check you're not compensating with glutes or abs."
+          }
+        },
+        {
+          "day": 12,
+          "headline": "Contrast Training",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Contract-Release Contrast",
+              "duration": "10 min",
+              "steps": [
+                "Round 1 (Lying): 5-second hold → 10-second Drop release. 5 reps.",
+                "Round 2 (Seated): 3-second Flick → 5-second Drop. 8 reps.",
+                "Round 3 (Standing): 7-second hold → 15-second full relaxation. 4 reps.",
+                "Round 4 (Lying): 10-second hold → 20-second Drop. 3 reps.",
+                "Key: relaxation phase is always LONGER than contraction. This prevents overtraining."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The bladder needs both strong closure (contraction) AND full relaxation (to fill properly and void completely). Contrast training ensures you develop both equally. Overtraining Kegels without adequate relaxation leads to worsening urinary symptoms — the opposite of what you want.",
+            "watchOut": "If you notice increased urgency, pain, or difficulty voiding after Kegel training, you're overdoing it. Scale back to 2 sets and increase relaxation time between contractions."
+          }
+        },
+        {
+          "day": 13,
+          "headline": "The Knack Technique",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Pre-Cough Contraction Drill",
+              "duration": "8 min",
+              "steps": [
+                "The 'Knack' is a timed Flick performed BEFORE a pressure event.",
+                "Standing: perform a firm Flick, then immediately cough while maintaining the contraction.",
+                "Repeat 5 times. The Flick should fire BEFORE the cough, not during or after.",
+                "Practice with other pressure events: sneeze simulation, clearing throat, laughing.",
+                "Standing: perform a Flick, then do a small jump. Land while maintaining the contraction.",
+                "5 jump-and-hold reps. This trains the fast-twitch response for impact leakage.",
+                "Cool down: 5 Drop breaths standing."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Stress urinary incontinence occurs when abdominal pressure spikes (cough, sneeze, jump, lift) exceed the closure pressure of the urethral sphincter. The Knack pre-loads the pelvic floor closure mechanism before the pressure spike, ensuring the sphincter is already engaged when the force arrives. Clinical studies show the Knack reduces leak episodes by 73% in men with post-prostatectomy incontinence.",
+            "coachCorner": "Make this automatic: before EVERY cough, sneeze, lift, or jump, fire a quick Flick. It takes 0.5 seconds and prevents leakage. Within 2 weeks, this becomes a reflex — you won't have to think about it."
+          }
+        },
+        {
+          "day": 14,
+          "headline": "Phase 2 Assessment",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Multi-Position Kegel Test",
+              "duration": "6 min",
+              "steps": [
+                "Lying: 10 Flicks + 3 × 7-second holds. Rate quality 0–10.",
+                "Seated: 10 Flicks + 3 × 7-second holds. Rate quality 0–10.",
+                "Standing: 10 Flicks + 3 × 7-second holds. Rate quality 0–10.",
+                "The Knack: 5 cough-Flicks. Rate timing quality 0–10."
+              ]
+            },
+            {
+              "name": "Phase 2 Self-Assessment",
+              "duration": "4 min",
+              "steps": [
+                "Re-rate all Phase 1 metrics (tension, urgency, PVD).",
+                "New: Flick isolation quality (0–10) across positions.",
+                "New: Maximum endurance hold (seconds with perfect form).",
+                "New: Knack timing — can you Flick before a cough consistently?",
+                "New: Number of bathroom visits per day (track for 1 day).",
+                "Record all numbers."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Typical Day 14: PVD largely resolved with Double Void, urgency down 3–5 points, Flick isolation 6–8/10, holds 7–10 seconds, Knack timing improving. Phase 3 adds dynamic strengthening and functional training."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 3 — Functional Training",
+      "duration": "Days 15–21",
+      "description": "Integrate pelvic floor strength with dynamic movements and real-world scenarios. Train your bladder control to work automatically during daily life.",
+      "days": [
+        {
+          "day": 15,
+          "headline": "Bridge + Kegel Integration",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Warm-Up",
+              "duration": "3 min",
+              "steps": [
+                "5 Umbrella Breaths → 10 standing Flicks → 5 Drop breaths."
+              ]
+            },
+            {
+              "name": "Testicular Bridge with Kegel",
+              "duration": "9 min (3 sets × 8 reps)",
+              "steps": [
+                "Lie on back, knees bent. Lift hips into bridge.",
+                "At top: perform a 5-second Kegel hold while gently rocking pelvis.",
+                "Lower hips while fully releasing pelvic floor.",
+                "8 reps × 3 sets. Rest 45 seconds between sets."
+              ],
+              "image": "bridge.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The bridge trains the pelvic floor under load while engaging the surrounding support muscles (glutes, core). This creates integrated strength — the kind used during daily activities like walking, lifting, and climbing stairs."
+          }
+        },
+        {
+          "day": 16,
+          "headline": "Squat + Lunge Integration",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Squat with Kegel",
+              "duration": "6 min",
+              "steps": [
+                "Squat down — inhale, pelvic floor drops with gravity.",
+                "Stand up — exhale, perform a Flick at the top.",
+                "10 reps × 3 sets. Pattern: squat = relax, stand = activate."
+              ],
+              "image": "squat.png"
+            },
+            {
+              "name": "Walking Lunges with Knack",
+              "duration": "6 min",
+              "steps": [
+                "Step into lunge — inhale, Drop the pelvic floor.",
+                "Drive up — exhale, Flick at the top.",
+                "10 lunges (5 each leg) × 2 sets. This trains the Knack pattern during movement."
+              ],
+              "image": "lunge.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Squats and lunges activate the largest muscles in your body, improving systemic circulation including pelvic blood flow. The Flick-at-top pattern mirrors the Knack — training your pelvic floor to pre-activate before impact or effort."
+          }
+        },
+        {
+          "day": 17,
+          "headline": "Impact Training",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Progressive Impact Drills",
+              "duration": "10 min",
+              "steps": [
+                "These drills train leak prevention during high-impact activities:",
+                "Level 1: Marching in place — Flick on each foot strike. 30 seconds.",
+                "Level 2: Gentle hopping — Flick before each hop. 10 hops.",
+                "Level 3: Stepping (up onto a stair) — Flick before each step. 10 per leg.",
+                "Level 4: Small jumps — Flick before takeoff, hold through landing. 10 jumps.",
+                "Between each level: 5 Drop breaths to reset.",
+                "If any level causes leakage, stay at the previous level until it's leak-free."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Impact loading is critical for patients on androgen deprivation therapy (bone density) and for anyone with stress incontinence. Progressive impact drills systematically train the pelvic floor to handle increasing force — marching → hopping → stepping → jumping. This is the same protocol used in exercise oncology for post-prostatectomy rehabilitation.",
+            "coachCorner": "Leakage during any level is not failure — it's diagnostic. It tells you exactly where your strength threshold is. Stay at that level for 3–5 sessions until it's leak-free, then advance."
+          }
+        },
+        {
+          "day": 18,
+          "headline": "Walking Protocol",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Brisk Walking + Kegel Integration",
+              "duration": "12 min",
+              "steps": [
+                "Go for a brisk 10-minute walk (outdoors or on a treadmill).",
+                "Every 2 minutes, perform 10 quick Flicks while walking. Don't break stride.",
+                "Every 3 minutes, perform 3 × 5-second holds while walking.",
+                "This trains pelvic floor function during your most common daily activity.",
+                "Cool down: 5 Drop breaths standing."
+              ],
+              "image": "lunge.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Brisk walking (2km+ daily) improves pelvic circulation, hormone balance, and reduces relative risk of prostate enlargement. Adding Kegel integration during walking creates the ultimate functional exercise — strengthening the pelvic floor in the exact context where it needs to perform.",
+            "coachCorner": "Walking is the most underrated pelvic health exercise. If you can only do one thing from this protocol for the rest of your life, make it a daily brisk walk with Kegel integration."
+          }
+        },
+        {
+          "day": 19,
+          "headline": "Prostate Support Session",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Sit-Bone Expansion Flow",
+              "duration": "10 min",
+              "steps": [
+                "90/90 Stretch: sit on the floor, one leg in front bent 90°, one behind bent 90°.",
+                "Hold for 60 seconds each side. This restores space in the pelvic bowl after prolonged sitting.",
+                "Frog Pose: on all fours, knees wide. Rock back → inhale/Drop. Rock forward → exhale.",
+                "10 slow rocks × 2 sets. Targets the adductors and deep pelvic rotators.",
+                "Deep Squat: 15 Drop breaths. Focus on maximum pelvic floor lengthening.",
+                "These poses counteract the 'crushed prostate' effect of prolonged sitting."
+              ],
+              "image": "hip_flexor.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Prolonged sitting compresses the prostate and pelvic floor. The 90/90 stretch specifically opens the pelvic bowl, reducing mechanical pressure. For men with BPH (benign prostatic hyperplasia), this decompression can noticeably reduce urinary frequency and urgency.",
+            "coachCorner": "If you sit 6+ hours daily, schedule a 3-minute pelvic decompression break every 2 hours. The 90/90 stretch + 5 Drop breaths = your desk-worker antidote."
+          }
+        },
+        {
+          "day": 20,
+          "headline": "Full Integration Circuit",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "The Complete Bladder Control Circuit",
+              "duration": "15 min",
+              "steps": [
+                "Block 1 — Relaxation (3 min): Deep Squat + 10 Drop breaths → 90/90 stretch × 2 sides.",
+                "Block 2 — Strengthening (4 min): 10 standing Flicks → 5 × 10-second holds → 10 seated Flicks.",
+                "Block 3 — Functional (5 min): Bridges 3×8 with Kegel → Squats 10 with Flick → Impact drills (march, hop, step).",
+                "Block 4 — Cool-Down (3 min): Butterfly + 10 breaths → Supine scan.",
+                "This is your go-to maintenance circuit."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Bookmark this session. If you only have time for one workout going forward, Day 20 covers relaxation, strength, and functional training in 15 minutes."
+          }
+        },
+        {
+          "day": 21,
+          "headline": "Phase 3 Assessment",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Full Integration Circuit (Repeat Day 20)",
+              "duration": "12 min",
+              "steps": [
+                "Run through the Day 20 circuit. Note improvements compared to Day 15."
+              ]
+            },
+            {
+              "name": "Phase 3 Self-Assessment",
+              "duration": "3 min",
+              "steps": [
+                "Re-rate all metrics from Day 1, 7, 14:",
+                "Perineal tension baseline, daily urgency frequency, PVD severity.",
+                "Kegel quality across positions, max endurance hold, Knack timing.",
+                "New: Impact tolerance level (marching/hopping/stepping/jumping).",
+                "New: Daily bathroom visit count.",
+                "Record all numbers."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Typical Day 21: urgency down 5–7 points, PVD mostly resolved, bathroom visits reduced by 2–3 per day, impact tolerance at stepping/jumping level, Knack becoming automatic."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 4 — Mastery & Lifestyle",
+      "duration": "Days 22–28",
+      "description": "Cement your gains with advanced drills, lifestyle optimization, and your permanent maintenance protocol.",
+      "days": [
+        {
+          "day": 22,
+          "headline": "Advanced Performance Circuit",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Performance Circuit",
+              "duration": "15 min",
+              "steps": [
+                "Block 1 — Deep Relaxation (3 min): Squat + 15 breaths → Tennis ball release 2 min.",
+                "Block 2 — Power (3 min): 10 max-effort Flicks → 10 rapid Flicks → 5 × 10-second holds.",
+                "Block 3 — Functional (6 min): Single-leg bridges with Kegel → Lunges → Impact drills through Level 4.",
+                "Block 4 — Cool-Down (3 min): Happy Baby → Butterfly → Supine scan."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "This is your hardest session. Compare with Day 1 — the difference represents your entire transformation."
+          }
+        },
+        {
+          "day": 23,
+          "headline": "Advanced Knack Training",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Real-World Knack Practice",
+              "duration": "10 min",
+              "steps": [
+                "Practice the Knack with increasingly challenging scenarios:",
+                "1. Standing: Flick before a forced cough. 10 reps.",
+                "2. Walking: Flick before a simulated sneeze. 5 reps.",
+                "3. Lifting: pick up a moderately heavy object. Flick BEFORE lifting. 5 reps.",
+                "4. Laughing: simulate a deep belly laugh. Flick before the laugh peak. 5 reps.",
+                "5. Exercise: do 5 jumping jacks with pre-Flick on each jump.",
+                "Cool down: 5 Drop breaths. Practice the Double Void at your next bathroom visit."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The Knack must become automatic — a reflex that fires without conscious thought. Real-world scenario practice builds this automaticity. Within 2–4 weeks of consistent practice, most men report the Knack firing involuntarily before pressure events.",
+            "selfCheck": "Test: did the Knack fire automatically during your last natural cough or sneeze? If yes, the reflex is solidifying. If not, keep practicing the conscious version — automaticity takes time."
+          }
+        },
+        {
+          "day": 24,
+          "headline": "Hydration & Bladder Training",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Light Maintenance",
+              "duration": "8 min",
+              "steps": [
+                "Recovery-intensity: 5-Position Relaxation Flow (6 min) + 10 standing Flicks + 5 holds (2 min)."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Bladder training principles:\n\n1. DON'T restrict fluids to avoid bathroom trips — this concentrates urine, irritating the bladder lining.\n2. DO drink 6–8 glasses of water daily, spread evenly.\n3. DON'T 'just in case' urinate before leaving home — this trains your bladder to signal early.\n4. DO gradually extend the time between bathroom visits by 15 minutes per week.\n5. Use the Urgency Override technique when extending intervals."
+          },
+          "supplementContext": {
+            "hook": "What you drink directly affects bladder irritation and urgency.",
+            "science": "Certain foods and drinks irritate the bladder lining, increasing urgency and frequency independently of pelvic floor strength.",
+            "foods": [
+              {
+                "name": "Water (room temperature)",
+                "note": "Primary hydration — aim for 6–8 glasses daily"
+              },
+              {
+                "name": "Pumpkin seed extract",
+                "note": "Clinical evidence for reducing overactive bladder symptoms"
+              },
+              {
+                "name": "Cranberry (unsweetened)",
+                "note": "Supports urinary tract health without bladder irritation"
+              },
+              {
+                "name": "LIMIT: Caffeine",
+                "note": "Major bladder irritant — reduce to 1 cup max or switch to decaf"
+              },
+              {
+                "name": "LIMIT: Alcohol",
+                "note": "Diuretic AND bladder irritant — reduce or eliminate during protocol"
+              },
+              {
+                "name": "LIMIT: Spicy foods, citrus, carbonation",
+                "note": "Known bladder irritants for sensitive individuals"
+              }
+            ]
+          }
+        },
+        {
+          "day": 25,
+          "headline": "Evening Routine",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Pre-Sleep Relaxation",
+              "duration": "10 min",
+              "steps": [
+                "Do 30–60 minutes before bed to reduce nighttime urgency:",
+                "Supine: 10 slow Umbrella Breaths (4 in, 6 out). Extend the exhale.",
+                "Happy Baby: 2 min gentle rocking with Drop breaths.",
+                "Butterfly: 2 min eyes closed, breath focus.",
+                "Progressive muscle relaxation: tighten/release each muscle group.",
+                "Final: 10 natural breaths. Full pelvic floor release.",
+                "Reduce fluid intake 2 hours before bed to minimize nocturia."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Nocturia (nighttime urination) is partly caused by pelvic floor tension that compresses the bladder during sleep. The evening relaxation routine reduces this nighttime tension, allowing the bladder to fill more fully before triggering the urge. Combined with fluid timing (stop 2 hours before bed), most men reduce nighttime trips by 1–2 per night.",
+            "coachCorner": "This evening routine becomes permanent. 10 minutes before bed for better sleep AND fewer nighttime bathroom trips. The ROI on this investment is enormous."
+          }
+        },
+        {
+          "day": 26,
+          "headline": "Functional Resilience",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Multi-Position Kegel Mastery",
+              "duration": "12 min",
+              "steps": [
+                "Position 1 — Supine: 10 Flicks + 3 × 10-second holds.",
+                "Position 2 — Seated: 10 Flicks + 3 × 10-second holds.",
+                "Position 3 — Standing: 10 Flicks + 3 × 10-second holds.",
+                "Position 4 — Kneeling: 10 Flicks + 3 × 10-second holds.",
+                "Position 5 — Walking: 10 Flicks while maintaining stride.",
+                "Cool down: 5 standing Drop breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Multi-position mastery ensures bladder control across all daily activities. Walking Kegels are the most functional — if you can maintain strong, isolated Flicks while walking, your pelvic floor control is robust enough for any daily scenario."
+          }
+        },
+        {
+          "day": 27,
+          "headline": "Maintenance Protocol Setup",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "The 5-5-5 Daily Practice",
+              "duration": "10 min",
+              "steps": [
+                "This is your permanent maintenance technique:",
+                "5 Drop breaths (relaxation) → 5 quick Flicks (strength) → 5 endurance breaths (reset).",
+                "Time: 90 seconds. Do 3× daily (morning, midday, evening) = 4.5 min total.",
+                "Practice all 3 sessions today — morning, midday, and evening.",
+                "Additionally, practice the Double Void at every bathroom visit.",
+                "Practice the Knack before every cough, sneeze, lift, and jump.",
+                "These three habits are your lifetime bladder health protocol."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Three daily habits for lifetime bladder health:\n1. 5-5-5 micro-practice (90 seconds, 3× daily)\n2. Double Void (every bathroom visit)\n3. The Knack (before every pressure event)\n\nTotal time: under 5 minutes per day. Total impact: transformative."
+          }
+        },
+        {
+          "day": 28,
+          "headline": "Graduation & Final Assessment",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Graduation Circuit (Repeat Day 22)",
+              "duration": "12 min",
+              "steps": [
+                "Full Performance Circuit one final time.",
+                "Note every improvement from Day 1. Finish with the Relaxation Flow."
+              ]
+            },
+            {
+              "name": "Final Self-Assessment",
+              "duration": "3 min",
+              "steps": [
+                "Final scores — compare with Day 1, 7, 14, 21:",
+                "Perineal tension baseline (0–10).",
+                "Daily urgency frequency (0–10).",
+                "Post-void dribbling severity (0–10).",
+                "Kegel quality across positions (0–10 each).",
+                "Max endurance hold (seconds).",
+                "Knack automaticity (0–10).",
+                "Daily bathroom visit count.",
+                "Nighttime bathroom visits.",
+                "Overall confidence (0–10)."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Your maintenance protocol:\n\n• Daily: 5-5-5 micro-practice, 3× per day (4.5 min)\n• Every bathroom visit: Double Void technique\n• Every pressure event: The Knack (automatic)\n• 3× per week: Day 20 Full Integration Circuit (15 min)\n• Weekly: Day 25 Evening Relaxation before bed\n• Monthly: Full Day 28 assessment\n\nConsistency beats intensity — always."
+          }
+        }
+      ]
+    }
+  ]
+}

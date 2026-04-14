@@ -1,0 +1,843 @@
+{
+  "meta": {
+    "id": "endurance",
+    "title": "28-Day Endurance Mastery Protocol",
+    "description": "A research-backed program to master ejaculatory control through neuromuscular training, arousal awareness, and the Stop-Start method.",
+    "duration": "28 days",
+    "dailyTime": "7–15 minutes",
+    "goal": "Stop PE"
+  },
+  "assessment": {
+    "description": "Your personalized protocol based on your assessment results.",
+    "disclaimer": "This program is educational and does not replace medical advice. Consult a physician for persistent concerns."
+  },
+  "phases": [
+    {
+      "name": "Phase 1 — Arousal Awareness",
+      "duration": "Days 1–7",
+      "description": "Before you can control arousal, you must sense it. This phase builds interoception — your ability to feel the internal signals your body sends before the point of no return.",
+      "days": [
+        {
+          "day": 1,
+          "headline": "The Arousal Scale",
+          "totalDuration": "7 min",
+          "exercises": [
+            {
+              "name": "Diaphragmatic Pelvic Breath",
+              "duration": "4 min (10 breaths × 2 sets)",
+              "steps": [
+                "Lie on your back, knees bent, feet flat. One hand on chest, one on lower belly.",
+                "Inhale 4 seconds through your nose — ribs expand 360 degrees, belly rises gently. Chest hand stays still.",
+                "Exhale 6 seconds through pursed lips (invisible straw). Feel the pelvic floor gently recoil — do NOT force a squeeze.",
+                "10 breaths per set, 2 sets. Rest 30 seconds between sets."
+              ],
+              "image": "supine_breathing.png"
+            },
+            {
+              "name": "The 1–10 Arousal Map",
+              "duration": "3 min",
+              "steps": [
+                "Close your eyes. Using only mental imagery (no physical stimulation), bring your arousal to approximately level 3–4 on a 1–10 scale.",
+                "Notice: what does level 3 feel like in your body? Where do you feel warmth, tingling, tension?",
+                "Now let the arousal return to 1 (baseline). Notice: what changed? How quickly did it drop?",
+                "Repeat: bring arousal to 4–5 through imagery. Pause. Map the sensations. Let it drop.",
+                "Write down where in your body you first notice arousal rising. This is your early warning signal."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Premature ejaculation is fundamentally a reflex control problem. The ejaculatory reflex has two stages: Emission (sperm enters the urethra — point of no return) and Expulsion (rhythmic contractions that force ejaculation). Between levels 8 and 9 on the arousal scale, Emission begins. Once it starts, ejaculation is inevitable. The entire goal of this protocol is to train you to recognize level 7–8 BEFORE you hit 9, and use specific techniques to stay in the 'sweet spot' of high pleasure without triggering the reflex.",
+            "coachCorner": "Most men with PE have never consciously mapped their arousal. They experience pleasure as a vague building wave that suddenly crashes. By creating a 10-point internal map, you transform an unconscious process into a conscious one. Awareness alone improves control — studies show that interoception training is a key predictor of PE treatment success.",
+            "selfCheck": "Can you distinguish between levels 3 and 5 using mental imagery alone? If yes, your interoception is functional. If everything feels like 'off or on,' spend extra time on this exercise before moving forward."
+          }
+        },
+        {
+          "day": 2,
+          "headline": "The Reverse Kegel (The Drop)",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Anal Breath (Blossoming)",
+              "duration": "5 min (10 breaths × 3 sets)",
+              "steps": [
+                "Lying on back, knees bent. Focus on your external anal sphincter.",
+                "Inhale: imagine it expanding outward — 'like a flower blooming' or 'a mouth yawning open.'",
+                "Exhale through pursed lips: let it return naturally. Don't clench it back.",
+                "This is called The Drop — the reverse of a Kegel. It's your primary PE control tool.",
+                "10 breaths per set, 3 sets with 30-second rest."
+              ],
+              "image": "supine_breathing.png"
+            },
+            {
+              "name": "The Drop During Arousal Imagery",
+              "duration": "3 min",
+              "steps": [
+                "Using mental imagery, bring arousal to level 4–5.",
+                "At level 5, perform 3 slow Drop breaths (Anal Blossom). Notice: does the arousal decrease?",
+                "You're training the exact skill you'll use during intimacy: sensing arousal rise, applying The Drop to prevent the reflex.",
+                "Cycle 3 times: rise to 5 → Drop to 3 → rise to 5 → Drop."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The Reverse Kegel disrupts the ejaculatory reflex arc by reducing pelvic floor tension. The Bulbospongiosus and Ischiocavernosus muscles must contract rhythmically for expulsion to occur. When you perform The Drop, you actively lengthen and relax these muscles, deactivating the expulsion mechanism before it begins. This is NOT the same as 'holding it in' (which increases tension and often makes PE worse).",
+            "watchOut": "The #1 mistake with PE management: doing regular Kegels (contraction) to 'hold it in.' This is backwards. Clenching during arousal increases pelvic floor tension, which triggers the reflex faster. The Drop does the OPPOSITE — it releases tension, which calms the reflex. Think of it like releasing a bowstring instead of pulling it tighter.",
+            "selfCheck": "During The Drop at arousal level 5, you should feel arousal decrease by 1–2 points within 2–3 breaths. If it doesn't, your pelvic floor may be hypertonic (stuck tight). Spend extra days on The Drop before progressing."
+          }
+        },
+        {
+          "day": 3,
+          "headline": "Deep Relaxation Poses",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Supported Deep Squat Breathing",
+              "duration": "4 min (10 breaths × 2 sets)",
+              "steps": [
+                "Back against wall, feet shoulder-width, 12–18 inches from wall. Sink down until thighs are parallel.",
+                "Use elbows to gently pry knees outward.",
+                "Perform 10 slow Anal Breaths (The Drop). Gravity helps stretch and release the pelvic floor.",
+                "2 sets with 30-second rest."
+              ],
+              "image": "deep_squat.png"
+            },
+            {
+              "name": "Happy Baby + Butterfly Flow",
+              "duration": "4 min",
+              "steps": [
+                "Happy Baby: Lie on back, pull knees to chest, spread wide toward armpits. Grab outside edges of feet.",
+                "Do 10 Drop breaths — feel the pelvic floor on full stretch.",
+                "Transition to Butterfly: Sit on pillow edge, feet together, knees wide.",
+                "Do 10 Drop breaths — the hip opening adds stretch to the pelvic floor.",
+                "These poses specifically target the muscles that drive the ejaculatory reflex."
+              ],
+              "image": "butterfly_pose.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "A hypertonic (too-tight) pelvic floor is linked to primary (lifelong) PE. These poses create maximum pelvic floor lengthening under gravity. When combined with The Drop breathing, they reset the resting tone of the muscles responsible for ejaculatory expulsion. Think of it as 'unkinking a coiled spring' — the spring still works, but it won't go off at a hair trigger.",
+            "coachCorner": "Many men with PE carry tension they don't know about. If the deep squat feels intense in the groin/perineum, that tension is part of your PE pattern. The discomfort you feel is the tension releasing. Stay with it — breathe through it.",
+            "visualization": "Imagine the muscles between your sit bones as a trampoline. In their default state, they're pulled drum-tight. Each Drop breath loosens one of the tension cables, letting the trampoline settle into a neutral, responsive position rather than a hair-trigger position."
+          }
+        },
+        {
+          "day": 4,
+          "headline": "The Perineal Release",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Tennis Ball Perineal Release",
+              "duration": "5 min",
+              "steps": [
+                "Place a tennis ball on a firm chair. Sit so it presses on your perineum (between scrotum and anus).",
+                "Use arms on chair rests to control pressure — start light, settle over 30–60 seconds.",
+                "Perform 10 slow Drop breaths while maintaining pressure.",
+                "Find 2–3 tension points by shifting the ball slightly. Spend 60 seconds on each.",
+                "This is the 'Bike Seat Rule' — the muscles that touch a bicycle seat hold most chronic pelvic tension."
+              ],
+              "image": "tennis_ball.png"
+            },
+            {
+              "name": "Arousal Cycling Practice",
+              "duration": "5 min",
+              "steps": [
+                "Supine position. Using mental imagery, practice the arousal cycle:",
+                "Rise to level 5 → 3 Drop breaths → fall to 3 → rise to 6 → 3 Drop breaths → fall to 4.",
+                "Notice you're going slightly higher each cycle. This builds tolerance.",
+                "Do 5 complete cycles. If you reach level 7 and can successfully Drop, you're ahead of schedule."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Direct pressure on the perineum provides proprioceptive biofeedback — your brain learns exactly where tension is held. Most PE-linked tension lives in this exact area. The tennis ball creates a manual release that breathing alone can't achieve, softening tissue that's been chronically contracted.",
+            "coachCorner": "After the tennis ball, stand up and notice: does your perineum feel warmer? Softer? This is the relaxation response. The more often you achieve this state, the higher your arousal ceiling gets before the reflex triggers.",
+            "selfCheck": "After today's session, try the arousal cycling. Compare with Day 1: can you reach level 5–6 with more control? If yes, your nervous system is already learning."
+          }
+        },
+        {
+          "day": 5,
+          "headline": "The Stop-Start Introduction",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Full Drop Flow",
+              "duration": "4 min",
+              "steps": [
+                "Supine: 5 Umbrella Breaths → 5 Anal Breaths (The Drop) → 5 Butterfly Pose breaths.",
+                "Establish full pelvic floor relaxation before the main exercise."
+              ]
+            },
+            {
+              "name": "Stop-Start Method (Solo Practice)",
+              "duration": "6 min",
+              "steps": [
+                "This is the clinical Stop-Start protocol adapted for training:",
+                "Using self-stimulation, slowly build arousal to level 6–7 (high pleasure, still manageable).",
+                "At level 7: STOP all movement. Perform 3 'Invisible Straw' exhales (slow breath through pursed lips).",
+                "Wait for arousal to drop to level 4–5. This may take 15–30 seconds.",
+                "Resume stimulation. Build back to level 7. Stop. Breathe. Drop.",
+                "Repeat 3 complete stop-start cycles.",
+                "On the 4th cycle: allow completion if desired, or stop and release.",
+                "The goal is NOT to last indefinitely — it's to FEEL the transition from level 7 to 8 and apply The Drop before level 9."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The Stop-Start Method is the gold standard behavioral intervention for PE. Developed by Semans (1956) and refined by Masters & Johnson, it works by repeatedly exposing your nervous system to high arousal without triggering the reflex. Each cycle teaches your brain that level 7–8 doesn't have to mean level 9. Over time, the 'point of no return' threshold rises naturally.",
+            "watchOut": "Do NOT use the Squeeze Technique (pressing the glans) during Stop-Start. This creates a pain association that can lead to arousal avoidance. The Drop is your only tool. If you can't stop the reflex at level 7, drop back to practicing at level 5–6 until you build more control.",
+            "coachCorner": "The first time feels clumsy — stopping at the right moment is a skill. Start with the 'too early' side: stop at level 6 instead of 7. You can always build up. Stopping at 6 successfully is better than failing to stop at 8."
+          }
+        },
+        {
+          "day": 6,
+          "headline": "Seated Drop Training",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Seated Pelvic Floor Drop",
+              "duration": "5 min",
+              "steps": [
+                "Sit in a regular chair, feet flat. Notice your sit bones on the seat.",
+                "Perform 10 breaths: inhale, feel sit bones spread apart. Exhale, let them settle.",
+                "Add The Drop: inhale and feel pelvic floor descend between your sit bones.",
+                "3 sets of 10 breaths. This teaches The Drop in your most common daily position."
+              ],
+              "image": "seated.png"
+            },
+            {
+              "name": "Standing Arousal Check",
+              "duration": "3 min",
+              "steps": [
+                "Stand with feet hip-width apart. Scan pelvic area for tension.",
+                "Consciously drop the pelvic floor while standing. Hold for 5 breaths.",
+                "This position trains the relaxation response in an upright posture — relevant for many intimate positions."
+              ],
+              "image": "standing.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Training The Drop in multiple positions (supine, seated, standing) creates robust neuromuscular memory. During intimacy, you won't be lying on your back doing breathing exercises — you need The Drop to work automatically in whatever position you're in. Multi-position training builds that automaticity.",
+            "coachCorner": "Start doing 'micro-Drops' throughout your day. Sitting at your desk? 3 Drop breaths. Standing in line? 3 Drop breaths. Every micro-session reinforces the neural pathway that will activate when you need it most."
+          }
+        },
+        {
+          "day": 7,
+          "headline": "Phase 1 Assessment",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Full Stop-Start Practice",
+              "duration": "8 min",
+              "steps": [
+                "Warm up with Deep Squat + 10 Drop breaths.",
+                "Perform 4 complete stop-start cycles using self-stimulation.",
+                "Track: at what arousal level did you stop each time? How long did the drop take?",
+                "Target: consistently stopping at level 7 and dropping to 4–5 within 30 seconds."
+              ]
+            },
+            {
+              "name": "Phase 1 Self-Assessment",
+              "duration": "2 min",
+              "steps": [
+                "Rate your arousal awareness (0–10): can you reliably distinguish levels 5, 6, 7, 8?",
+                "Rate your Drop effectiveness (0–10): does The Drop reduce arousal within 2–3 breaths?",
+                "Rate your Stop-Start control (0–10): can you stop consistently before level 8.5?",
+                "Record these numbers for comparison at Day 14, 21, and 28."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Assessment creates accountability and reveals progress that you might not notice subjectively. Most men see a 2–3 point improvement in arousal awareness by Day 7 — which directly translates to better control during intimacy.",
+            "coachCorner": "Typical Day 7 results: awareness 5–7/10, Drop effectiveness 4–6/10, Stop-Start control 3–5/10. If you're in this range, you've built the foundation. Phase 2 adds the muscle control layer on top of the awareness foundation."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 2 — Muscle Isolation",
+      "duration": "Days 8–14",
+      "description": "Now that you can sense and interrupt arousal, it's time to build the muscles that give you physical control. The Bulbospongiosus muscle is your brake pedal.",
+      "days": [
+        {
+          "day": 8,
+          "headline": "The Flick — Muscle Discovery",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Drop Reset",
+              "duration": "2 min",
+              "steps": [
+                "5 Umbrella Breaths + 5 Drop breaths lying down. Full relaxation before activation."
+              ]
+            },
+            {
+              "name": "The Flick (Bulbospongiosus Activation)",
+              "duration": "6 min (3 sets × 10 reps)",
+              "steps": [
+                "Lying on back, knees bent. Focus on the base of your penis.",
+                "Quick contraction: 'make your penis jump' or 'stop the flow of urine.' Hold 1 second.",
+                "Release COMPLETELY for 2 seconds. The release matters as much as the contraction.",
+                "Check: glutes and abs must NOT tighten. Place a hand on your belly — if it tenses, wrong muscles.",
+                "10 Flicks per set, 3 sets. Between sets: 3 Drop breaths to reset."
+              ],
+              "image": "standing.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "For PE, the Bulbospongiosus training serves a different purpose than for firmness. Here, you're building the muscle's ability to contract ON COMMAND during high arousal — not as a vice grip, but as a precision tool. The quick Flick trains the fast-twitch fibers that can provide a momentary 'brake tap' without full clenching.",
+            "watchOut": "For PE specifically: do NOT practice sustained holds during arousal. Sustained pelvic floor contraction during arousal ACCELERATES ejaculation (it mimics the expulsion reflex). The Flick is a 1-second tap, not a prolonged squeeze.",
+            "coachCorner": "Confirmation: when you Flick correctly, your penis retracts slightly and/or jumps. If your butt lifts, you're using glutes. Keep glutes dead."
+          }
+        },
+        {
+          "day": 9,
+          "headline": "Drop-Flick Alternation",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "The Drop-Flick Cycle",
+              "duration": "8 min",
+              "steps": [
+                "This is the core PE control pattern: Drop → Flick → Drop → Flick.",
+                "Set 1 (Lying): 5-second Drop → 1-second Flick → 5-second Drop → 1-second Flick. Repeat 10 times.",
+                "Set 2 (Seated): Same pattern, 10 reps. Notice increased difficulty.",
+                "Set 3 (Lying): 3-second Drop → 1-second Flick → 3-second Drop → 1-second Flick. Faster rhythm. 10 reps.",
+                "The pattern: RELAX is the default state. The Flick is a brief interruption. Then back to RELAX.",
+                "Always end on 5 Drop breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "During intimacy, ejaculatory control follows this exact cycle: relaxed pelvic floor (allowing pleasure without triggering the reflex), brief Flick (momentary brake tap when arousal spikes), immediate return to relaxation (to continue without building reflex tension). This exercise trains the exact motor pattern you'll use.",
+            "coachCorner": "Think of it like driving: The Drop is your foot OFF the brake (cruising). The Flick is a brief brake tap at a yellow light. You don't slam the brakes and keep your foot down — that's what sustained Kegels do, and it causes a crash (premature ejaculation)."
+          }
+        },
+        {
+          "day": 10,
+          "headline": "Stop-Start + Flick Integration",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Enhanced Stop-Start",
+              "duration": "10 min",
+              "steps": [
+                "Warm up: 5 Drop breaths in deep squat position.",
+                "Begin self-stimulation. Build to level 6.",
+                "At level 6: perform 2 quick Flicks (1-second each) WHILE continuing stimulation (do not stop).",
+                "If Flicks reduce arousal by 1 point: continue stimulation. If not: Stop. 3 Drop breaths. Resume.",
+                "Build to level 7. Repeat: 2 Flicks without stopping. Did arousal hold or drop?",
+                "If the Flick alone controls arousal at 7: congratulations — you're developing active control WITHOUT stopping.",
+                "If not: Stop + Drop at 7. This is where you are in the progression.",
+                "Do 4 complete cycles. Cool down with Happy Baby + 10 Drop breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "This session introduces the ultimate PE control skill: the Flick During Stimulation. Instead of stopping completely (which breaks rhythm during intimacy), you apply a brief muscular brake while continuing. As this skill develops, you'll need to stop less and less. The clinical progression: Stop-Start → Flick-During → Continuous Control.",
+            "coachCorner": "This is hard. Most men can't do Flick-During at level 7 on Day 10. That's completely normal. The Stop-Start fallback is always there. You're building a skill that takes 2–4 weeks to solidify. Be patient.",
+            "selfCheck": "Track your highest level where the Flick alone (without stopping) controlled arousal. Day 10 target: level 5–6. By Day 21 target: level 7–8."
+          }
+        },
+        {
+          "day": 11,
+          "headline": "Endurance Hold Training",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Progressive Holds (Non-Aroused)",
+              "duration": "6 min",
+              "steps": [
+                "Set 1 (Lying): 5 Flicks with 3-second holds. Full release between each.",
+                "Set 2 (Lying): 5 Flicks with 5-second holds at 50% intensity. Breathe normally throughout.",
+                "Set 3 (Seated): 5 Flicks with 5-second holds. Note increased difficulty.",
+                "Between each set: 3 Drop breaths to fully reset."
+              ]
+            },
+            {
+              "name": "Drop-Under-Load Practice",
+              "duration": "4 min",
+              "steps": [
+                "Seated: Perform a 5-second Flick hold, then transition DIRECTLY into a 10-second Drop.",
+                "The transition from contraction to relaxation is the critical PE skill.",
+                "How fast can you go from full Flick to full Drop? The faster, the better your control.",
+                "Repeat 8 times. Cool down with 5 standing Drop breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The speed of your relaxation response determines how quickly you can de-escalate arousal. A slow transition from Flick to Drop means arousal has more time to cascade toward the point of no return. Training the transition speed is like training your reaction time — it makes your braking distance shorter.",
+            "coachCorner": "Time your transition: how many seconds from full Flick to full Drop? Day 11 target: 2–3 seconds. Day 28 target: under 1 second (near-instantaneous). This speed is the difference between control and 'almost controlled.'"
+          }
+        },
+        {
+          "day": 12,
+          "headline": "HIT + Pelvic Floor",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "7-Minute Interval Circuit",
+              "duration": "9 min",
+              "steps": [
+                "Each exercise 30 seconds, 15-second rest:",
+                "1. Bodyweight squats — exhale Flick at the top of each rep.",
+                "2. Glute bridges — Flick at the top of each rep.",
+                "3. High knees (standing march) — Flick on each knee drive.",
+                "4. Wall push-ups — Flick on the push phase.",
+                "5. Squat hold at bottom — Drop breaths for 30 seconds.",
+                "6. Bridge hold at top — sustained Flick for 30 seconds.",
+                "7. Standing Flick AMRAP (as many quality reps as possible).",
+                "Cool down: Happy Baby + Butterfly, 5 Drop breaths each."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "A randomized trial found that 7-minute daily HIT protocols significantly reduced PE by improving cardiovascular stamina and parasympathetic regulation. When your cardiovascular system is trained, your body handles the arousal 'load' more efficiently — similar to how a fit runner's heart rate recovers faster than an unfit one's. The Flick integration during HIT trains your pelvic floor to work under cardiovascular stress, which mimics sexual activity.",
+            "coachCorner": "This is the session that bridges gym performance and bedroom performance. The physiological demands are similar: elevated heart rate, rapid breathing, sustained physical effort. Training pelvic floor control here transfers directly."
+          }
+        },
+        {
+          "day": 13,
+          "headline": "Advanced Stop-Start",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Squeeze + Drop Combination",
+              "duration": "10 min",
+              "steps": [
+                "Warm up: 5 Drop breaths standing.",
+                "Self-stimulation: build to level 7.",
+                "At level 7: apply the Squeeze Technique — firm pressure at the base of the glans for 10–15 seconds.",
+                "WHILE squeezing, perform 3 slow Drop breaths. This combines mechanical and breathing control.",
+                "Let arousal drop to 4. Resume.",
+                "Build to 7.5. Repeat Squeeze + Drop. Notice if you can push the threshold slightly higher.",
+                "Do 4 cycles. Track: what's the highest level where you maintained control?",
+                "Cool down: Butterfly Pose + 10 Drop breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The Squeeze Technique (pressing the frenulum/glans base) temporarily reduces arousal by interrupting sensory feedback. Combined with The Drop, it creates a dual-brake system: mechanical pressure reduces peripheral sensation while The Drop relaxes the ejaculatory muscles centrally. Over time, you'll rely less on the squeeze and more on The Drop alone.",
+            "watchOut": "Apply firm but comfortable pressure. This should feel like pressing pause, not like pain. If you experience sharp discomfort, you're pressing too hard. The goal is sensation reduction, not anesthesia."
+          }
+        },
+        {
+          "day": 14,
+          "headline": "Phase 2 Assessment",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Control Test",
+              "duration": "8 min",
+              "steps": [
+                "Warm up: Drop breaths in deep squat.",
+                "Self-stimulation: perform 4 stop-start cycles, attempting to use Flick-During where possible.",
+                "Track for each cycle: level where you stopped, technique used (Flick alone / Stop + Drop / Squeeze + Drop), and time to recover."
+              ]
+            },
+            {
+              "name": "Phase 2 Self-Assessment",
+              "duration": "2 min",
+              "steps": [
+                "Re-rate arousal awareness (0–10). Compare with Day 7.",
+                "Rate Flick-During effectiveness: highest arousal level where Flick alone controlled (0–10 scale).",
+                "Rate Drop transition speed: seconds from full Flick to full Drop.",
+                "Rate Stop-Start control: average highest level before needing to stop.",
+                "Record all numbers."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Typical Day 14 results: awareness 7–8/10, Flick-During works at level 5–6, transition speed 2–3 seconds, Stop-Start control 7–7.5. If you're here, Phase 3 adds the dynamic integration that makes these skills automatic."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 3 — Dynamic Integration",
+      "duration": "Days 15–21",
+      "description": "Combine arousal awareness, muscle control, and cardiovascular conditioning into functional scenarios that mirror real-world intimate situations.",
+      "days": [
+        {
+          "day": 15,
+          "headline": "Testicular Bridge + Control",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Warm-Up",
+              "duration": "3 min",
+              "steps": [
+                "5 Umbrella Breaths → 10 standing Flicks → 5 Drop breaths."
+              ]
+            },
+            {
+              "name": "Testicular Bridge with Drop-Flick Cycle",
+              "duration": "9 min (3 sets × 8 reps)",
+              "steps": [
+                "Lie on back, knees bent. Lift hips into bridge.",
+                "At the top: perform 1 quick Flick → 3-second Drop → lower hips.",
+                "8 reps per set, 3 sets. The rhythm mimics thrust → brake → relax.",
+                "Between sets: Happy Baby + 5 Drop breaths."
+              ],
+              "image": "bridge.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The bridge movement pattern closely mimics pelvic thrust mechanics. Training the Drop-Flick cycle during bridge movement creates motor memory that transfers directly to intimate activity. Your body learns: thrust → check arousal → apply brake if needed → relax → continue."
+          }
+        },
+        {
+          "day": 16,
+          "headline": "Squat Integration",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Squat with Drop-Flick Pattern",
+              "duration": "9 min",
+              "steps": [
+                "Stand, feet shoulder-width. Inhale, lower into squat — let pelvic floor DROP.",
+                "At bottom: pause 1 second, feel full pelvic floor stretch.",
+                "Exhale, stand up — quick Flick as you reach the top.",
+                "10 reps × 3 sets. Pattern: squat = relax, stand = momentary contraction.",
+                "Rest 45 seconds between sets."
+              ],
+              "image": "squat.png"
+            },
+            {
+              "name": "Walking Lunges with Drop Breathing",
+              "duration": "3 min",
+              "steps": [
+                "Step into lunge — inhale, Drop the pelvic floor into the stretch.",
+                "Drive up — exhale, quick Flick.",
+                "10 lunges (5 each leg). Focus on the rhythmic Drop-Flick alternation."
+              ],
+              "image": "lunge.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Large leg muscle activation floods the system with Nitric Oxide, improving global vascular health. The rhythmic Drop-Flick pattern during movement builds the automatic motor pattern that working becomes subconscious during intimacy."
+          }
+        },
+        {
+          "day": 17,
+          "headline": "Position-Specific Training",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Multi-Position Drop-Flick",
+              "duration": "12 min",
+              "steps": [
+                "Train the Drop-Flick cycle in positions that simulate intimate scenarios:",
+                "Position 1 — Supine: 10 Drop-Flick cycles. This simulates lying-on-back positions.",
+                "Position 2 — Kneeling upright: 10 cycles. Simulates kneeling positions.",
+                "Position 3 — Standing: 10 cycles. Simulates standing positions.",
+                "Position 4 — Forearm plank: 5 cycles. Simulates top-position with core engagement.",
+                "Position 5 — Seated: 10 cycles. Simulates seated positions.",
+                "Note which position is hardest. Spend extra time there."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Muscle specificity: muscles function best in the positions they're trained in. Since intimate activity involves constant position changes, multi-position training ensures your Drop-Flick control works regardless of body orientation.",
+            "coachCorner": "Most men find kneeling and plank positions the hardest for pelvic floor control. These are also the most common positions during intimacy. Struggling here means extra practice here — that's where your biggest gains will come from."
+          }
+        },
+        {
+          "day": 18,
+          "headline": "Arousal Surfing",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Extended Stop-Start with Flick-During",
+              "duration": "10 min",
+              "steps": [
+                "Warm up: Deep squat + 10 Drop breaths.",
+                "Self-stimulation: the goal is to maintain arousal between 7 and 8 for as long as possible.",
+                "Use Flick-During when arousal approaches 8. Use Stop + Drop if Flick alone doesn't work.",
+                "Target: stay in the 7–8 zone for at least 3–5 minutes total across your cycles.",
+                "Track: how many minutes total did you spend above level 7 with control?",
+                "This is called 'Arousal Surfing' — riding the high wave without wiping out."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Tolerance training. Your nervous system learns that level 7–8 is sustainable, not an emergency. Each time you maintain control at high arousal, your brain recalibrates its 'danger threshold' upward. This is the exact mechanism behind clinical PE treatment success: systematic desensitization to high arousal.",
+            "coachCorner": "3–5 minutes in the 7–8 zone on Day 18 is excellent. By Day 28, target 8–10 minutes. The improvement is non-linear: most gains happen between weeks 2 and 4."
+          }
+        },
+        {
+          "day": 19,
+          "headline": "HIT Circuit + Arousal Recovery",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "HIT Circuit (Repeat Day 12)",
+              "duration": "7 min",
+              "steps": [
+                "Same 7-exercise circuit as Day 12. Push slightly harder — faster reps, stronger Flicks.",
+                "Track: is the Flick integration during HIT easier than Day 12? This shows neuromuscular improvement."
+              ]
+            },
+            {
+              "name": "Post-HIT Arousal Control",
+              "duration": "5 min",
+              "steps": [
+                "Immediately after HIT (while heart rate is elevated), practice arousal cycling:",
+                "Rise to level 5 → Drop to 3 → rise to 6 → Drop to 4.",
+                "Training arousal control with an elevated heart rate mimics the physiological state of intimacy.",
+                "3 complete cycles. Cool down with Butterfly + 10 Drop breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Post-HIT arousal control is advanced training. Your sympathetic nervous system is activated from exercise, which is the same state it enters during sexual arousal. Training The Drop while sympathetically activated builds a stronger parasympathetic override — the ability to 'brake' when your body's engine is running hot."
+          }
+        },
+        {
+          "day": 20,
+          "headline": "Full Integration Circuit",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "The Complete Endurance Circuit",
+              "duration": "15 min",
+              "steps": [
+                "Block 1 — Relaxation (3 min): Deep Squat + 10 Drop breaths → Happy Baby + 10 breaths.",
+                "Block 2 — Activation (3 min): 10 standing Flicks → 10 Drop-Flick cycles → 5 transition-speed drills.",
+                "Block 3 — Strength (6 min): Bridges 3×8 with Drop-Flick → Squats 10 with Flick → Lunges 10 with Drop.",
+                "Block 4 — Cool-Down (3 min): Butterfly Pose + 10 breaths → Supine scan and full release."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "This is your 'go-to' maintenance workout. If you only have time for one session for the rest of your life, this is it. Consider bookmarking Day 20."
+          }
+        },
+        {
+          "day": 21,
+          "headline": "Phase 3 Assessment",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Extended Arousal Surfing Test",
+              "duration": "12 min",
+              "steps": [
+                "Full Stop-Start session. Goal: maintain the 7–8 zone for maximum duration.",
+                "Use all tools: Drop breathing, Flick-During, Stop when needed, position changes.",
+                "Track total time above level 7 with controlled arousal."
+              ]
+            },
+            {
+              "name": "Phase 3 Self-Assessment",
+              "duration": "3 min",
+              "steps": [
+                "Re-rate all metrics. Compare with Day 7 and Day 14:",
+                "Arousal awareness (0–10).",
+                "Flick-During effectiveness (highest controlled level).",
+                "Drop transition speed (seconds).",
+                "Arousal surfing duration (minutes in 7–8 zone).",
+                "Overall confidence (0–10)."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Typical Day 21: awareness 8–9/10, Flick-During works at 7, transition speed 1–2 seconds, surfing duration 5–8 minutes. Phase 4 applies everything to partner-relevant scenarios."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 4 — Mastery & Application",
+      "duration": "Days 22–28",
+      "description": "Apply all skills to real-world scenarios. Build your permanent maintenance protocol and lifestyle optimization habits.",
+      "days": [
+        {
+          "day": 22,
+          "headline": "Performance Circuit",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Full Performance Circuit",
+              "duration": "15 min",
+              "steps": [
+                "Block 1 — Deep Relaxation (3 min): Squat + 15 breaths → Tennis ball release 2 min.",
+                "Block 2 — Power (3 min): 10 max-effort Flicks → 10 rapid alternating Drop-Flicks → 5 × 10-second holds.",
+                "Block 3 — Loaded Integration (6 min): Single-leg bridges with Drop-Flick → Lunges with Drop → HIT squats + bridge hold × 2 rounds.",
+                "Block 4 — Cool-Down (3 min): Happy Baby → Butterfly → Supine scan."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Day 22 is your hardest physical session. Compare how this feels to Day 1 where you were just learning to breathe. The difference is your progress."
+          }
+        },
+        {
+          "day": 23,
+          "headline": "Partner Scenario Simulation",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Arousal Surfing with Position Changes",
+              "duration": "10 min",
+              "steps": [
+                "Self-stimulation with deliberate position changes — simulating intimate scenarios:",
+                "Start supine: build to level 6, apply Drop-Flick. Maintain control.",
+                "Switch to kneeling: continue building. Apply control techniques.",
+                "Switch to standing: continue. Notice how position changes affect arousal level.",
+                "The key insight: position changes naturally cause arousal fluctuations. Use them strategically.",
+                "Changing positions when approaching level 8 is itself a control technique — it provides a natural pause and arousal reset.",
+                "Track total controlled time above level 7 across all positions."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Position changes during intimacy cause brief arousal dips — typically 1–2 levels. Strategic position changes at level 7.5 drop you to 5.5–6.5, giving you headroom to continue. Combined with The Drop and Flick-During, position changes are your third control tool: (1) The Drop (breathing), (2) The Flick (muscular), (3) Position change (behavioral).",
+            "coachCorner": "Many men feel position changes are 'disruptive.' Reframe: they're a sophisticated control technique disguised as variety. Your partner experiences exploration; you maintain control. Everyone wins."
+          }
+        },
+        {
+          "day": 24,
+          "headline": "Nutrition & Neurochemistry",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Light Maintenance",
+              "duration": "10 min",
+              "steps": [
+                "Recovery-intensity session: Day 5 Flow (6 min) + 10 standing Drop-Flick cycles (4 min).",
+                "Focus on quality and depth, not intensity."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Serotonin (5-HT) is the primary inhibitory neurotransmitter for ejaculation. Low serotonin levels are linked to lifelong PE. While this protocol trains neuromuscular control, nutritional support for serotonin can amplify results.",
+            "coachCorner": "Recovery days are when gains solidify. The pelvic floor adapts during rest."
+          },
+          "supplementContext": {
+            "hook": "Serotonin is your body's natural 'wait' signal for ejaculation.",
+            "science": "Serotonin precursors support the inhibitory pathways that delay ejaculation. Combined with physical training, they amplify your control.",
+            "foods": [
+              {
+                "name": "Turkey, chicken, eggs",
+                "note": "High in tryptophan — serotonin precursor"
+              },
+              {
+                "name": "Dark chocolate (70%+)",
+                "note": "Contains tryptophan and boosts serotonin"
+              },
+              {
+                "name": "Bananas",
+                "note": "Natural source of tryptophan and B6 (serotonin cofactor)"
+              },
+              {
+                "name": "Pumpkin seeds, sunflower seeds",
+                "note": "Rich in tryptophan and zinc"
+              },
+              {
+                "name": "Spinach, leafy greens",
+                "note": "Folate supports serotonin synthesis"
+              }
+            ]
+          }
+        },
+        {
+          "day": 25,
+          "headline": "Sleep & Parasympathetic Training",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Evening Relaxation Routine",
+              "duration": "10 min",
+              "steps": [
+                "Do this 30–60 minutes before bed:",
+                "Supine: 10 slow Umbrella Breaths (4 in, 6 out).",
+                "Happy Baby: 2 min gentle rocking with Drop breaths.",
+                "Butterfly: 2 min eyes closed, breath focus only.",
+                "Progressive muscle relaxation: tighten and release feet → calves → thighs → glutes → pelvic floor → abs → chest → hands → face. 5 sec tension, 10 sec release.",
+                "Final: 10 natural breaths. Notice pelvic floor at its most relaxed state."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Sleep quality critically affects serotonin production. 7+ hours of uninterrupted sleep supports serotonin synthesis and parasympathetic nervous system recovery. The evening relaxation routine both improves sleep quality AND prevents overnight pelvic floor tension accumulation.",
+            "coachCorner": "Performance anxiety is often worst at night, before sleep. This routine breaks the anxiety-tension cycle. Consider making it permanent."
+          }
+        },
+        {
+          "day": 26,
+          "headline": "Stress & Anxiety Management",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "The Anxiety-Arousal Disconnect",
+              "duration": "10 min",
+              "steps": [
+                "Performance anxiety accelerates PE by activating the sympathetic nervous system.",
+                "Practice: 10 seated Drop breaths → 10 standing Drop-Flick cycles.",
+                "The 'Pre-Intimate Calming Sequence': 3 Umbrella Breaths → 5 Drop breaths → 3 gentle Flicks. Takes 60 seconds.",
+                "Visualization: 3 minutes of confident mental rehearsal. Breathe, feel your pelvic floor controlled and responsive.",
+                "The '5-5-5' daily micro-practice: 5 breaths + 5 Drop-Flick cycles + 5 breaths = 90 seconds. 3× daily."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The anxiety-PE cycle: anxiety → sympathetic activation → high pelvic floor tension → hair-trigger reflex → PE → more anxiety. The Pre-Intimate Calming Sequence breaks this cycle by forcing parasympathetic activation before intimacy, lowering baseline tension.",
+            "coachCorner": "The 5-5-5 practice is your lifetime maintenance tool. 90 seconds, anywhere, anytime. Morning, midday, evening. 4.5 minutes a day for permanent PE management."
+          }
+        },
+        {
+          "day": 27,
+          "headline": "Masters-Level Arousal Surfing",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Extended Surfing Session",
+              "duration": "12 min",
+              "steps": [
+                "Goal: maintain arousal in the 7–8.5 zone for as long as possible.",
+                "Use ALL tools: Drop breathing, Flick-During, position changes, Squeeze if needed.",
+                "Track total time in the 7–8.5 zone.",
+                "New challenge: try to push to 8.5 and control with only The Drop (no Flick, no stop).",
+                "If you can sustain 8.5 with breathing alone for 30+ seconds, your control is elite.",
+                "Cool down: Full relaxation flow."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Levels 8–8.5 with only breathing control is the masters-level outcome. Most men reach this between week 4 and week 8. If you're not there yet, that's fine — you now have the tools and the training progression. Continue the maintenance protocol and it will come."
+          }
+        },
+        {
+          "day": 28,
+          "headline": "Graduation & Maintenance",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Graduation Circuit (Repeat Day 22)",
+              "duration": "12 min",
+              "steps": [
+                "Full Performance Circuit one final time. Notice every improvement from Day 1.",
+                "Finish with the full relaxation flow."
+              ]
+            },
+            {
+              "name": "Final Self-Assessment",
+              "duration": "3 min",
+              "steps": [
+                "Final scores — compare with Day 1, 7, 14, 21:",
+                "Arousal awareness (0–10).",
+                "Drop effectiveness (0–10).",
+                "Flick-During control (highest level maintained).",
+                "Transition speed (seconds).",
+                "Arousal surfing duration (minutes in 7–8 zone).",
+                "Overall confidence (0–10)."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Your maintenance protocol:\n\n• Daily: 5-5-5 micro-practice, 3× per day (4.5 min total)\n• 3× per week: Day 20 Full Integration Circuit (15 min)\n• Weekly: Day 25 Evening Relaxation before bed\n• Before intimacy: Pre-Intimate Calming Sequence (60 seconds)\n• Monthly: Full Day 28 assessment\n\nConsistency beats intensity — always."
+          }
+        }
+      ]
+    }
+  ]
+}

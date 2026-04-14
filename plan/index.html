@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Your Protocol — PelvicFit Men</title>
+  <meta name="description" content="Your personalized 28-day pelvic floor training protocol.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    /* ─── RESET & BASE ─────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    :root {
+      --bg: #0a0e2a;
+      --bg-card: #111640;
+      --bg-card-hover: #161b4a;
+      --bg-elevated: #1a1f50;
+      --border: #2e3566;
+      --border-light: #1e2350;
+      --text: #ffffff;
+      --text-secondary: #8892b0;
+      --text-muted: #4a5568;
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.2);
+      --green: #27ae60;
+      --green-glow: rgba(39, 174, 96, 0.2);
+      --amber: #f59e0b;
+      --amber-glow: rgba(245, 158, 11, 0.2);
+      --red: #ef4444;
+      --gradient-cta: linear-gradient(135deg, #1abc9c, #2ecc71);
+      --gradient-progress: linear-gradient(90deg, #1e3a8a, #3b82f6, #27ae60);
+      --radius: 12px;
+      --radius-sm: 8px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.3);
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ─── LAYOUT ───────────────────────────────────────── */
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 0 16px 100px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border-light);
+      margin-bottom: 24px;
+    }
+    .header-brand {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+    }
+    .header-back {
+      background: none;
+      border: none;
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      display: none;
+    }
+    .header-back.visible { display: block; }
+
+    /* ─── LOADING VIEW ─────────────────────────────────── */
+    .view-loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      text-align: center;
+    }
+    .loader {
+      width: 48px;
+      height: 48px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loader-text {
+      margin-top: 16px;
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+
+    /* ─── ERROR VIEW ───────────────────────────────────── */
+    .view-error {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      text-align: center;
+    }
+    .error-icon { font-size: 48px; margin-bottom: 16px; }
+    .error-title { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+    .error-text { color: var(--text-secondary); font-size: 14px; line-height: 1.6; max-width: 320px; }
+    .error-text a { color: var(--accent); }
+
+    /* ─── PROGRESS HEADER ──────────────────────────────── */
+    .progress-section { margin-bottom: 28px; }
+    .progress-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .progress-subtitle {
+      color: var(--text-secondary);
+      font-size: 13px;
+      margin-bottom: 16px;
+    }
+    .progress-bar-wrap {
+      width: 100%;
+      height: 8px;
+      background: var(--border-light);
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: var(--gradient-progress);
+      border-radius: 4px;
+      transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+      background-size: 200% 100%;
+      animation: shimmer 2s ease-in-out infinite;
+    }
+    @keyframes shimmer { 50% { background-position: 100% 0; } }
+    .progress-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 8px;
+    }
+    .progress-day {
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+    .progress-pct {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    /* ─── STREAK ───────────────────────────────────────── */
+    .streak-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--amber-glow);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--amber);
+      margin-bottom: 24px;
+    }
+
+    /* ─── TODAY'S CARD ──────────────────────────────────── */
+    .today-card {
+      background: var(--bg-card);
+      border: 1px solid var(--accent);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: 28px;
+      box-shadow: 0 0 30px var(--accent-glow);
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .today-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 40px var(--accent-glow);
+    }
+    .today-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .today-headline {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .today-exercises {
+      color: var(--text-secondary);
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .today-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .today-cta {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      margin-top: 16px;
+      background: var(--gradient-cta);
+      border: none;
+      border-radius: var(--radius-sm);
+      color: white;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(46,204,113,0.3);
+      transition: transform 0.15s;
+    }
+    .today-cta:hover { transform: translateY(-1px); }
+
+    /* ─── PHASE TIMELINE ───────────────────────────────── */
+    .phase-section { margin-bottom: 16px; }
+    .phase-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 12px;
+      transition: border-color 0.3s;
+    }
+    .phase-card.active { border-color: var(--accent); }
+    .phase-card.locked { opacity: 0.5; }
+    .phase-card.completed { border-color: var(--green); }
+    .phase-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 20px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .phase-header:hover { background: var(--bg-card-hover); }
+    .phase-info { flex: 1; }
+    .phase-name {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .phase-duration {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    .phase-status {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 12px;
+    }
+    .phase-status.complete { background: var(--green-glow); color: var(--green); }
+    .phase-status.current { background: var(--accent-glow); color: var(--accent); }
+    .phase-status.locked-badge { background: rgba(255,255,255,0.05); color: var(--text-muted); }
+    .phase-days {
+      padding: 0 20px 16px;
+      display: none;
+    }
+    .phase-days.expanded { display: block; }
+    .day-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 0;
+      border-top: 1px solid var(--border-light);
+      cursor: pointer;
+      transition: background 0.15s;
+      border-radius: 6px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin: 0 -8px;
+    }
+    .day-row:hover { background: var(--bg-card-hover); }
+    .day-row.locked { cursor: default; opacity: 0.4; }
+    .day-dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      flex-shrink: 0;
+    }
+    .day-dot.done { background: var(--green); border-color: var(--green); color: white; }
+    .day-dot.active { border-color: var(--accent); box-shadow: 0 0 8px var(--accent-glow); animation: pulse-dot 2s infinite; }
+    @keyframes pulse-dot {
+      0%, 100% { box-shadow: 0 0 4px var(--accent-glow); }
+      50% { box-shadow: 0 0 16px var(--accent-glow); }
+    }
+    .day-dot.locked { border-color: var(--text-muted); }
+    .day-label {
+      flex: 1;
+      font-size: 14px;
+    }
+    .day-label .day-num { font-weight: 600; }
+    .day-label .day-title { color: var(--text-secondary); margin-left: 4px; }
+
+    /* ─── SESSION VIEW ─────────────────────────────────── */
+    .session-header {
+      margin-bottom: 24px;
+    }
+    .session-phase {
+      font-size: 12px;
+      color: var(--accent);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+    .session-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .session-day-label {
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+
+    /* Exercise Block */
+    .exercise-block {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: 16px;
+    }
+    .exercise-name {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .exercise-duration {
+      font-size: 13px;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
+    /* Exercise Illustration */
+    .exercise-illustration {
+      width: 100%;
+      border-radius: var(--radius-sm);
+      margin-bottom: 16px;
+      background: #080b1e;
+      overflow: hidden;
+    }
+    .exercise-illustration img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: var(--radius-sm);
+    }
+    .exercise-steps { list-style: none; counter-reset: step; }
+    .exercise-steps li {
+      counter-increment: step;
+      position: relative;
+      padding-left: 32px;
+      margin-bottom: 12px;
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text-secondary);
+    }
+    .exercise-steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      top: 1px;
+      width: 22px;
+      height: 22px;
+      background: var(--accent-glow);
+      color: var(--accent);
+      border-radius: 50%;
+      font-size: 11px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Deep Dive Expandable Sections */
+    .deep-dive { margin-top: 20px; }
+    .dd-section {
+      border-left: 3px solid var(--border);
+      margin-bottom: 8px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      overflow: hidden;
+      transition: border-color 0.3s;
+    }
+    .dd-section.why { border-left-color: var(--accent); }
+    .dd-section.coach { border-left-color: var(--amber); }
+    .dd-section.warning { border-left-color: var(--red); }
+    .dd-section.check { border-left-color: var(--green); }
+    
+    .dd-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 16px;
+      background: var(--bg-elevated);
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.15s;
+    }
+    .dd-header:hover { background: var(--bg-card-hover); }
+    .dd-icon { font-size: 16px; }
+    .dd-title {
+      flex: 1;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .dd-chevron {
+      color: var(--text-muted);
+      font-size: 12px;
+      transition: transform 0.3s;
+    }
+    .dd-section.open .dd-chevron { transform: rotate(90deg); }
+    .dd-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .dd-section.open .dd-body { max-height: 500px; }
+    .dd-content {
+      padding: 12px 16px;
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      background: rgba(17, 22, 64, 0.5);
+    }
+
+    /* Supplement Context */
+    .supplement-card {
+      background: linear-gradient(135deg, rgba(39, 174, 96, 0.08), rgba(59, 130, 246, 0.08));
+      border: 1px solid rgba(39, 174, 96, 0.2);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-top: 16px;
+    }
+    .supplement-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--green);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .supplement-text {
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+    .supplement-foods { list-style: none; margin: 12px 0; }
+    .supplement-foods li {
+      padding: 6px 0;
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+    .supplement-foods li strong { color: var(--text); }
+    .supplement-cta {
+      display: inline-block;
+      padding: 10px 20px;
+      background: var(--green-glow);
+      border: 1px solid rgba(39, 174, 96, 0.3);
+      border-radius: var(--radius-sm);
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .supplement-cta:hover { background: rgba(39, 174, 96, 0.2); }
+
+    /* Mark Complete Button (sticky on mobile) */
+    .complete-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--bg);
+      border-top: 1px solid var(--border);
+      padding: 12px 16px;
+      z-index: 100;
+    }
+    .complete-bar .container { padding: 0; max-width: 480px; margin: 0 auto; }
+    .btn-complete {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      background: var(--gradient-cta);
+      border: none;
+      border-radius: var(--radius-sm);
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(46,204,113,0.35);
+      transition: transform 0.15s, opacity 0.15s;
+    }
+    .btn-complete:hover { transform: translateY(-1px); }
+    .btn-complete:disabled { opacity: 0.5; cursor: default; transform: none; }
+    .btn-complete.completed-btn {
+      background: var(--bg-elevated);
+      box-shadow: none;
+      color: var(--green);
+      border: 1px solid var(--green);
+    }
+
+    /* ─── COMPLETION VIEW ──────────────────────────────── */
+    .completion-wrap {
+      text-align: center;
+      padding: 40px 0;
+    }
+    .completion-icon { font-size: 64px; margin-bottom: 16px; }
+    .completion-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+    .completion-sub {
+      color: var(--text-secondary);
+      font-size: 15px;
+      margin-bottom: 32px;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .stat-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 8px;
+      text-align: center;
+    }
+    .stat-icon { font-size: 24px; margin-bottom: 4px; }
+    .stat-value { font-size: 20px; font-weight: 800; margin-bottom: 2px; }
+    .stat-label { font-size: 11px; color: var(--text-secondary); }
+    .upsell-card-wrap {
+      background: var(--bg-card);
+      border: 1px solid var(--amber);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-top: 24px;
+      box-shadow: 0 0 30px var(--amber-glow);
+    }
+    .upsell-title { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+    .upsell-text { color: var(--text-secondary); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+
+    /* ─── PROTOCOL SWITCHER (bundle buyers) ─────────── */
+    .protocol-switcher {
+      display: flex;
+      gap: 6px;
+      padding: 4px;
+      background: var(--bg-card);
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      margin-bottom: 24px;
+      overflow-x: auto;
+    }
+    .protocol-tab {
+      flex: 1;
+      padding: 8px 4px;
+      text-align: center;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .protocol-tab.active {
+      background: var(--accent);
+      color: white;
+    }
+    .protocol-tab:hover:not(.active) { color: var(--text-secondary); }
+
+    /* ─── UTILITIES ─────────────────────────────────────── */
+    .hidden { display: none !important; }
+    .mt-24 { margin-top: 24px; }
+
+    /* ─── ANIMATIONS ───────────────────────────────────── */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in { animation: fadeIn 0.4s ease-out; }
+
+    @keyframes celebrate {
+      0% { transform: scale(1); }
+      30% { transform: scale(1.2); }
+      50% { transform: scale(0.95); }
+      70% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    .celebrate { animation: celebrate 0.6s ease-out; }
+  </style>
+</head>
+<body>
+  <div class="container" id="app">
+    <!-- Loading state -->
+    <div class="view-loading" id="view-loading">
+      <div class="loader"></div>
+      <p class="loader-text">Loading your protocol...</p>
+    </div>
+  </div>
+
+  <script>
+  // ─── APP STATE ──────────────────────────────────────
+  const App = {
+    token: null,
+    profile: null,
+    progress: null,
+    content: null,
+    currentView: 'loading', // loading | dashboard | session | completion | error
+    currentDay: null,       // day number being viewed in session
+    currentPlan: null,      // for bundle: which plan is active
+  };
+
+  // ─── INIT ──────────────────────────────────────────
+  async function init() {
+    // Extract token from URL: /plan/{token}
+    const pathParts = window.location.pathname.split('/').filter(Boolean);
+    App.token = pathParts[pathParts.length - 1];
+
+    if (!App.token || App.token === 'plan') {
+      showError('No protocol token found', 'Please use the link from your purchase confirmation email.');
+      return;
+    }
+
+    try {
+      // 1. Fetch profile + progress from KV
+      const res = await fetch(`/api/protocol?token=${App.token}`);
+      if (res.status === 404) {
+        showError('Protocol not found', 'This link may have expired or is invalid.<br><a href="mailto:support@pelvicfit.xyz">Contact support</a> if you believe this is a mistake.');
+        return;
+      }
+      const data = await res.json();
+      App.profile = data.profile;
+      App.progress = data.progress;
+      App.currentPlan = App.profile.plan || 'firmness';
+
+      // 2. Merge with localStorage (take the most complete version)
+      mergeProgress();
+
+      // 3. Load content JSON
+      await loadContent(App.currentPlan);
+
+      // 4. Check if protocol is complete
+      if (App.progress.completedDays.length >= 28) {
+        showCompletion();
+      } else {
+        showDashboard();
+      }
+    } catch (err) {
+      console.error('Init error:', err);
+      // Fallback: try localStorage only
+      const localProgress = localStorage.getItem(`pf_progress_${App.token}`);
+      if (localProgress) {
+        App.progress = JSON.parse(localProgress);
+        try {
+          await loadContent(App.currentPlan || 'firmness');
+          showDashboard();
+        } catch {
+          showError('Connection error', 'Unable to load your protocol. Please check your internet connection and try again.');
+        }
+      } else {
+        showError('Connection error', 'Unable to load your protocol. Please check your internet connection and <a href="mailto:support@pelvicfit.xyz">contact support</a>.');
+      }
+    }
+  }
+
+  // ─── CONTENT LOADING ───────────────────────────────
+  async function loadContent(plan) {
+    const res = await fetch(`/content/${plan}.json`);
+    if (!res.ok) throw new Error(`Content not found: ${plan}`);
+    App.content = await res.json();
+    document.title = `${App.content.meta.title} — PelvicFit Men`;
+  }
+
+  // ─── PROGRESS MANAGEMENT ───────────────────────────
+  function mergeProgress() {
+    const localKey = `pf_progress_${App.token}`;
+    const local = JSON.parse(localStorage.getItem(localKey) || 'null');
+    if (local) {
+      // Take whichever has more completed days
+      if (local.completedDays && local.completedDays.length > (App.progress?.completedDays?.length || 0)) {
+        App.progress = local;
+      }
+    }
+    // Also ensure defaults
+    if (!App.progress) {
+      App.progress = {
+        completedDays: [],
+        currentStreak: 0,
+        longestStreak: 0,
+        lastCompletedDate: null,
+        weeklyScores: {},
+        startDate: new Date().toISOString().split('T')[0],
+      };
+    }
+  }
+
+  function saveProgress() {
+    // Save to localStorage immediately
+    localStorage.setItem(`pf_progress_${App.token}`, JSON.stringify(App.progress));
+    // Sync to KV (fire and forget)
+    fetch('/api/protocol', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ token: App.token, progress: App.progress }),
+    }).catch(err => console.warn('KV sync failed:', err));
+  }
+
+  function markDayComplete(dayNum) {
+    if (App.progress.completedDays.includes(dayNum)) return;
+
+    App.progress.completedDays.push(dayNum);
+    App.progress.completedDays.sort((a, b) => a - b);
+
+    // Streak calculation
+    const today = new Date().toISOString().split('T')[0];
+    const lastDate = App.progress.lastCompletedDate;
+    if (!lastDate || daysBetween(lastDate, today) <= 1) {
+      App.progress.currentStreak++;
+    } else {
+      App.progress.currentStreak = 1;
+    }
+    App.progress.longestStreak = Math.max(App.progress.longestStreak, App.progress.currentStreak);
+    App.progress.lastCompletedDate = today;
+
+    saveProgress();
+
+    // Track event
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'protocol_day_complete', { day: dayNum, streak: App.progress.currentStreak });
+    }
+  }
+
+  function daysBetween(d1, d2) {
+    const a = new Date(d1);
+    const b = new Date(d2);
+    return Math.floor((b - a) / (1000 * 60 * 60 * 24));
+  }
+
+  function getNextDay() {
+    for (let d = 1; d <= 28; d++) {
+      if (!App.progress.completedDays.includes(d)) return d;
+    }
+    return 28;
+  }
+
+  function isPhaseUnlocked(phaseNum) {
+    if (phaseNum === 1) return true;
+    // Starter tier: only phases 1-2
+    if (App.profile?.tier === 'starter' && phaseNum > 2) return false;
+    // Phase N unlocks when all days of Phase N-1 are complete
+    const prevPhaseEnd = (phaseNum - 1) * 7;
+    for (let d = (phaseNum - 2) * 7 + 1; d <= prevPhaseEnd; d++) {
+      if (!App.progress.completedDays.includes(d)) return false;
+    }
+    return true;
+  }
+
+  function getPhaseStatus(phaseNum) {
+    const start = (phaseNum - 1) * 7 + 1;
+    const end = phaseNum * 7;
+    const completed = App.progress.completedDays.filter(d => d >= start && d <= end);
+    if (completed.length === 7) return 'complete';
+    if (completed.length > 0 || getNextDay() >= start && getNextDay() <= end) return 'current';
+    if (!isPhaseUnlocked(phaseNum)) return 'locked';
+    return 'upcoming';
+  }
+
+  // ─── VIEWS ─────────────────────────────────────────
+
+  // --- ERROR ---
+  function showError(title, text) {
+    App.currentView = 'error';
+    document.getElementById('app').innerHTML = `
+      <div class="header">
+        <span class="header-brand">PelvicFit</span>
+      </div>
+      <div class="view-error fade-in">
+        <div class="error-icon">⚠️</div>
+        <div class="error-title">${title}</div>
+        <div class="error-text">${text}</div>
+      </div>`;
+  }
+
+  // --- DASHBOARD ---
+  function showDashboard() {
+    App.currentView = 'dashboard';
+    const nextDay = getNextDay();
+    const dayData = getDayData(nextDay);
+    const pct = Math.round((App.progress.completedDays.length / 28) * 100);
+    const streak = App.progress.currentStreak;
+    const streakEmoji = streak >= 15 ? '🔥🔥🔥' : streak >= 7 ? '🔥🔥' : streak >= 1 ? '🔥' : '';
+
+    // Protocol switcher for bundle buyers
+    let switcherHtml = '';
+    if (App.profile?.tier === 'bundle') {
+      const plans = [
+        { id: 'firmness', label: 'Firmness' },
+        { id: 'endurance', label: 'Endurance' },
+        { id: 'bladder', label: 'Bladder' },
+        { id: 'libido', label: 'Vitality' },
+      ];
+      switcherHtml = `<div class="protocol-switcher">${plans.map(p =>
+        `<div class="protocol-tab ${p.id === App.currentPlan ? 'active' : ''}" onclick="switchPlan('${p.id}')">${p.label}</div>`
+      ).join('')}</div>`;
+    }
+
+    // Build phase timeline
+    let phasesHtml = '';
+    if (App.content?.phases) {
+      App.content.phases.forEach((phase, idx) => {
+        const phaseNum = idx + 1;
+        const status = getPhaseStatus(phaseNum);
+        const unlocked = isPhaseUnlocked(phaseNum);
+        const isExpanded = status === 'current' || status === 'upcoming';
+
+        let statusBadge = '';
+        if (status === 'complete') statusBadge = '<span class="phase-status complete">✓ Complete</span>';
+        else if (status === 'current') statusBadge = '<span class="phase-status current">In Progress</span>';
+        else if (status === 'locked') statusBadge = '<span class="phase-status locked-badge">🔒 Locked</span>';
+
+        let daysHtml = '';
+        if (unlocked) {
+          phase.days.forEach(day => {
+            const isDone = App.progress.completedDays.includes(day.day);
+            const isActive = day.day === nextDay;
+            const dotClass = isDone ? 'done' : isActive ? 'active' : '';
+            daysHtml += `
+              <div class="day-row ${!unlocked ? 'locked' : ''}" onclick="${unlocked ? `openSession(${day.day})` : ''}">
+                <div class="day-dot ${dotClass}">${isDone ? '✓' : ''}</div>
+                <div class="day-label">
+                  <span class="day-num">Day ${day.day}</span>
+                  <span class="day-title">— ${day.headline}</span>
+                </div>
+              </div>`;
+          });
+        } else if (App.profile?.tier === 'starter' && phaseNum > 2) {
+          daysHtml = `
+            <div style="padding:12px 0;text-align:center;">
+              <p style="color:var(--text-secondary);font-size:13px;margin-bottom:12px;">Unlock the full 28-day protocol</p>
+              <a href="https://buy.stripe.com/9B66oI7Q111H8vd81yb3q01" style="display:inline-block;padding:10px 20px;background:var(--gradient-cta);color:white;border-radius:8px;font-weight:600;font-size:13px;text-decoration:none;">Upgrade — $10 more</a>
+            </div>`;
+        } else {
+          daysHtml = `<p style="padding:8px 0;color:var(--text-muted);font-size:13px;">Complete Phase ${phaseNum - 1} to unlock</p>`;
+        }
+
+        phasesHtml += `
+          <div class="phase-card ${status === 'complete' ? 'completed' : status === 'current' ? 'active' : status === 'locked' ? 'locked' : ''}">
+            <div class="phase-header" onclick="togglePhase(${phaseNum})">
+              <div class="phase-info">
+                <div class="phase-name">${phase.name}</div>
+                <div class="phase-duration">${phase.duration}</div>
+              </div>
+              ${statusBadge}
+            </div>
+            <div class="phase-days ${isExpanded ? 'expanded' : ''}" id="phase-days-${phaseNum}">
+              ${daysHtml}
+            </div>
+          </div>`;
+      });
+    }
+
+    document.getElementById('app').innerHTML = `
+      <div class="header">
+        <span class="header-brand">PelvicFit</span>
+      </div>
+      <div class="fade-in">
+        ${switcherHtml}
+
+        <div class="progress-section">
+          <div class="progress-title">${App.content?.meta?.title || 'Your Protocol'}</div>
+          <div class="progress-subtitle">${App.content?.assessment?.description || ''}</div>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar-fill" style="width:${pct}%"></div>
+          </div>
+          <div class="progress-meta">
+            <span class="progress-day">Day ${nextDay} of 28</span>
+            <span class="progress-pct">${pct}%</span>
+          </div>
+        </div>
+
+        ${streak > 0 ? `<div class="streak-badge">${streakEmoji} ${streak}-day streak</div>` : ''}
+
+        ${dayData ? `
+        <div class="today-card" onclick="openSession(${nextDay})">
+          <div class="today-label">Today's Protocol</div>
+          <div class="today-headline">${dayData.headline}</div>
+          <div class="today-exercises">${dayData.exercises.map(e => e.name).join(' + ')}</div>
+          <div class="today-meta">
+            <span>⏱ ${dayData.totalDuration}</span>
+            <span>Day ${nextDay}</span>
+          </div>
+          <button class="today-cta" onclick="event.stopPropagation(); openSession(${nextDay})">Start Session →</button>
+        </div>` : ''}
+
+        <div class="phase-section">
+          ${phasesHtml}
+        </div>
+      </div>`;
+
+    // Remove any existing complete bar
+    const existing = document.querySelector('.complete-bar');
+    if (existing) existing.remove();
+  }
+
+  // --- SESSION VIEW ---
+  function openSession(dayNum) {
+    App.currentView = 'session';
+    App.currentDay = dayNum;
+    const dayData = getDayData(dayNum);
+    if (!dayData) return showDashboard();
+
+    const phaseIdx = Math.ceil(dayNum / 7) - 1;
+    const phase = App.content.phases[phaseIdx];
+    const isDone = App.progress.completedDays.includes(dayNum);
+
+    // Build exercise blocks
+    let exercisesHtml = dayData.exercises.map(ex => `
+      <div class="exercise-block">
+        <div class="exercise-name">${ex.name}</div>
+        <div class="exercise-duration">⏱ ${ex.duration}</div>
+        ${ex.image ? `<div class="exercise-illustration"><img src="/content/images/${ex.image}" alt="${ex.name}" loading="lazy"></div>` : ''}
+        <ol class="exercise-steps">
+          ${ex.steps.map(s => `<li>${s}</li>`).join('')}
+        </ol>
+      </div>
+    `).join('');
+
+    // Build deep dive sections
+    let deepDiveHtml = '';
+    if (dayData.deepDive) {
+      const dd = dayData.deepDive;
+      const sections = [
+        { key: 'whyThisWorks', icon: '🧠', title: 'Why This Works', cls: 'why' },
+        { key: 'coachCorner', icon: '🎯', title: "Coach's Corner", cls: 'coach' },
+        { key: 'visualization', icon: '🌀', title: 'Visualization Cue', cls: 'why' },
+        { key: 'watchOut', icon: '⚠️', title: 'Watch Out', cls: 'warning' },
+        { key: 'selfCheck', icon: '✅', title: 'Self-Check', cls: 'check' },
+      ];
+      const ddBlocks = sections
+        .filter(s => dd[s.key])
+        .map(s => `
+          <div class="dd-section ${s.cls}" onclick="toggleDD(this)">
+            <div class="dd-header">
+              <span class="dd-icon">${s.icon}</span>
+              <span class="dd-title">${s.title}</span>
+              <span class="dd-chevron">▸</span>
+            </div>
+            <div class="dd-body">
+              <div class="dd-content">${dd[s.key]}</div>
+            </div>
+          </div>`)
+        .join('');
+      deepDiveHtml = `<div class="deep-dive">${ddBlocks}</div>`;
+    }
+
+    // Supplement context
+    let supplementHtml = '';
+    if (dayData.supplementContext) {
+      const sc = dayData.supplementContext;
+      supplementHtml = `
+        <div class="supplement-card">
+          <div class="supplement-label">💊 Performance Insight</div>
+          <div class="supplement-text">${sc.hook}</div>
+          <div class="supplement-text">${sc.science}</div>
+          ${sc.foods ? `<ul class="supplement-foods">${sc.foods.map(f => `<li>• <strong>${f.name}</strong> — ${f.note}</li>`).join('')}</ul>` : ''}
+          ${sc.supplementCTA ? `<a href="${sc.supplementCTA.link}" class="supplement-cta">${sc.supplementCTA.text} →</a>` : ''}
+        </div>`;
+    }
+
+    document.getElementById('app').innerHTML = `
+      <div class="header">
+        <button class="header-back visible" onclick="showDashboard()">← Dashboard</button>
+        <span class="header-brand">Day ${dayNum}</span>
+      </div>
+      <div class="fade-in">
+        <div class="session-header">
+          <div class="session-phase">${phase?.name || ''} · ${phase?.duration || ''}</div>
+          <div class="session-title">${dayData.headline}</div>
+          <div class="session-day-label">Day ${dayNum} · ${dayData.totalDuration}</div>
+        </div>
+
+        ${exercisesHtml}
+        ${deepDiveHtml}
+        ${supplementHtml}
+      </div>`;
+
+    // Add sticky complete button
+    const bar = document.createElement('div');
+    bar.className = 'complete-bar';
+    bar.innerHTML = `
+      <div class="container">
+        <button class="btn-complete ${isDone ? 'completed-btn' : ''}" 
+                onclick="${isDone ? '' : `completeDay(${dayNum})`}"
+                ${isDone ? 'disabled' : ''}>
+          ${isDone ? '✓ Day Complete' : '✅ Mark Day Complete'}
+        </button>
+      </div>`;
+    document.body.appendChild(bar);
+
+    window.scrollTo(0, 0);
+  }
+
+  function completeDay(dayNum) {
+    markDayComplete(dayNum);
+
+    // Animate the button
+    const btn = document.querySelector('.btn-complete');
+    btn.classList.add('completed-btn', 'celebrate');
+    btn.textContent = '✓ Day Complete';
+    btn.disabled = true;
+
+    // Check for phase unlock or completion
+    setTimeout(() => {
+      if (App.progress.completedDays.length >= 28) {
+        showCompletion();
+      } else {
+        // Brief celebration then go back to dashboard
+        setTimeout(() => showDashboard(), 1200);
+      }
+    }, 800);
+  }
+
+  // --- COMPLETION VIEW ---
+  function showCompletion() {
+    App.currentView = 'completion';
+    const bar = document.querySelector('.complete-bar');
+    if (bar) bar.remove();
+
+    document.getElementById('app').innerHTML = `
+      <div class="header">
+        <span class="header-brand">PelvicFit</span>
+      </div>
+      <div class="completion-wrap fade-in">
+        <div class="completion-icon">🏆</div>
+        <div class="completion-title">Protocol Complete</div>
+        <div class="completion-sub">You've completed all 28 days. Incredible commitment.</div>
+
+        <div class="progress-bar-wrap" style="margin-bottom:24px">
+          <div class="progress-bar-fill" style="width:100%"></div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon">🔥</div>
+            <div class="stat-value">${App.progress.longestStreak}</div>
+            <div class="stat-label">Longest Streak</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">📅</div>
+            <div class="stat-value">28</div>
+            <div class="stat-label">Days Done</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">⏱</div>
+            <div class="stat-value">~5hrs</div>
+            <div class="stat-label">Total Time</div>
+          </div>
+        </div>
+
+        <div class="upsell-card-wrap">
+          <div class="upsell-title">🚀 What's Next?</div>
+          <div class="upsell-text">Your foundation is built. The Advanced Protocol adds ejaculatory control, endurance training, and a complete performance supplement stack.</div>
+          <a href="https://buy.stripe.com/00w3cw6LXcKpbHp95Cb3q02" class="today-cta" style="text-decoration:none;display:block;">
+            Unlock Advanced Protocol — $29.97
+          </a>
+        </div>
+
+        <button onclick="showDashboard()" class="today-cta" style="background:var(--bg-elevated);box-shadow:none;border:1px solid var(--border);margin-top:12px;">
+          🔄 Review Protocol
+        </button>
+      </div>`;
+  }
+
+  // ─── HELPERS ───────────────────────────────────────
+  function getDayData(dayNum) {
+    if (!App.content?.phases) return null;
+    for (const phase of App.content.phases) {
+      const day = phase.days.find(d => d.day === dayNum);
+      if (day) return day;
+    }
+    return null;
+  }
+
+  function togglePhase(phaseNum) {
+    const el = document.getElementById(`phase-days-${phaseNum}`);
+    if (el) el.classList.toggle('expanded');
+  }
+
+  function toggleDD(section) {
+    section.classList.toggle('open');
+    // Track which sections are expanded
+    if (section.classList.contains('open') && typeof gtag !== 'undefined') {
+      const title = section.querySelector('.dd-title')?.textContent;
+      gtag('event', 'section_expanded', { section: title, day: App.currentDay });
+    }
+  }
+
+  async function switchPlan(planId) {
+    App.currentPlan = planId;
+    try {
+      await loadContent(planId);
+      showDashboard();
+    } catch {
+      console.error('Failed to load plan:', planId);
+    }
+  }
+
+  // ─── START ─────────────────────────────────────────
+  init();
+  </script>
+</body>
+</html>

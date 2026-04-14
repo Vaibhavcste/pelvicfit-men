@@ -1,0 +1,855 @@
+{
+  "meta": {
+    "id": "libido",
+    "title": "28-Day Desire & Vitality Protocol",
+    "description": "A research-backed program to restore sexual desire through hormonal optimization, vascular health, pelvic floor conditioning, and lifestyle recalibration.",
+    "duration": "28 days",
+    "dailyTime": "7–15 minutes",
+    "goal": "Libido"
+  },
+  "assessment": {
+    "description": "Your personalized protocol based on your assessment results.",
+    "disclaimer": "This program is educational and does not replace medical advice. Consult an endocrinologist or urologist for persistent low libido."
+  },
+  "phases": [
+    {
+      "name": "Phase 1 — Reset & Restore",
+      "duration": "Days 1–7",
+      "description": "Low libido often starts with chronic tension, poor sleep, and a nervous system stuck in 'fight or flight.' This phase resets your baseline by activating the parasympathetic system — the state where desire naturally arises.",
+      "days": [
+        {
+          "day": 1,
+          "headline": "Nervous System Reset",
+          "totalDuration": "7 min",
+          "exercises": [
+            {
+              "name": "360-Degree Umbrella Breath",
+              "duration": "5 min (10 breaths × 3 sets)",
+              "steps": [
+                "Lie on your back, knees bent, feet flat. One hand on chest, one on lower belly.",
+                "Inhale 4 seconds — ribs expand front, sides, AND back. Chest stays still.",
+                "Imagine your pelvic floor opening downward like an umbrella on each inhale.",
+                "Exhale 6 seconds through pursed lips. Feel the natural gentle pelvic floor recoil.",
+                "10 breaths, 3 sets. Rest 30 seconds between sets.",
+                "Focus: each exhale activates the parasympathetic nervous system — the 'calm and connect' state."
+              ],
+              "image": "supine_breathing.png"
+            },
+            {
+              "name": "Vitality Baseline Check",
+              "duration": "2 min",
+              "steps": [
+                "Rate the following 0–10 (write these down):",
+                "Morning erection frequency (0 = never, 10 = every morning).",
+                "Spontaneous desire during the day (0 = absent, 10 = frequent).",
+                "Energy level upon waking (0 = exhausted, 10 = vibrant).",
+                "Sleep quality (0 = terrible, 10 = restorative).",
+                "Stress level (0 = overwhelmed, 10 = calm and in control).",
+                "These five markers collectively indicate your hormonal and nervous system health."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Sexual desire is primarily a parasympathetic function. The 'rest and digest' nervous system must be active for arousal to initiate naturally. Chronic stress keeps you locked in sympathetic ('fight or flight') mode, which suppresses testosterone production, reduces blood flow to sexual organs, and shuts down the brain's desire circuits. This single breathing exercise begins shifting the balance.",
+            "coachCorner": "Morning erections are your best biomarker for hormonal health. If they've decreased, it's usually a combination of poor sleep, high stress, and low physical activity — all of which this protocol addresses. Tracking them weekly gives you objective feedback.",
+            "selfCheck": "After the breathing session, notice: does your body feel calmer? Is there a slight warmth in your pelvic area? Even subtle shifts indicate parasympathetic activation."
+          }
+        },
+        {
+          "day": 2,
+          "headline": "Pelvic Floor Release for Blood Flow",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Anal Breath (The Drop)",
+              "duration": "5 min (10 breaths × 3 sets)",
+              "steps": [
+                "Lying down. On inhale, focus on the external anal sphincter expanding outward.",
+                "Cue: 'like a flower blooming.' Feel gentle widening and pelvic floor descent.",
+                "Exhale through pursed lips. Let the sphincter return naturally.",
+                "10 breaths, 3 sets. This releases tension that restricts blood flow to sexual organs."
+              ],
+              "image": "supine_breathing.png"
+            },
+            {
+              "name": "Butterfly Pose Breathing",
+              "duration": "3 min",
+              "steps": [
+                "Sit on pillow edge, feet together, knees wide.",
+                "10 Drop breaths. The hip opening increases blood flow to the pelvic region.",
+                "Use hands to push chest forward slightly for deeper stretch.",
+                "This pose specifically opens arteries that supply the genitals."
+              ],
+              "image": "butterfly_pose.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Pelvic floor tension restricts blood flow through the pudendal artery — the primary blood supply to the penis. When the pelvic floor muscles are chronically tight, blood flow decreases, reducing spontaneous arousal and the quality of erections. The Drop breathing technique directly reduces this restriction, improving vascular supply to sexual organs.",
+            "coachCorner": "Think of your pelvic floor as a garden hose with a kink. When it's tight, water (blood) trickles. When you release it, the full flow returns. The Drop is you un-kinking the hose."
+          }
+        },
+        {
+          "day": 3,
+          "headline": "Deep Stretch + Circulation",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Deep Squat Breathing",
+              "duration": "4 min (10 breaths × 2 sets)",
+              "steps": [
+                "Wall-supported squat. Knees wide. 10 Drop breaths per set.",
+                "The deep squat opens the pelvic bowl and promotes venous return from the lower body."
+              ],
+              "image": "deep_squat.png"
+            },
+            {
+              "name": "Hip Flexor Release",
+              "duration": "4 min",
+              "steps": [
+                "Half-kneeling position: one knee on ground, other foot forward at 90°.",
+                "Shift weight forward to feel the stretch in the back leg's hip flexor.",
+                "Hold for 60 seconds each side. 5 Drop breaths per side.",
+                "The psoas muscle, when tight, compresses the pelvic nerve plexus and impairs neural signaling to sexual organs.",
+                "Repeat both sides."
+              ],
+              "image": "hip_flexor.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The psoas muscle runs directly through the pelvic bowl and, when chronically tight (common in desk workers), can compress both arteries and nerves that serve the genitals. Hip flexor stretching restores neural conductivity and blood flow to the pelvic region. This is often a 'missing link' for men with unexplained low desire.",
+            "selfCheck": "If the hip flexor stretch feels intense, your psoas is a contributor to your symptoms. Spending 2 minutes in this stretch daily can make a significant difference within 2 weeks."
+          }
+        },
+        {
+          "day": 4,
+          "headline": "Perineal Release + Nutrition Foundations",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Tennis Ball Perineal Release",
+              "duration": "5 min",
+              "steps": [
+                "Tennis ball on firm chair, seated on perineum. Arms on rests to control pressure.",
+                "10 Drop breaths per tension point. Find 2–3 spots, 60 seconds each.",
+                "Focus on fully softening the tissue around the perineum."
+              ],
+              "image": "tennis_ball.png"
+            },
+            {
+              "name": "Frog Pose (Dynamic)",
+              "duration": "3 min",
+              "steps": [
+                "All fours, knees spread wide. Rock back toward heels (inhale/Drop) → forward past hands (exhale/relax).",
+                "10 rocks × 2 sets. Targets adductors and deep pelvic rotators."
+              ],
+              "image": "frog_pose.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The perineal release improves circulation to the corpus spongiosum and corpora cavernosa. Direct pressure and breathing release chronic fascial adhesions that develop from prolonged sitting. Many men report a subtle 'tingle' or warmth after this release — that's blood flow returning.",
+            "coachCorner": "Pair this session with a testosterone-supporting meal: fatty fish, eggs, avocado, and leafy greens. Nutrition compounds the circulatory benefits of the physical work."
+          },
+          "supplementContext": {
+            "hook": "Testosterone production depends on specific micronutrients — many men are deficient.",
+            "science": "Zinc, Vitamin D, and Magnesium are the three most critical micronutrients for testosterone synthesis. Deficiency in any one can suppress production by 20–40%.",
+            "foods": [
+              {
+                "name": "Oysters, beef, pumpkin seeds",
+                "note": "Highest zinc sources — essential for testosterone synthesis"
+              },
+              {
+                "name": "Eggs (whole, with yolk)",
+                "note": "Cholesterol is the building block of all sex hormones"
+              },
+              {
+                "name": "Fatty fish (salmon, mackerel)",
+                "note": "Vitamin D + Omega-3s for hormonal and vascular support"
+              },
+              {
+                "name": "Brazil nuts (2–3 daily)",
+                "note": "Selenium supports thyroid function, which regulates sex hormones"
+              },
+              {
+                "name": "Leafy greens (spinach, kale)",
+                "note": "Magnesium — cofactor for 300+ enzymatic reactions including testosterone synthesis"
+              }
+            ]
+          }
+        },
+        {
+          "day": 5,
+          "headline": "Full Relaxation + Visualization",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "5-Position Relaxation Flow",
+              "duration": "8 min",
+              "steps": [
+                "Position 1 — Supine: 10 Umbrella Breaths (2 min).",
+                "Position 2 — Happy Baby: 10 Drop Breaths (2 min).",
+                "Position 3 — Butterfly: 10 breaths, chest forward (2 min).",
+                "Position 4 — Deep Squat: 10 breaths with Drop cue (1 min).",
+                "Position 5 — Hip Flexor: 30 seconds each side with Drop breaths (1 min)."
+              ]
+            },
+            {
+              "name": "Desire Visualization",
+              "duration": "2 min",
+              "steps": [
+                "After the relaxation flow, stay supine with eyes closed.",
+                "Visualize a scenario that evokes desire — something personal, not performative.",
+                "Don't force arousal. Simply notice: does desire arise more easily in this relaxed state?",
+                "The parasympathetic state you've created IS the state where desire naturally lives."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Desire is not a decision — it's a state. It arises when the nervous system is in parasympathetic mode, hormones are balanced, and blood flow is adequate. The relaxation flow + visualization directly creates these conditions. Over time, your baseline state shifts toward the parasympathetic end, making spontaneous desire more frequent.",
+            "coachCorner": "If you noticed even a flicker of desire during the visualization, your system is responding. That flicker is the seed. The next 3 weeks water it."
+          }
+        },
+        {
+          "day": 6,
+          "headline": "Seated & Standing Awareness",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Seated Pelvic Floor Drop",
+              "duration": "5 min",
+              "steps": [
+                "Seated, feet flat. 10 breaths: inhale, sit bones spread. Exhale, settle.",
+                "Add Drop: inhale, pelvic floor descends between sit bones.",
+                "3 sets of 10 breaths. Practice in your desk chair."
+              ],
+              "image": "seated.png"
+            },
+            {
+              "name": "Standing Body Scan",
+              "duration": "3 min",
+              "steps": [
+                "Stand, feet hip-width. Scan from feet upward: soften each area.",
+                "At pelvic floor: consciously release. Hold softened state for 5 breaths.",
+                "Notice: does your body feel more 'alive' when the pelvic floor is relaxed?"
+              ],
+              "image": "standing.png"
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Micro-drops throughout the day keep your parasympathetic tone elevated. 3 Drop breaths at your desk, on the train, in line. Each one nudges your nervous system toward the state where desire lives."
+          }
+        },
+        {
+          "day": 7,
+          "headline": "Phase 1 Assessment",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Full Relaxation Flow (Day 5 Repeat)",
+              "duration": "8 min",
+              "steps": [
+                "Run through all 5 positions + Desire Visualization."
+              ]
+            },
+            {
+              "name": "Phase 1 Self-Assessment",
+              "duration": "2 min",
+              "steps": [
+                "Re-rate all Day 1 vitality markers:",
+                "Morning erection frequency, spontaneous desire, energy, sleep quality, stress level.",
+                "Note any shifts — even small ones indicate your nervous system is recalibrating."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Typical Day 7: stress down 1–2 points, sleep quality up 1–2 points, energy beginning to improve. Morning erections and desire are slower responders — usually shift noticeably in weeks 2–3. Phase 2 adds the testosterone-boosting exercise component."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 2 — Hormonal Activation",
+      "duration": "Days 8–14",
+      "description": "Resistance training is the most powerful natural testosterone booster. This phase combines pelvic floor activation with compound movements that trigger hormonal cascades.",
+      "days": [
+        {
+          "day": 8,
+          "headline": "The Flick + Bridge Foundation",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Drop Reset",
+              "duration": "2 min",
+              "steps": [
+                "5 Umbrella Breaths + 5 Drop breaths. Full relaxation before activation."
+              ]
+            },
+            {
+              "name": "The Flick",
+              "duration": "4 min (3 sets × 10 reps)",
+              "steps": [
+                "Lying down. Quick contraction: 'make your penis jump.' Hold 1 second, release 2 seconds.",
+                "Glutes and abs stay relaxed. 10 reps × 3 sets. Between sets: 3 Drop breaths."
+              ],
+              "image": "standing.png"
+            },
+            {
+              "name": "Glute Bridges",
+              "duration": "4 min (3 sets × 10 reps)",
+              "steps": [
+                "Lie on back, knees bent. Press through heels, lift hips.",
+                "At top: perform a 3-second Flick hold. Lower slowly.",
+                "10 reps × 3 sets. This combines pelvic floor activation with the largest muscles."
+              ],
+              "image": "bridge.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Large muscle activation triggers testosterone release. Glute bridges engage the glutes and hamstrings — the body's biggest muscles — creating a hormonal response. Adding the Flick at the top ensures your pelvic floor develops alongside your overall strength. This compound approach is significantly more effective than isolated Kegels.",
+            "coachCorner": "Testosterone peaks during and after resistance exercise. The harder the muscles work, the stronger the hormonal signal. Don't go easy on the bridges — make each rep count."
+          }
+        },
+        {
+          "day": 9,
+          "headline": "Squat Protocol",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Warm-Up",
+              "duration": "2 min",
+              "steps": [
+                "5 standing Drop breaths + 10 quick standing Flicks."
+              ]
+            },
+            {
+              "name": "Bodyweight Squat Series",
+              "duration": "8 min",
+              "steps": [
+                "Set 1: 15 bodyweight squats with Flick at the top. Controlled tempo.",
+                "Set 2: 15 squats with 3-second pause at the bottom (feel pelvic floor stretch).",
+                "Set 3: 10 squats with 5-second hold at the bottom + 3-second Flick hold at the top.",
+                "Rest 45 seconds between sets. Cool down: 5 Drop breaths.",
+                "Total: 40 squats. Your legs should feel worked."
+              ],
+              "image": "squat.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The 'Squat Rule for Blood Flow': squats activate the largest muscles in the body, causing a significant systemic increase in Nitric Oxide production. This improves micro-vascularization throughout the body, including the penis. Studies show that regular squat training improves erection quality markers independent of Kegel training.",
+            "coachCorner": "If these feel easy, hold a heavy book or backpack for added resistance. The hormonal response scales with effort — bodyweight is a starting point."
+          }
+        },
+        {
+          "day": 10,
+          "headline": "Lunge + Hip Opener",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Walking Lunges",
+              "duration": "5 min",
+              "steps": [
+                "Step into lunge — inhale, Drop pelvic floor into the hip flexor stretch.",
+                "Drive up — exhale, Flick at the top.",
+                "10 lunges (5 each leg) × 2 sets. Focus on depth and the hip flexor stretch.",
+                "Rest 45 seconds between sets."
+              ],
+              "image": "lunge.png"
+            },
+            {
+              "name": "90/90 Hip Opener",
+              "duration": "5 min",
+              "steps": [
+                "Sit on floor. One leg in front bent 90°, one behind bent 90°.",
+                "60 seconds each side with 5 Drop breaths per side.",
+                "Switch sides. Repeat twice.",
+                "This opens the hip capsule and decompresses the pelvic nerve plexus."
+              ],
+              "image": "hip_flexor.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Lunges combine large-muscle testosterone activation with hip flexor lengthening. The hip flexor release is critical for libido because the psoas — when tight — compresses the pelvic plexus, impairing neural signaling for arousal. Think of it as unclogging both the highway (blood flow) and the communication lines (nerve signaling).",
+            "selfCheck": "After the 90/90 stretch, notice your pelvic area. Does it feel more 'open,' warm, or energized? This is the combined effect of improved circulation and neural decompression."
+          }
+        },
+        {
+          "day": 11,
+          "headline": "HIT for Testosterone",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "7-Minute Testosterone Circuit",
+              "duration": "9 min",
+              "steps": [
+                "Each exercise 30 seconds, 15-second rest:",
+                "1. Bodyweight squats (fast pace) — Flick at top.",
+                "2. Glute bridges (fast pace) — Flick at top.",
+                "3. High knees (standing march) — Flick on each knee drive.",
+                "4. Push-ups (wall or floor) — Flick on push phase.",
+                "5. Squat hold (bottom position, 30 seconds) — Drop breaths.",
+                "6. Bridge hold (top position, 30 seconds) — sustained Flick.",
+                "7. Standing Flick AMRAP.",
+                "Cool down: Happy Baby + Butterfly, 5 Drop breaths each."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "High-intensity interval training triggers the largest acute testosterone and growth hormone responses of any exercise modality. A study in exercise oncology found that serum taken immediately after a 44-minute high-intensity bout showed a 20% reduction in prostate cancer cell growth rate compared to resting serum — demonstrating the powerful hormonal cascade that exercise triggers. You don't need 44 minutes — 7 focused minutes delivers significant hormonal benefit.",
+            "coachCorner": "Push hard during the work periods. The hormonal signal is proportional to intensity. If you finish without being somewhat breathless, go harder next time."
+          }
+        },
+        {
+          "day": 12,
+          "headline": "Recovery + Sleep Optimization",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Active Recovery Flow",
+              "duration": "10 min",
+              "steps": [
+                "5-Position Relaxation Flow (8 min) — deep, slow, restorative.",
+                "Desire Visualization (2 min) — parasympathetic state + mental connection to desire.",
+                "Today is deliberately easy. Testosterone and muscle adaptation happen during recovery, not during work."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Sleep is the #1 natural testosterone booster. 7+ hours of uninterrupted sleep has a stronger effect on testosterone levels than any supplement. Each additional hour of sleep above 5 hours increases testosterone by approximately 15%. Recovery days protect this hormonal environment.",
+            "coachCorner": "Sleep optimization checklist:\n• Room temperature: 65–68°F (18–20°C)\n• Dark room: blackout curtains or eye mask\n• No screens 30 minutes before bed\n• Consistent sleep/wake times (±30 min)\n• No caffeine after 2pm\n• Evening relaxation routine (Day 25 preview)"
+          },
+          "supplementContext": {
+            "hook": "Sleep quality directly determines tomorrow's testosterone level.",
+            "science": "The majority of daily testosterone production occurs during deep REM sleep. Disrupted sleep reduces testosterone by 10–15% — equivalent to aging 10–15 years.",
+            "foods": [
+              {
+                "name": "Tart cherry juice (before bed)",
+                "note": "Natural melatonin source that improves sleep quality"
+              },
+              {
+                "name": "Magnesium-rich foods (nuts, seeds, greens)",
+                "note": "Supports GABA production for deeper sleep"
+              },
+              {
+                "name": "Kiwi fruit (1–2 before bed)",
+                "note": "Studies show improved sleep onset and duration"
+              },
+              {
+                "name": "AVOID: Alcohol before bed",
+                "note": "Reduces REM sleep by 20–40%, tanking testosterone"
+              },
+              {
+                "name": "AVOID: Large meals within 2 hours of bed",
+                "note": "Disrupts sleep architecture and hormonal cycles"
+              }
+            ]
+          }
+        },
+        {
+          "day": 13,
+          "headline": "Compound Power Session",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Full Compound Circuit",
+              "duration": "12 min",
+              "steps": [
+                "Warm-Up: 5 Drop breaths + 10 standing Flicks (2 min).",
+                "Sets performed back-to-back with 30-second rest between exercises:",
+                "1. Squats: 15 reps with Flick at top.",
+                "2. Glute bridges: 12 reps with 3-second Flick hold at top.",
+                "3. Lunges: 10 reps (5 each leg) with Flick.",
+                "4. Push-ups: 10 reps with Flick on push.",
+                "5. Single-leg bridges: 8 reps each leg with Flick.",
+                "Cool down: Hip flexor stretch (60 sec each side) + 5 Drop breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Compound movements (multi-joint exercises) trigger larger hormonal cascades than isolation exercises. This circuit hits every major muscle group in 12 minutes, creating the maximum testosterone and growth hormone response possible with bodyweight training.",
+            "coachCorner": "Add a heavy backpack or water jugs for resistance if this feels easy. Progressive overload is the key to continued hormonal adaptation."
+          }
+        },
+        {
+          "day": 14,
+          "headline": "Phase 2 Assessment",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Assessment Circuit",
+              "duration": "8 min",
+              "steps": [
+                "Squats: 15 reps — rate effort vs Day 9 (easier = fitness improving).",
+                "Bridges: 12 reps — rate Flick quality at the top.",
+                "Standing Flicks: 10 quick + 5 × 7-second holds — rate quality."
+              ]
+            },
+            {
+              "name": "Phase 2 Self-Assessment",
+              "duration": "2 min",
+              "steps": [
+                "Re-rate all Day 1 vitality markers:",
+                "Morning erection frequency, spontaneous desire, energy, sleep quality, stress.",
+                "New: Exercise capacity (0–10) — how challenging was the circuit?",
+                "New: Post-exercise mood (0–10) — endorphin response.",
+                "Record all numbers. Compare with Day 1 and Day 7."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Typical Day 14: energy up 2–3 points, sleep quality improving, morning erections beginning to return, spontaneous desire starting to re-emerge in brief moments. The neurochemical cascade from exercise is beginning to shift your baseline."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 3 — Vascular & Neural Optimization",
+      "duration": "Days 15–21",
+      "description": "Amplify blood flow to sexual organs through targeted cardiovascular training and Nitric Oxide optimization. This is where physical changes become noticeable.",
+      "days": [
+        {
+          "day": 15,
+          "headline": "Cardio + Pelvic Integration",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Brisk Walk with Kegel Intervals",
+              "duration": "15 min",
+              "steps": [
+                "Go for a brisk 12-minute walk. Every 2 minutes: 10 quick Flicks while walking. Every 3 minutes: 3 × 5-second holds while walking. Cool down: 3 min of slow walking + 5 Drop breaths."
+              ],
+              "image": "lunge.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Brisk walking (2km+ daily) significantly improves pelvic circulation; that effect multiplies with pelvic floor activation during the walk. Cardiovascular exercise also reduces cortisol (the stress hormone that directly suppresses testosterone)."
+          }
+        },
+        {
+          "day": 16,
+          "headline": "Full Body Power Session",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Compound Circuit (Repeat Day 13 + Walking Intervals)",
+              "duration": "15 min",
+              "steps": [
+                "Full compound circuit from Day 13 (10 min). Follow immediately with 5-min brisk walk with Flick intervals. The combination of resistance + cardio creates the largest hormonal response."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "This is the most potent session in the protocol for testosterone. Compound resistance followed by moderate cardio creates a 'hormonal supercharge' window. If you only do 3 sessions per week long-term, make this one of them."
+          }
+        },
+        {
+          "day": 17,
+          "headline": "Hip Mobility + Circulation",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Deep Mobility Flow",
+              "duration": "12 min",
+              "steps": [
+                "Deep Squat: 2 min with 15 Drop breaths.",
+                "90/90 Hip Stretch: 90 sec each side, 2 rounds.",
+                "Frog Pose: 10 dynamic rocks × 2 sets.",
+                "Hip flexor lunge stretch: 60 sec each side.",
+                "Butterfly: 2 min with 10 breaths.",
+                "Focus on blood flow — you should feel warmth in the pelvic region by the end."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "This mobility session specifically targets the arteries and nerves that supply the genitals. The combination of position-based compression and release creates a 'pump' effect — alternately restricting and restoring blood flow, which stimulates new capillary development (angiogenesis) in the pelvic region."
+          }
+        },
+        {
+          "day": 18,
+          "headline": "HIT for Nitric Oxide",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "NO-Boosting Circuit",
+              "duration": "12 min",
+              "steps": [
+                "Repeat the Day 11 HIT circuit with higher intensity. Push for more reps in each 30-second window. Add a second round if energy permits. Post-circuit: Hip flexor stretch + 5 Drop breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "High-intensity exercise triggers the largest Nitric Oxide release from endothelial cells. NO relaxes smooth muscle in blood vessel walls throughout the body — including the corpora cavernosa. The effect persists for 24–48 hours after training, meaning regular HIT creates a sustained baseline improvement in vascular function."
+          },
+          "supplementContext": {
+            "hook": "Amplify the exercise-induced NO boost with these foods.",
+            "science": "Dietary nitrates convert directly to NO in the body. Citrulline converts to L-Arginine → NO. Combined with exercise, the effect compounds.",
+            "foods": [
+              {
+                "name": "Watermelon (especially the rind)",
+                "note": "Highest natural citrulline concentration"
+              },
+              {
+                "name": "Beetroot/beet juice",
+                "note": "Dietary nitrates that convert directly to NO"
+              },
+              {
+                "name": "Pomegranate juice",
+                "note": "Improves endothelial function and blood flow"
+              },
+              {
+                "name": "Spinach, arugula, celery",
+                "note": "Nitrate-rich vegetables for sustained NO production"
+              },
+              {
+                "name": "Dark chocolate (70%+)",
+                "note": "Flavonoids that protect blood vessel lining"
+              }
+            ]
+          }
+        },
+        {
+          "day": 19,
+          "headline": "Stress Reduction + Cortisol Management",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Parasympathetic Deep Session",
+              "duration": "10 min",
+              "steps": [
+                "Full 5-Position Relaxation Flow (8 min) at the slowest, deepest pace you've done. Desire Visualization (2 min) — longer, more detailed mental imagery. Let desire arise naturally in the parasympathetic state. This session specifically targets cortisol reduction."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Cortisol and testosterone are inversely related — when cortisol rises, testosterone falls. Chronic stress keeps cortisol elevated, systematically suppressing testosterone production. Deep parasympathetic activation through breathing and relaxation directly reduces cortisol levels. A single 10-minute session can reduce cortisol by 10–15%.",
+            "coachCorner": "This is the most important session if your stress score is high. Testosterone cannot thrive in a cortisol-dominant environment. Consider doing this session twice — morning AND evening — if stress is your primary barrier to desire."
+          }
+        },
+        {
+          "day": 20,
+          "headline": "Full Integration Circuit",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "The Complete Vitality Circuit",
+              "duration": "15 min",
+              "steps": [
+                "Block 1 — Relaxation (3 min): Deep squat + Drop breaths → Hip flexor stretch.",
+                "Block 2 — Activation (3 min): 10 standing Flicks → 5 × 7-second holds → 10 seated Flicks.",
+                "Block 3 — Power (6 min): Squats 15 with Flick → Bridges 12 with Flick → Lunges 10 → Push-ups 10.",
+                "Block 4 — Cool-Down (3 min): Butterfly → Desire Visualization → Supine scan."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "This is your maintenance circuit. Bookmark Day 20 — it's the one session that covers every dimension: relaxation, pelvic floor, strength, hormones, and mental connection to desire."
+          }
+        },
+        {
+          "day": 21,
+          "headline": "Phase 3 Assessment",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Full Integration Circuit + Assessment",
+              "duration": "15 min",
+              "steps": [
+                "Run Day 20 circuit. Then re-rate all vitality markers: morning erections, spontaneous desire, energy, sleep, stress. New: rate your connection to your body's arousal signals (0–10). New: rate the ease of achieving parasympathetic state (0–10)."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Typical Day 21: morning erections increasing (up 2–4 points), energy significantly improved, stress down 3–5 points, spontaneous desire returning in windows throughout the day. Phase 4 cements these gains into permanent lifestyle habits."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 4 — Lifestyle Mastery",
+      "duration": "Days 22–28",
+      "description": "Lock in your gains with advanced training, nutritional optimization, sleep mastery, and your permanent vitality protocol.",
+      "days": [
+        {
+          "day": 22,
+          "headline": "Advanced Power Session",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Performance Circuit",
+              "duration": "15 min",
+              "steps": [
+                "Block 1 — Deep Relaxation (3 min): Squat + 15 breaths → Tennis ball release 2 min.",
+                "Block 2 — Power (4 min): 10 max Flicks → 10 rapid alternating → 5 × 10-second holds.",
+                "Block 3 — Loaded (5 min): Single-leg bridges 5/side → Squats 20 → Lunges 12 → Push-ups 15.",
+                "Block 4 — Cool-Down (3 min): Hip flexor stretch → Butterfly → Visualization."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Your hardest session. The volume increase (squats 20, push-ups 15) creates the biggest hormonal stimulus. Push hard."
+          }
+        },
+        {
+          "day": 23,
+          "headline": "Mediterranean Lifestyle Day",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Light Maintenance",
+              "duration": "10 min",
+              "steps": [
+                "Full relaxation flow (8 min) + 10 standing Flicks + visualization (2 min). Recovery day — gains consolidate during rest."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Today is about lifestyle education and integration."
+          },
+          "supplementContext": {
+            "hook": "The Mediterranean Diet is the most studied dietary pattern for sexual health.",
+            "science": "Epidemiological studies consistently show men following Mediterranean diet patterns have 30–40% lower rates of erectile dysfunction and higher testosterone levels. The mechanisms: flavonoids protect endothelial function, healthy fats support hormone production, and anti-inflammatory compounds reduce vascular damage.",
+            "foods": [
+              {
+                "name": "Extra virgin olive oil (daily)",
+                "note": "Monounsaturated fats that support testosterone production"
+              },
+              {
+                "name": "Fatty fish 3× per week",
+                "note": "Omega-3s reduce inflammation and support vascular health"
+              },
+              {
+                "name": "Nuts daily (pistachios especially)",
+                "note": "Pistachios specifically linked to improved erection quality in studies"
+              },
+              {
+                "name": "Colorful vegetables (5+ servings)",
+                "note": "Antioxidants that protect testosterone-producing cells"
+              },
+              {
+                "name": "Berries daily",
+                "note": "Anthocyanins that protect blood vessel walls"
+              },
+              {
+                "name": "RED FLAG: Processed foods, sugar, trans fats",
+                "note": "Directly suppress testosterone and damage blood vessels"
+              }
+            ]
+          }
+        },
+        {
+          "day": 24,
+          "headline": "Compound Strength Revisit",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Full Compound + Cardio",
+              "duration": "12 min",
+              "steps": [
+                "Day 13 compound circuit (8 min) at higher intensity/reps than before. Follow with 4-min brisk walk with Flick intervals. Note: how does this compare to Day 13? Easier = your fitness and hormonal response are improving."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Progressive overload: if Day 13 was challenging and Day 24 is manageable, you've adapted. Add resistance (backpack, water bottles) to continue progressing."
+          }
+        },
+        {
+          "day": 25,
+          "headline": "Evening Ritual for Sleep + T",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Pre-Sleep Relaxation",
+              "duration": "10 min",
+              "steps": [
+                "Do 30–60 minutes before bed:",
+                "Supine: 10 slow Umbrella Breaths (4 in, 6 out).",
+                "Happy Baby: 2 min gentle rocking.",
+                "Butterfly: 2 min eyes closed.",
+                "Progressive muscle relaxation: tighten/release each muscle group.",
+                "Final: 10 natural breaths + brief desire visualization.",
+                "This routine simultaneously improves sleep quality AND creates a positive association between relaxation and desire."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Nocturnal erections (3–5 per night during REM sleep) are triggered by parasympathetic activation. This pre-sleep relaxation routine maximizes parasympathetic tone at bedtime, directly supporting both sleep quality and nocturnal erectile function — which in turn supports testosterone production in a positive feedback loop.",
+            "coachCorner": "Make this permanent. 10 minutes before bed for better sleep, better testosterone, and better connection to desire. The ROI is unmatched."
+          }
+        },
+        {
+          "day": 26,
+          "headline": "Stress Mastery",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "The Anti-Cortisol Protocol",
+              "duration": "10 min",
+              "steps": [
+                "10 seated Drop breaths → 10 standing Flick-Drop cycles.",
+                "The 'Reset Sequence': 3 Umbrella Breaths → 5 Drop breaths → 3 Flicks = 60 seconds. Do this anytime stress spikes.",
+                "The '5-5-5' daily practice: 5 breaths + 5 Flicks + 5 breaths = 90 seconds, 3× daily.",
+                "Visualization: 3 minutes of vitality imagery — feel energized, desired, confident."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Every cortisol spike suppresses testosterone for 1–3 hours. The Reset Sequence interrupts cortisol cascades in real-time, protecting your hormonal environment throughout the day. Used consistently, it creates a lower cortisol baseline — which unlocks higher testosterone production.",
+            "coachCorner": "The 5-5-5 practice + Reset Sequence is your permanent daily toolkit. Total daily investment: 5–7 minutes for lifetime hormonal optimization."
+          }
+        },
+        {
+          "day": 27,
+          "headline": "Peak Sessions",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Maximum Effort Day",
+              "duration": "15 min",
+              "steps": [
+                "Warm-up: 5 Drop breaths + 10 Flicks (2 min).",
+                "Compound circuit: Squats 20, Bridges 15, Lunges 12, Push-ups 15, Single-leg bridges 8/side — all with Flick integration (10 min).",
+                "Cool down: full relaxation flow + visualization (3 min).",
+                "This is your peak session — maximum testosterone stimulus."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Tomorrow is graduation. Give today everything you have. The hormonal reward for maximum effort is the highest you'll get from bodyweight training."
+          }
+        },
+        {
+          "day": 28,
+          "headline": "Graduation & Lifetime Protocol",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Graduation Circuit (Repeat Day 22)",
+              "duration": "12 min",
+              "steps": [
+                "Full Performance Circuit one final time. Notice every improvement from Day 1."
+              ]
+            },
+            {
+              "name": "Final Self-Assessment",
+              "duration": "3 min",
+              "steps": [
+                "Final scores — compare with Day 1, 7, 14, 21:",
+                "Morning erection frequency (0–10).",
+                "Spontaneous desire intensity (0–10).",
+                "Energy level upon waking (0–10).",
+                "Sleep quality (0–10).",
+                "Stress level (0–10).",
+                "Exercise capacity (0–10).",
+                "Body-arousal connection (0–10).",
+                "Parasympathetic ease (0–10).",
+                "Overall vitality (0–10)."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Your maintenance protocol:\n\n• Daily: 5-5-5 micro-practice, 3× per day (4.5 min)\n• Daily: Evening relaxation routine before bed (10 min)\n• 3× per week: Day 20 Full Vitality Circuit (15 min)\n• 3× per week: Brisk walking 20+ min with Flick intervals\n• Weekly: Day 22 Power Session for testosterone stimulus\n• Monthly: Full Day 28 assessment\n\nTotal weekly investment: ~90 minutes for transformed vitality.\nConsistency beats intensity — always."
+          }
+        }
+      ]
+    }
+  ]
+}

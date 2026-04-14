@@ -1109,7 +1109,24 @@ function submitEmail() {
   }
   userEmail = val;
   trackEvent('Lead', { email: val });
-  // Submit quiz data to webhook (Phase 2)
+
+  // Save quiz data to localStorage (survives Stripe redirect)
+  const goalLabels = ['Stop PE','Firmness','Libido','Bladder'];
+  const levelLabels = ['Beginner','Intermediate','Advanced'];
+  const quizPayload = {
+    email: val,
+    goal: goalLabels[answers[0]] || 'Unknown',
+    primary_focus: ['Firmness','Endurance','Pleasure'][answers[1]] || 'Unknown',
+    experience: levelLabels[answers[3]] || 'Unknown',
+    daily_time: ['<5 min','5-10 min','10-20 min','20+ min'][answers[4]] || 'Unknown',
+    score: (3 + Math.random()*1.5).toFixed(1),
+    answers: answers,
+    timestamp: new Date().toISOString(),
+    referrer: document.referrer || 'direct',
+  };
+  localStorage.setItem('pf_quiz', JSON.stringify(quizPayload));
+
+  // Submit to API (Stage 1 — lead capture only, neutral email)
   submitQuizData(val);
   advance();
 }
@@ -1348,11 +1365,14 @@ function skipDownsell() {
 // ─── THANK YOU ───────────────────────────────────────
 function renderThankYou() {
   document.getElementById('progress-fill').style.width = '100%';
+  const protocolUrl = window._protocolUrl || '';
+  const savedQuiz = JSON.parse(localStorage.getItem('pf_quiz') || '{}');
+  const email = savedQuiz.email || userEmail || 'your email';
   return `
     <div class="success-hero" style="padding:16px 0">
-      <span class="success-icon">🎉</span>
-      <h2>You're All Set!</h2>
-      <p style="margin-bottom:24px">Your personalized training plan is being prepared by our team of certified pelvic floor specialists.</p>
+      <span class="success-icon">🚀</span>
+      <h2>Your Protocol Is Live!</h2>
+      <p style="margin-bottom:24px">Your personalized 28-day protocol is ready. Start Day 1 right now.</p>
     </div>
 
     <div class="thankyou-timeline">
@@ -1367,28 +1387,35 @@ function renderThankYou() {
         <div class="ty-dot">✓</div>
         <div>
           <strong>Payment Confirmed</strong>
-          <span>Receipt sent to ${userEmail || 'your email'}</span>
+          <span>Receipt sent to ${email}</span>
+        </div>
+      </div>
+      <div class="ty-step done">
+        <div class="ty-dot">✓</div>
+        <div>
+          <strong>Protocol Generated</strong>
+          <span>Your personalized plan is ready</span>
         </div>
       </div>
       <div class="ty-step active">
-        <div class="ty-dot pulse">⏳</div>
+        <div class="ty-dot pulse">🚀</div>
         <div>
-          <strong>Expert Review In Progress</strong>
-          <span>Our team is personalizing your plan based on your answers</span>
-        </div>
-      </div>
-      <div class="ty-step">
-        <div class="ty-dot">📧</div>
-        <div>
-          <strong>Plan Delivered via Email</strong>
-          <span>You'll receive your PDF plan within 24–48 hours</span>
+          <strong>Start Day 1</strong>
+          <span>Your protocol is live — begin now</span>
         </div>
       </div>
     </div>
 
+    ${protocolUrl ? `
     <div class="offer-section" style="margin-top:24px">
+      <a href="${protocolUrl}" style="display:block;background:linear-gradient(135deg,#1abc9c,#2ecc71);color:white;text-decoration:none;padding:18px 24px;border-radius:12px;font-weight:700;font-size:16px;text-align:center;box-shadow:0 4px 20px rgba(46,204,113,0.35)">
+        🚀 Access My Protocol →
+      </a>
+    </div>` : ''}
+
+    <div class="offer-section" style="margin-top:16px">
       <div class="info-card">
-        <p style="font-size:13px;color:#c8d0e8;line-height:1.7;text-align:center">📩 Check your inbox — we've sent a confirmation email to <strong style="color:white">${userEmail || 'your email'}</strong> with next steps. If you don't see it, check your spam folder.</p>
+        <p style="font-size:13px;color:#c8d0e8;line-height:1.7;text-align:center">📩 We've also emailed the access link to <strong style="color:white">${email}</strong>. Bookmark it — you'll return every day for 28 days.</p>
       </div>
     </div>
 
@@ -1536,12 +1563,41 @@ const stripeReturn = urlParams.get('stripe_return');
 const returnType = urlParams.get('type');
 
 if (stripeReturn === 'success') {
-  if (returnType === 'premium') {
-    trackEvent('Purchase', { value: 19.97, currency: 'USD', content_name: 'Premium Plan' });
+  const purchaseType = returnType || 'premium';
+  const purchaseValues = { premium: 19.97, bundle: 29.97, starter: 9.97 };
+  trackEvent('Purchase', {
+    value: purchaseValues[purchaseType] || 19.97,
+    currency: 'USD',
+    content_name: purchaseType
+  });
+
+  // Stage 2: Create protocol + activate customer
+  const savedQuiz = JSON.parse(localStorage.getItem('pf_quiz') || '{}');
+  if (savedQuiz.email) {
+    fetch('/api/create-protocol', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        email: savedQuiz.email,
+        goal: savedQuiz.goal,
+        experience: savedQuiz.experience,
+        score: savedQuiz.score,
+        tier: purchaseType,
+        quizAnswers: savedQuiz.answers,
+      })
+    })
+    .then(r => r.json())
+    .then(data => {
+      console.log('✅ Protocol created:', data);
+      window._protocolUrl = data.accessUrl;
+      // Re-render thank you page to include the link
+      if (questions[step]?.type === 'thankyou') renderStep();
+    })
+    .catch(err => console.error('❌ Protocol creation failed:', err));
+  }
+
+  if (purchaseType === 'premium') {
     goToScreen('upsell');
-  } else if (returnType === 'bundle' || returnType === 'starter') {
-    trackEvent('Purchase', { value: returnType === 'bundle' ? 29.97 : 9.97, currency: 'USD', content_name: returnType === 'bundle' ? 'Wellness Bundle' : 'Starter Plan' });
-    goToScreen('thankyou');
   } else {
     goToScreen('thankyou');
   }

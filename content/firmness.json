@@ -1,0 +1,935 @@
+{
+  "meta": {
+    "id": "firmness",
+    "title": "28-Day Firmness Enhancement Protocol",
+    "description": "A research-backed program to strengthen erectile function through structured pelvic floor training, vascular optimization, and progressive neuromuscular conditioning.",
+    "duration": "28 days",
+    "dailyTime": "7–15 minutes",
+    "goal": "Firmness"
+  },
+  "assessment": {
+    "description": "Your personalized protocol based on your assessment results.",
+    "disclaimer": "This program is educational and does not replace medical advice. Consult a physician for persistent erectile concerns."
+  },
+  "phases": [
+    {
+      "name": "Phase 1 — Foundation & Reset",
+      "duration": "Days 1–7",
+      "description": "Reset your pelvic floor's resting tone. Most men carry chronic tension here without knowing it — this phase teaches your muscles to fully relax before we strengthen them.",
+      "days": [
+        {
+          "day": 1,
+          "headline": "The Discovery Breath",
+          "totalDuration": "7 min",
+          "exercises": [
+            {
+              "name": "360-Degree Umbrella Breath",
+              "duration": "5 min (10 breaths × 3 sets)",
+              "steps": [
+                "Lie on your back, knees bent, feet flat. Place one hand on your chest, one on your lower belly.",
+                "Inhale slowly through your nose for 4 seconds — expand your ribs front, sides, AND back. Your chest hand should barely move.",
+                "Imagine your pelvic floor as an umbrella opening downward. Feel the gentle 'drop' toward your feet.",
+                "Exhale through pursed lips like blowing through an invisible straw for 6 seconds. Feel the natural gentle recoil — don't force a squeeze.",
+                "Repeat 10 breaths. Rest 30 seconds. Do 3 sets total."
+              ],
+              "image": "supine_breathing.png"
+            },
+            {
+              "name": "Pelvic Floor Awareness Check",
+              "duration": "2 min",
+              "steps": [
+                "Without changing anything, notice your perineum (the area between your scrotum and anus).",
+                "Rate the tension you feel from 0 (completely soft) to 10 (rock hard). Write this number down — it's your Day 1 baseline.",
+                "Try to consciously soften that area by 1–2 points. Just the intention is enough for today."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "A 'hypertonic' pelvic floor — muscles stuck in partial contraction — is the hidden cause of many erectile issues. When these muscles can't fully relax, blood flow into the corpora cavernosa is impaired. This single breath exercise begins resetting your resting tone. Studies show diaphragmatic breathing directly modulates pelvic floor tension through the pressure relationship between the diaphragm and pelvic floor.",
+            "coachCorner": "Most men try to 'do Kegels' on Day 1 and accidentally make things worse. Strengthening a tight muscle just makes it tighter. The first 7 days are about learning to LET GO. If this feels 'too easy,' you're doing it exactly right.",
+            "selfCheck": "By the end of this session: you should feel a subtle softening in the perineum during inhale. If you feel nothing, try the 'Breathe Into Your Butt' cue — direct your inhale toward your anus and sit bones."
+          }
+        },
+        {
+          "day": 2,
+          "headline": "The Anal Blossom",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Anal Breath (Blossoming)",
+              "duration": "5 min (10 breaths × 3 sets)",
+              "steps": [
+                "Same position as Day 1 — lying on back, knees bent.",
+                "On your inhale, focus specifically on your external anal sphincter. Imagine it expanding outward.",
+                "Use the cue: 'like a flower blooming' or 'a mouth yawning open.' You should feel gentle widening.",
+                "On exhale through pursed lips, let the sphincter naturally return — don't clench it back.",
+                "10 breaths per set, 3 sets with 30-second rest between sets."
+              ],
+              "image": "supine_breathing.png"
+            },
+            {
+              "name": "Butterfly Pose Breathing",
+              "duration": "3 min",
+              "steps": [
+                "Sit on the edge of a pillow or folded towel to tilt your pelvis slightly forward.",
+                "Bring the soles of your feet together, letting your knees drop toward the floor.",
+                "Perform 10 Anal Breaths in this position. The hip opening adds a gentle stretch to the pelvic floor.",
+                "Use your hands behind your back to push your chest forward slightly for a deeper stretch."
+              ],
+              "image": "butterfly_pose.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The 'Blossoming' technique targets the external anal sphincter, which shares fascial connections with the entire pelvic floor. When this sphincter learns to release fully, it creates a cascade of relaxation through the bulbospongiosus and ischiocavernosus — the two muscles directly responsible for blood trapping during erections.",
+            "watchOut": "The #1 mistake: bearing down like you're trying to have a bowel movement. The Anal Blossom is a RELEASE, not a push. If your face tenses up, you're trying too hard. Think 'jellyfish billowing out' — effortless expansion.",
+            "selfCheck": "During the Butterfly Pose, can you feel the pelvic floor stretch when your knees drop? If yes, you're in the right position. If not, try sitting on a higher pillow to increase pelvic tilt."
+          }
+        },
+        {
+          "day": 3,
+          "headline": "Deep Squat Release",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Supported Deep Squat Breathing",
+              "duration": "5 min (15 breaths × 2 sets)",
+              "steps": [
+                "Place your back against a wall, feet shoulder-width apart and flat on the floor, 12–18 inches from the wall.",
+                "Slide down until your thighs are parallel to the floor or lower. Use elbows to gently pry your knees outward.",
+                "Perform 15 slow Anal Breaths in this position. Gravity helps stretch the pelvic floor downward.",
+                "Focus on the 'Drop' cue: feel your pelvic floor descending toward your feet on each inhale.",
+                "Rest 45 seconds between sets. Do 2 sets."
+              ],
+              "image": "deep_squat.png"
+            },
+            {
+              "name": "Happy Baby Pose (Variant A)",
+              "duration": "3 min",
+              "steps": [
+                "Lie on your back. Pull your knees toward your chest.",
+                "Spread your knees wide toward your armpits. Keep your lower back flat on the ground.",
+                "Perform 10 Umbrella Breaths here, feeling the pelvic floor on full stretch.",
+                "Rock gently side to side to release tension in the inner thighs and pelvic rotators."
+              ],
+              "image": "happy_baby.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The deep squat is a primal position that humans used for thousands of years. It creates maximum pelvic floor lengthening under the assistance of gravity. Research on pelvic floor rehabilitation consistently shows that combining positional stretching with coordinated breathing outperforms either technique alone.",
+            "coachCorner": "Can't get deep into the squat? Use a rolled towel under your heels for balance, or hold onto a door handle. The goal is to find a position where you can breathe comfortably for 15 breaths — not to win a flexibility contest.",
+            "visualization": "Imagine your pelvic floor as a hammock strung between your sit bones. In the deep squat, that hammock stretches wide and drops low. Your breath fills it from above, pressing it gently downward. Each exhale lets it settle a little deeper into its natural resting position."
+          }
+        },
+        {
+          "day": 4,
+          "headline": "The Perineal Reset",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Tennis Ball Perineal Release",
+              "duration": "5 min",
+              "steps": [
+                "Place a tennis ball on a firm chair seat. Sit so the ball presses directly on your perineum (between scrotum and anus).",
+                "Use your arms on the chair armrests to modulate pressure — start light, let your weight settle gradually over 30–60 seconds.",
+                "Once settled, perform 10 slow Umbrella Breaths while maintaining pressure.",
+                "You'll likely feel a point of notable tension. Stay on that spot and breathe into it for 60 seconds.",
+                "Shift the ball slightly forward and back to find 2–3 different tension points. Spend 60 seconds on each."
+              ],
+              "image": "tennis_ball.png"
+            },
+            {
+              "name": "Frog Pose (Dynamic)",
+              "duration": "5 min",
+              "steps": [
+                "Get on hands and knees. Spread your knees as wide as comfortable.",
+                "Rock your hips backward toward your heels while inhaling (feel the pelvic floor expand).",
+                "Rock forward past your hands while exhaling (feel the natural recoil).",
+                "Do 10 slow rocks per set, 3 sets. Target: the adductor magnus and deep pelvic rotators."
+              ],
+              "image": "frog_pose.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The tennis ball technique is called 'proprioceptive release.' The pressure gives your brain biofeedback about exactly where tension is held. Most men carry tension they can't feel until they press on it. This is the 'Bike Seat Rule' — the muscles that touch a bicycle seat are where most chronic pelvic floor tension lives. Direct pressure teaches those muscles to release.",
+            "watchOut": "Discomfort = good. Sharp pain = stop. You're looking for a 'hurts so good' sensation similar to a deep tissue massage. If you feel sharp, shooting, or electric sensations, move the ball to a slightly different spot.",
+            "selfCheck": "After the tennis ball session, stand up and notice your perineum. Does it feel warmer? More relaxed? Compare your tension rating from Day 1. Most men report a 1–3 point drop by Day 4."
+          },
+          "supplementContext": {
+            "hook": "Blood flow to the pelvic region is essential for the relaxation process you're training.",
+            "science": "Nitric Oxide (NO) is the molecule that relaxes smooth muscle and allows blood to flow into erectile tissue. Two natural precursors support NO production.",
+            "foods": [
+              {
+                "name": "Watermelon",
+                "note": "Contains citrulline, which converts to L-Arginine → Nitric Oxide"
+              },
+              {
+                "name": "Dark Chocolate (70%+)",
+                "note": "Flavanoids that support endothelial function"
+              },
+              {
+                "name": "Beets/Beetroot",
+                "note": "Dietary nitrates that convert directly to NO"
+              },
+              {
+                "name": "Berries (Blueberries, Strawberries)",
+                "note": "Anthocyanins that protect blood vessel walls"
+              }
+            ]
+          }
+        },
+        {
+          "day": 5,
+          "headline": "Full Relaxation Sequence",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "5-Position Relaxation Flow",
+              "duration": "10 min (2 min per position)",
+              "steps": [
+                "Position 1 — Supine: 10 Umbrella Breaths lying on your back (2 min).",
+                "Position 2 — Happy Baby (Variant B): Grab the outside edges of your feet, shins perpendicular to floor. 10 Anal Breaths (2 min).",
+                "Position 3 — Butterfly Pose: Feet together, knees wide, chest forward. 10 breaths (2 min).",
+                "Position 4 — Deep Squat: Against wall, 10 breaths with the 'Drop' cue (2 min).",
+                "Position 5 — Frog Pose: Dynamic rocks, 10 reps with breath coordination (2 min).",
+                "The goal is a continuous flow — transition smoothly between positions."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "By Day 5, you're combining all four relaxation techniques into a single sequence. This is deliberate — your pelvic floor needs to learn relaxation in multiple positions and under different gravitational loads. The neuromuscular 'memory' of relaxation is position-specific, so training across all positions creates robust release patterns.",
+            "coachCorner": "This is your 'flow.' Eventually it should feel like a moving meditation — no counting, no watching the clock. Just breathing and releasing. Many men find this becomes the most enjoyable part of their day.",
+            "selfCheck": "Rate your perineal tension after the full sequence. It should be 2+ points lower than your Day 1 baseline. If it's the same or higher, you may be unconsciously clenching during the exercises — focus more on the exhale and less on 'doing it right.'"
+          }
+        },
+        {
+          "day": 6,
+          "headline": "Seated Awareness Training",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Seated Pelvic Floor Drop",
+              "duration": "5 min",
+              "steps": [
+                "Sit in a regular chair with feet flat on the floor, knees at 90 degrees.",
+                "Notice your sit bones pressing into the seat. These are your pelvic floor anchors.",
+                "Perform 10 breaths: on each inhale, feel the sit bones gently spreading apart. On exhale, let them settle.",
+                "Now add the 'Drop' cue: inhale and feel the pelvic floor descend between your sit bones.",
+                "3 sets of 10 breaths. This teaches pelvic floor relaxation in your most common daily position."
+              ],
+              "image": "seated.png"
+            },
+            {
+              "name": "Standing Pelvic Scan",
+              "duration": "3 min",
+              "steps": [
+                "Stand with feet hip-width apart, weight evenly distributed.",
+                "Scan your body from feet upward: calves, thighs, glutes, pelvic floor, abdomen.",
+                "When you reach your pelvic floor, consciously 'let go' — imagine the muscles softening, dropping.",
+                "Hold this softened state for 5 breaths. Notice how it feels different from your default standing tension."
+              ],
+              "image": "standing.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Most pelvic floor work happens lying down — but you don't live lying down. Sitting for 8+ hours 'crushes' the pelvic floor, creating chronic compression. This session teaches you to release in the positions where tension actually builds up. The sit-bone awareness drill is used by physical therapists to create embodied understanding of pelvic floor geography.",
+            "coachCorner": "This is the session you can do at your desk, on the couch, or in a meeting. Nobody knows you're training. 10 breaths with the Drop cue while sitting = a micro-session that compounds over time.",
+            "selfCheck": "Can you feel a difference between 'default sitting tension' and 'consciously softened'? The gap between those two states is the tension you've been carrying unknowingly. The goal over 28 days is to close that gap."
+          }
+        },
+        {
+          "day": 7,
+          "headline": "Phase 1 Assessment",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Full Relaxation Flow (Repeat Day 5)",
+              "duration": "8 min",
+              "steps": [
+                "Run through all 5 positions from Day 5's flow: Supine → Happy Baby → Butterfly → Deep Squat → Frog.",
+                "This time, notice the improvements. Are you dropping deeper? Breathing more smoothly? Are transitions easier?",
+                "Spend extra time in whichever position still feels most 'stuck.'"
+              ]
+            },
+            {
+              "name": "Phase 1 Self-Assessment",
+              "duration": "2 min",
+              "steps": [
+                "Rate your perineal tension now vs Day 1 (0–10 scale).",
+                "Rate your breath-pelvic floor coordination (0–10: 0 = can't feel any connection, 10 = effortless).",
+                "Rate your body awareness of the pelvic floor (0–10).",
+                "Write these numbers down — you'll compare at Day 14 and Day 28."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Assessment days serve two purposes: (1) they let you see measurable progress, which increases motivation and adherence, and (2) they give you a baseline to detect overtraining. If your scores are worse than Day 1, you may be overworking the area.",
+            "coachCorner": "Typical Day 7 results: tension down 2–4 points, coordination up 2–3 points, awareness up 3–5 points. If you're in this range, you've built the foundation. Phase 2 introduces activation — the 'strength' side of the equation.",
+            "selfCheck": "Before moving to Phase 2, you should be able to: (1) Feel the pelvic floor drop on inhale consistently, (2) Maintain relaxed breathing for 10+ breaths without clenching, (3) Notice the difference between tense and relaxed standing/sitting."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 2 — Activation",
+      "duration": "Days 8–14",
+      "description": "Now that your pelvic floor can relax, it's time to wake up the muscles that trap blood during erections. You'll learn 'The Flick' — the single most important exercise for erectile firmness.",
+      "days": [
+        {
+          "day": 8,
+          "headline": "The Flick — Muscle Discovery",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Umbrella Breath",
+              "duration": "2 min",
+              "steps": [
+                "Lying on your back, perform 5 slow Umbrella Breaths to reset your pelvic floor before activating.",
+                "This is critical — always relax before you contract. Activating a tight muscle creates dysfunction."
+              ],
+              "image": "supine_breathing.png"
+            },
+            {
+              "name": "The Flick (Bulbospongiosus Activation)",
+              "duration": "6 min (3 sets × 10 reps)",
+              "steps": [
+                "Lying on your back, knees bent. Focus on the base of your penis.",
+                "Perform a quick contraction: imagine 'making your penis jump' or 'stopping the flow of urine.' Hold for 1 second.",
+                "Release COMPLETELY for 2 seconds. The release is as important as the contraction.",
+                "Check: your glutes and abs should NOT tighten. Place a hand on your lower belly — if it tenses, you're using the wrong muscles.",
+                "Do 10 Flicks. Rest 30 seconds. Repeat for 3 sets total.",
+                "Between sets, do 3 Umbrella Breaths to reset."
+              ],
+              "image": "standing.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The Bulbospongiosus muscle wraps around the base of the penis and the urethra. During an erection, this muscle contracts to compress the dorsal vein, trapping blood inside the corpora cavernosa. This is called the 'venous occlusive mechanism.' A weak Bulbospongiosus = blood leaks out faster than it flows in. The Flick trains this specific muscle in isolation.",
+            "watchOut": "The #1 mistake men make with Kegels: contracting too strongly from the start. Use gentle, controlled contractions — about 30–50% effort. If your face grimaces or you hold your breath, you're going too hard. Quality over quantity.",
+            "coachCorner": "Confirmation check: when you do a Flick correctly, you should see your penis retract slightly (pull toward your body) and/or jump. If your butt lifts off the surface, you're using glutes instead of pelvic floor. Keep your glutes completely relaxed."
+          }
+        },
+        {
+          "day": 9,
+          "headline": "The Flick — Building Rhythm",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Anal Breath",
+              "duration": "2 min",
+              "steps": [
+                "5 Anal Breaths lying down. Ensure full pelvic floor release before activation."
+              ],
+              "image": "supine_breathing.png"
+            },
+            {
+              "name": "Rhythmic Flicks",
+              "duration": "6 min",
+              "steps": [
+                "Set 1: 10 quick Flicks (1-second squeeze, 1-second release). Focus on clean on/off — no lingering tension.",
+                "Set 2: 10 Flicks with a 3-second hold. Squeeze at 50% intensity, hold for 3 seconds, release for 3 seconds.",
+                "Set 3: Alternate pattern — 5 quick Flicks followed by 3 long holds (5 seconds each).",
+                "Between each set, do 3 Umbrella Breaths to reset.",
+                "Monitor: your abs and glutes stay completely relaxed throughout."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Your pelvic floor contains both fast-twitch and slow-twitch muscle fibers. Quick Flicks train the fast-twitch fibers (power, rapid contraction), while long holds train slow-twitch fibers (endurance, sustained compression). Both are needed: fast-twitch for initiating blood trapping, slow-twitch for maintaining it.",
+            "coachCorner": "If you can't hold for 3 seconds without your abs engaging, drop back to 2 seconds. The isolation is more important than the duration. Mastering the 'off switch' — the full release after each contraction — is what separates effective training from counterproductive clenching.",
+            "selfCheck": "Can you feel a clear 'on' and 'off' state? During 'off,' your perineum should feel identical to how it felt during Phase 1 breathing. If there's residual tension, add an extra Umbrella Breath between reps."
+          }
+        },
+        {
+          "day": 10,
+          "headline": "Seated Activation",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Seated Drop",
+              "duration": "2 min",
+              "steps": [
+                "Seated in a chair, perform 5 Seated Pelvic Floor Drops from Day 6.",
+                "Confirm you can feel the relaxation before adding contraction."
+              ],
+              "image": "seated.png"
+            },
+            {
+              "name": "Seated Flicks",
+              "duration": "6 min",
+              "steps": [
+                "Sitting upright, feet flat, perform 10 quick Flicks. The seated position adds gravity load — muscles work harder.",
+                "Pay attention: in sitting, it's easier to accidentally recruit glutes. Keep your butt 'dead weight' on the chair.",
+                "Set 2: 10 Flicks with 3-second holds. Check that your breathing stays normal throughout.",
+                "Set 3: 5 quick Flicks + 3 × 5-second holds.",
+                "Between sets: 3 Anal Breaths to reset."
+              ],
+              "image": "seated.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Progressive loading: lying down → sitting → standing (coming in Phase 3). In each position, gravity changes how hard the pelvic floor has to work. Research shows pelvic floor muscle training in upright positions produces better functional outcomes than supine-only training, because muscles strengthen best in the positions they're used in.",
+            "coachCorner": "This is the exercise you can do at your desk, on the train, in a meeting. Nobody can see a Flick. Build the habit: every time you sit down somewhere new, do 10 quick Flicks. Habit-stacking is the #1 predictor of long-term adherence.",
+            "selfCheck": "Seated Flicks should feel harder than lying-down Flicks. If they feel the same, you may be using compensatory muscles. Try placing one hand on your lower belly and one under your sit bone — you should feel the pelvic floor lift under your sit bone while your belly stays soft."
+          }
+        },
+        {
+          "day": 11,
+          "headline": "The Endurance Hold",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Full Breath Reset",
+              "duration": "2 min",
+              "steps": [
+                "5 Umbrella Breaths + 5 Anal Breaths. Ensure full relaxation baseline."
+              ]
+            },
+            {
+              "name": "Progressive Hold Training",
+              "duration": "8 min",
+              "steps": [
+                "Set 1 (Lying): 5 Flicks with 5-second holds at 50% intensity. Full release between each.",
+                "Set 2 (Lying): 5 Flicks with 7-second holds at 50% intensity. Monitor breathing — it must stay normal.",
+                "Set 3 (Seated): 5 Flicks with 5-second holds. Note the increased difficulty in seated position.",
+                "Set 4 (Seated): Attempt one 10-second hold at 70% intensity. If you lose control or abs engage, stop and reset.",
+                "After each set: 3 relaxation breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The venous occlusive mechanism needs sustained compression to maintain an erection. Quick flicks are great for initiation, but endurance holds train the slow-twitch fibers that keep blood trapped for the duration of intercourse. The Dorey Protocol (2005 study) demonstrated that 10-second holds, 3x daily, significantly improved erectile function in men with ED.",
+            "coachCorner": "Can't hold for 10 seconds without losing form? That's normal at this stage. Build to it over the next week. A 7-second hold with perfect form beats a 10-second hold with abs tensed and breath held.",
+            "selfCheck": "Test: during a 5-second hold, can you breathe normally AND maintain the contraction? If yes, you have good coordination. If you hold your breath involuntarily, focus on exhaling during the contraction — this is called 'exhale patterning' and it's how physiotherapists train proper pelvic-floor coordination."
+          }
+        },
+        {
+          "day": 12,
+          "headline": "Contrast Training",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Contract–Release Contrast",
+              "duration": "10 min",
+              "steps": [
+                "Lying on back, knees bent. This session alternates focused contraction with focused relaxation.",
+                "Round 1: 5-second Flick hold → 10-second Anal Breath release. Repeat 5 times.",
+                "Round 2 (Seated): 3-second quick Flick → 5-second Drop release. Repeat 8 times.",
+                "Round 3 (Lying): 7-second hold at 70% → 15-second full relaxation (Umbrella Breath). Repeat 4 times.",
+                "The key: the relaxation phase should be LONGER than the contraction phase. This teaches your muscles to return to baseline quickly after activation."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Contrast training is how physical therapists treat both weak AND tight pelvic floors. The alternation between full contraction and full relaxation trains neuromuscular coordination — the ability to switch between 'on' and 'off' states rapidly. This is exactly what happens during sexual arousal: muscles need to contract, relax, and re-contract in coordinated patterns.",
+            "coachCorner": "This is the most important session of Phase 2. The ratio matters: always relax longer than you contract (2:1 minimum). Many men who 'do Kegels' and get worse are doing the opposite — contracting twice as long as they relax, building more tension. Don't be that guy.",
+            "watchOut": "If at any point during training you notice increased urinary urgency, perineal discomfort, or pelvic pain that doesn't resolve within 24 hours, scale back your training intensity to 30% effort and reduce to 2 sets per exercise. These are signs of overtraining the pelvic floor."
+          }
+        },
+        {
+          "day": 13,
+          "headline": "Standing Activation",
+          "totalDuration": "8 min",
+          "exercises": [
+            {
+              "name": "Standing Flick Progression",
+              "duration": "8 min",
+              "steps": [
+                "Warm up: 5 Umbrella Breaths standing.",
+                "Set 1: 10 quick standing Flicks. Feel the increased gravitational challenge — your pelvic floor is now working against body weight.",
+                "Set 2: 5 standing Flicks with 5-second holds. Keep weight evenly distributed on both feet.",
+                "Set 3: 3 standing Flicks with 7-second holds at 70% intensity.",
+                "Cool down: 5 Anal Breaths in standing position — ensure full release after activation.",
+                "Check: your knees stay soft (not locked), weight centered, breathing normal throughout."
+              ],
+              "image": "standing.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Standing is the most functional position for pelvic floor training. Erections happen when you're upright (mostly), so your pelvic floor needs to trap blood while working against gravity in a standing position. Research by Milios et al. demonstrated that standing pelvic floor exercises produced significantly better outcomes for post-prostatectomy incontinence and erectile recovery than supine exercises alone.",
+            "coachCorner": "You've now trained in all three progressions: lying → sitting → standing. From this point forward, do your daily Flicks standing whenever possible. The lying-down version is your warm-up; standing is your main working set.",
+            "selfCheck": "Standing Flick test: can you do a strong 1-second contraction while standing that makes your penis retract noticeably? If yes, you've passed Phase 2's core skill. If the retraction is subtle, keep practicing — isolated control gets better with each session."
+          }
+        },
+        {
+          "day": 14,
+          "headline": "Phase 2 Assessment",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Multi-Position Flick Test",
+              "duration": "6 min",
+              "steps": [
+                "Lying: 5 quick Flicks + 3 × 5-second holds. Rate quality 0–10.",
+                "Seated: 5 quick Flicks + 3 × 5-second holds. Rate quality 0–10.",
+                "Standing: 5 quick Flicks + 3 × 5-second holds. Rate quality 0–10.",
+                "Compare your ratings across positions. Standing should feel hardest — a gap of 2–3 points from lying is normal."
+              ]
+            },
+            {
+              "name": "Phase 2 Self-Assessment",
+              "duration": "4 min",
+              "steps": [
+                "Re-rate your perineal tension baseline (0–10). Compare with Day 1 and Day 7.",
+                "Rate your Flick isolation quality (0–10): can you contract the pelvic floor without engaging abs/glutes?",
+                "Rate your endurance hold (longest hold in seconds with perfect form).",
+                "Rate how quickly you can fully release after a contraction (0–10: 0 = takes several seconds, 10 = instant).",
+                "Record all four numbers."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Phase 2 established neuromuscular control and basic strength in the Bulbospongiosus. Your pelvic floor can now relax (Phase 1) AND contract on demand (Phase 2). Phase 3 integrates this with whole-body movements that increase systemic blood flow and train pelvic floor function under real-world conditions.",
+            "coachCorner": "Typical Day 14 results: Flick isolation 6–8/10, endurance hold 5–8 seconds, release speed 5–7/10. If you're in this range, you're ready for Phase 3. If your isolation is below 5/10, repeat Days 8–12 for one more week before advancing — building on a shaky foundation leads to plateaus."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 3 — Integration",
+      "duration": "Days 15–21",
+      "description": "Combine pelvic floor activation with dynamic, full-body movements. This phase targets systemic vascular health — the cardiovascular engine that drives blood flow to erectile tissue.",
+      "days": [
+        {
+          "day": 15,
+          "headline": "Testicular Bridge Introduction",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Standing Flick Reset",
+              "duration": "3 min",
+              "steps": [
+                "5 Umbrella Breaths standing → 10 quick standing Flicks → 5 Anal Breaths to reset. This becomes your standard warm-up for Phase 3."
+              ],
+              "image": "standing.png"
+            },
+            {
+              "name": "Testicular Bridge (Pelvic Rocker)",
+              "duration": "9 min (3 sets × 8 reps)",
+              "steps": [
+                "Lie on your back, knees bent, feet flat. Arms by your sides.",
+                "Press through your heels to lift your hips into a bridge position.",
+                "At the top of the bridge, perform a 5-second Flick hold while rocking your pelvis forward and backward gently.",
+                "Lower your hips back down slowly while fully releasing the pelvic floor.",
+                "8 reps per set, 3 sets with 45-second rest between sets.",
+                "Key: the Flick happens DURING the bridge, not before or after. This trains pelvic floor contraction under load."
+              ],
+              "image": "bridge.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The Testicular Bridge combines hip extension (glutes, hamstrings), core stabilization, and pelvic floor contraction into a single movement. This trains the pelvic floor to function as part of a larger system — which is what happens during sexual activity. The pelvic rocking motion at the top also mobilizes the lumbar spine and hip joints, which can become stiff and impede pelvic blood flow.",
+            "coachCorner": "Don't confuse this with a gym glute bridge. The focus is NOT your glutes — it's the Flick at the top. Your glutes are supporting players. If you're squeezing your butt as hard as possible, you're doing a gym exercise. If you're focusing on the pelvic floor contraction at the top, you're doing the Testicular Bridge.",
+            "selfCheck": "At the top of the bridge, can you feel a clear distinction between 'glutes on' and 'pelvic floor on'? If they feel like the same thing, try doing the Flick first while lying flat (no bridge), then add the bridge once the Flick is isolated."
+          }
+        },
+        {
+          "day": 16,
+          "headline": "Squat + Pelvic Floor Combo",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Standard Phase 3",
+              "duration": "3 min",
+              "steps": [
+                "5 Umbrella Breaths → 10 standing Flicks → 5 Anal Breaths."
+              ]
+            },
+            {
+              "name": "Squat with Flick Integration",
+              "duration": "9 min",
+              "steps": [
+                "Stand with feet shoulder-width apart, toes slightly turned out.",
+                "Inhale and lower into a squat (as deep as comfortable), letting your pelvic floor DROP with gravity.",
+                "At the bottom, pause for 1 second (feel the pelvic floor fully lengthened).",
+                "Exhale and stand up, performing a quick Flick as you reach the top.",
+                "10 reps × 3 sets. The pattern: squat = relax pelvic floor, stand = activate pelvic floor.",
+                "Rest 45 seconds between sets."
+              ],
+              "image": "squat.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The 'Squat/Lunge Rule for Blood Flow': large leg muscle activation causes a significant increase in systemic Nitric Oxide production. When major muscle groups in the legs contract, they trigger endothelial nitric oxide synthase throughout your vascular system — including the micro-vasculature of the penis. Combining squats with Flicks gives you both the systemic vascular benefit AND the local pelvic floor strengthening simultaneously.",
+            "coachCorner": "This combination is powerful because it mirrors the movement pattern of sexual activity — rhythmic hip flexion/extension with coordinated pelvic floor contraction and release. Your body is learning the exact muscle coordination pattern it needs."
+          },
+          "supplementContext": {
+            "hook": "Large muscle activation boosts Nitric Oxide — the molecule that initiates erections.",
+            "science": "Citrulline supplementation (2–3g daily) has been shown to improve erection hardness scores by supporting the L-Arginine → Nitric Oxide pathway. Combined with exercise-induced NO, the effect amplifies.",
+            "foods": [
+              {
+                "name": "Watermelon rind juice",
+                "note": "Highest natural citrulline concentration"
+              },
+              {
+                "name": "Pomegranate juice",
+                "note": "Improves endothelial function and blood flow"
+              },
+              {
+                "name": "Spinach/Arugula",
+                "note": "Dietary nitrates for sustained NO production"
+              }
+            ]
+          }
+        },
+        {
+          "day": 17,
+          "headline": "Dynamic Bridge Progression",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Standard Phase 3",
+              "duration": "3 min",
+              "steps": [
+                "5 Umbrella Breaths → 10 standing Flicks → 5 Anal Breaths."
+              ]
+            },
+            {
+              "name": "Single-Leg Bridge + Flick",
+              "duration": "9 min",
+              "steps": [
+                "Lie on your back, knees bent. Extend one leg straight so you're supporting on one foot.",
+                "Bridge up on the single leg. At the top, perform a 5-second Flick hold.",
+                "Lower slowly while fully releasing the pelvic floor.",
+                "5 reps per leg × 2 sets. This doubles the challenge compared to Day 15.",
+                "Rest 45 seconds between sets. Switch legs between sets.",
+                "If single-leg is too hard, keep both feet down but raise heels (toe-only bridge)."
+              ],
+              "image": "single_leg_bridge.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Progressive overload for the pelvic floor. Without external weights, we create progressive challenge by changing body position and reducing the base of support. The single-leg bridge forces the pelvic floor to stabilize while contracting, which develops functional strength — the kind used during dynamic activity.",
+            "coachCorner": "Shaking during the single-leg bridge is normal and actually desirable — it means your stabilizers are being challenged at their current capacity. Don't fight the shaking; let your body adapt."
+          }
+        },
+        {
+          "day": 18,
+          "headline": "High-Intensity Interval Protocol",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Quick Activation",
+              "duration": "2 min",
+              "steps": [
+                "10 standing Flicks + 5 deep breaths."
+              ]
+            },
+            {
+              "name": "7-Minute HIT Circuit",
+              "duration": "7 min",
+              "steps": [
+                "Perform each exercise for 30 seconds with 15-second rest between exercises:",
+                "Exercise 1: Bodyweight squats (rapid pace) — exhale Flick at the top of each rep.",
+                "Exercise 2: Glute bridges — rapid pace with Flick at the top of each rep.",
+                "Exercise 3: Standing march (high knees) — Flick on each knee drive.",
+                "Exercise 4: Wall push-ups or regular push-ups — Flick on the push phase.",
+                "Exercise 5: Squat hold (hold at the bottom for 30 seconds, do Anal Breaths).",
+                "Exercise 6: Bridge hold (hold at the top for 30 seconds with sustained Flick).",
+                "Exercise 7: Standing Flick AMRAP (as many quality reps as possible in 30 seconds).",
+                "Repeat the full circuit if you have energy. Otherwise, move to cool-down."
+              ]
+            },
+            {
+              "name": "Cool-Down: Full Release",
+              "duration": "3 min",
+              "steps": [
+                "Happy Baby Pose: 10 Anal Breaths.",
+                "Butterfly Pose: 10 Umbrella Breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "A randomized controlled trial found that 7-minute daily High-Intensity Interval Training protocols significantly reduced premature ejaculation and improved erectile function by enhancing cardiovascular stamina and parasympathetic regulation. The cardiovascular demand improves your heart's ability to deliver blood under high-demand conditions — which is what an erection requires.",
+            "coachCorner": "The Flick integration during HIT is what makes this different from regular exercise. Every rep trains your pelvic floor to work while your cardiovascular system is elevated — mimicking the physiological state of sexual arousal.",
+            "watchOut": "If you have any cardiovascular conditions, consult your doctor before HIT training. Start with half the exercises and build up. The goal is elevated heart rate with controlled pelvic floor activation, not exhaustion."
+          }
+        },
+        {
+          "day": 19,
+          "headline": "Lunge Flow + Flick",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Warm-Up: Standard Phase 3",
+              "duration": "3 min",
+              "steps": [
+                "5 Umbrella Breaths → 10 standing Flicks → 5 Anal Breaths."
+              ]
+            },
+            {
+              "name": "Walking Lunge with Pelvic Floor",
+              "duration": "9 min",
+              "steps": [
+                "Step forward into a lunge, lowering your back knee toward the floor. Inhale and let the pelvic floor DROP into the stretch.",
+                "Drive through your front heel to stand up. Exhale with a strong Flick as you rise.",
+                "Alternate legs. 10 lunges per set (5 each leg) × 3 sets.",
+                "The lunge opens the hip flexors and adductors — muscles that share fascial connections with the pelvic floor.",
+                "Rest 45 seconds between sets.",
+                "Finish with 5 deep squats with Flick integration from Day 16."
+              ],
+              "image": "lunge.png"
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Lunges activate the largest muscles in your body (quadriceps, glutes, hamstrings) in a single-leg pattern that demands pelvic stabilization. The hip flexor stretch at the bottom of the lunge releases the psoas muscle — which, when tight, can compress the pelvic plexus and impair neural signaling to the penis.",
+            "selfCheck": "Notice the hip flexor stretch in the back leg during each lunge. If it feels intense, this is an area of restriction for you. Spending extra time in the bottom of each lunge (3 breaths instead of 1) will gradually release the psoas and improve pelvic blood flow."
+          }
+        },
+        {
+          "day": 20,
+          "headline": "Full Integration Circuit",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "The Complete Firmness Circuit",
+              "duration": "15 min",
+              "steps": [
+                "This is your 'showcase' session — combining everything from Phases 1–3.",
+                "Block 1 — Relaxation (3 min): Deep Squat + 10 Anal Breaths → Happy Baby + 10 Umbrella Breaths.",
+                "Block 2 — Activation (4 min): 10 standing quick Flicks → 5 × 7-second holds → 10 seated quick Flicks.",
+                "Block 3 — Strength (5 min): Testicular Bridges 3×8 with Flick → Squats 10 reps with Flick.",
+                "Block 4 — Cool-Down (3 min): Butterfly Pose + 10 breaths → Supine Scan (notice relaxation vs Day 1).",
+                "Move continuously between blocks. Rest only between exercises within each block."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Integration sessions train your body to transition between relaxation and activation fluidly — which is exactly the pattern of sexual arousal. The ability to relax → contract → relax → contract on demand is the neuromuscular foundation of erectile control.",
+            "coachCorner": "This is the session that pulls it all together. If you only have time for one session later in life, this is the one. Consider bookmarking Day 20 as your 'maintenance workout.'"
+          }
+        },
+        {
+          "day": 21,
+          "headline": "Phase 3 Assessment",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Full Integration Circuit (Repeat Day 20)",
+              "duration": "12 min",
+              "steps": [
+                "Run through the full Day 20 circuit.",
+                "Note: how fluid are your transitions? How does the effort compare to Day 15?"
+              ]
+            },
+            {
+              "name": "Phase 3 Self-Assessment",
+              "duration": "3 min",
+              "steps": [
+                "Re-rate: Perineal tension (vs Day 1 and Day 7 baselines).",
+                "Re-rate: Flick isolation quality across all 3 positions.",
+                "Re-rate: Endurance hold (longest with perfect form).",
+                "New metric: Rate your cardiovascular ease during the circuit (0–10). Is your heart rate recovering quickly between exercises?",
+                "New metric: Rate the integration quality — how smoothly can you switch between relax and contract? (0–10)",
+                "Record all numbers."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Typical Day 21 results: tension down 4–6 points from Day 1, isolation 7–9/10, holds 8–10 seconds, integration 6–8/10. If you're here, the foundation is complete. Phase 4 is about mastering these skills for real-life application and building the maintenance protocol you'll use permanently."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phase 4 — Mastery",
+      "duration": "Days 22–28",
+      "description": "Apply everything you've built to real-world scenarios. This phase adds functional application, lifestyle optimization, and your permanent maintenance protocol.",
+      "days": [
+        {
+          "day": 22,
+          "headline": "Full Integration Workout",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Performance Circuit",
+              "duration": "15 min",
+              "steps": [
+                "Block 1 — Deep Relaxation (3 min): Supported squat + 15 breaths. Tennis ball release for 2 minutes on any remaining tension points.",
+                "Block 2 — Power Flicks (3 min): Standing: 10 maximum-effort 1-second Flicks. 10 rapid alternating Flicks (0.5 sec on, 0.5 sec off). 5 × 10-second endurance holds at 70%.",
+                "Block 3 — Loaded Integration (6 min): Single-leg bridges 5/side with Flick. Walking lunges 10 total with Flick. HIT squats 30 seconds + bridge hold 30 seconds × 2 rounds.",
+                "Block 4 — Cool-Down (3 min): Happy Baby → Butterfly → Supine Scan."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Day 22 is your hardest session. By combining relaxation, power, endurance, and loaded movements into a single unbroken sequence, you're training exactly what your body needs for sexual performance: the ability to maintain pelvic floor function under cardiovascular demand and in multiple positions. This IS the final exam.",
+            "coachCorner": "Compare how this feels to Day 1, where you struggled to feel your pelvic floor breathe. The difference should be dramatic. You've built neuromuscular control from scratch."
+          }
+        },
+        {
+          "day": 23,
+          "headline": "The Drop Under Arousal",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Reverse Kegel During Simulated Arousal",
+              "duration": "10 min",
+              "steps": [
+                "This session practices the 'Drop' technique from Phase 1 in an arousal context.",
+                "Lie comfortably. Begin with 5 Umbrella Breaths to baseline your relaxation.",
+                "Using mental imagery (no physical stimulation needed), gradually increase arousal on a 1–10 scale to about 5–6.",
+                "At level 5–6, perform a deliberate Reverse Kegel (the Drop): inhale, feel the pelvic floor descend, exhale through pursed lips.",
+                "Notice: does the arousal decrease slightly? This is the ejaculatory control mechanism in action.",
+                "Practice cycling between arousal 5–6 and dropping back to 3–4 using the breath. Do 5 cycles.",
+                "This trains the exact skill needed for PE control: recognizing rising arousal and applying the relaxation brake BEFORE the point of no return."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "The ejaculation reflex has two stages: Emission (sperm moves into the urethra — point of no return) and Expulsion (rhythmic pelvic floor contractions). The Reverse Kegel disrupts the reflex arc BEFORE emission by reducing pelvic floor tension, which deactivates the expulsion muscles. This is the clinical basis of the 'Drop' technique used in PE management: relaxing DURING arousal to stay in the 7–8 range without hitting 9.",
+            "coachCorner": "This isn't about avoiding pleasure — it's about expanding your capacity for pleasure. The Drop lets you stay at high arousal longer without triggering the ejaculatory reflex. It's like learning to ride a wave instead of being swept away by it.",
+            "watchOut": "This technique works best when you've already built the relaxation foundation (Phase 1). If you can't feel the pelvic floor 'drop' during mental arousal, go back and practice Day 1–5 exercises for another week. The skill builds on body awareness."
+          }
+        },
+        {
+          "day": 24,
+          "headline": "Nutrient Optimization Day",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Light Maintenance Circuit",
+              "duration": "10 min",
+              "steps": [
+                "This is a recovery-intensity session focused on integration, not exertion.",
+                "5-Position Relaxation Flow from Day 5 (6 min) — focus on quality and depth.",
+                "10 standing Flicks + 5 × 5-second holds (4 min) — moderate intensity, perfect form."
+              ]
+            }
+          ],
+          "deepDive": {
+            "coachCorner": "Today is about recovery and lifestyle education. Your pelvic floor muscles, like all muscles, adapt during rest — not during work. Lighter days are when the gains solidify."
+          },
+          "supplementContext": {
+            "hook": "Your pelvic floor training is only half the equation. What you eat directly impacts the vascular system that powers erections.",
+            "science": "The Mediterranean Diet pattern — rich in flavonoids, nitrates, and healthy fats — has been consistently linked to better erectile function in epidemiological studies. Key mechanisms: Flavonoids protect endothelial cells, Citrulline boosts Nitric Oxide production, Omega-3 fatty acids reduce inflammation in blood vessels.",
+            "foods": [
+              {
+                "name": "Extra virgin olive oil",
+                "note": "Monounsaturated fats that improve endothelial function"
+              },
+              {
+                "name": "Fatty fish (salmon, mackerel)",
+                "note": "Omega-3s reduce arterial inflammation"
+              },
+              {
+                "name": "Nuts (pistachios, walnuts)",
+                "note": "Pistachios specifically linked to improved erection quality in studies"
+              },
+              {
+                "name": "Leafy greens daily",
+                "note": "Dietary nitrates → sustained NO production"
+              },
+              {
+                "name": "Berries + dark chocolate",
+                "note": "Flavonoids that protect the blood vessel lining"
+              }
+            ]
+          }
+        },
+        {
+          "day": 25,
+          "headline": "Sleep & Recovery Protocol",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Evening Relaxation Routine",
+              "duration": "10 min",
+              "steps": [
+                "This session is designed to be done 30–60 minutes before bed.",
+                "Supine: 10 slow Umbrella Breaths (count 4 in, 6 out). Focus on extending the exhale.",
+                "Happy Baby: 2 minutes of gentle rocking with Anal Breaths.",
+                "Butterfly Pose: 2 minutes with eyes closed, focusing only on the breath.",
+                "Supine again: progressive muscle relaxation — tighten and release feet, calves, thighs, glutes, pelvic floor, abs, chest, hands, face. 5 seconds tension, 10 seconds release each.",
+                "Final: 10 breaths with no particular focus — just natural breathing. Notice how relaxed your pelvic floor is compared to when you started."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Sleep is the #1 natural testosterone booster. 7+ hours of uninterrupted sleep has a stronger effect on testosterone levels than any supplement. Nocturnal erections (3–5 per night during REM sleep) are your body's natural pelvic floor training program — good sleep quality directly supports the neuromuscular gains you've made this month.",
+            "coachCorner": "This evening routine serves double duty: it relaxes your pelvic floor (preventing overnight tension buildup) AND it improves sleep onset by activating the parasympathetic nervous system. Consider making this a permanent bedtime ritual.",
+            "selfCheck": "After this session, your perineal tension should be at its lowest point in 24 hours. If you wake up feeling tense or sore in the pelvic area, it may indicate you're clenching during sleep — a common stress response. The evening routine helps reprogram this pattern."
+          }
+        },
+        {
+          "day": 26,
+          "headline": "Functional Position Training",
+          "totalDuration": "12 min",
+          "exercises": [
+            {
+              "name": "Multi-Position Flick Mastery",
+              "duration": "12 min",
+              "steps": [
+                "This session trains your pelvic floor in positions that simulate real-world sexual function.",
+                "Position 1 — Supine: 10 quick Flicks + 3 × 10-second holds. Breathe normally throughout.",
+                "Position 2 — Kneeling: On knees, upright torso. 10 Flicks + 3 × 10-second holds. Notice how hip flexor length affects the contraction.",
+                "Position 3 — Standing: 10 Flicks + 3 × 10-second holds. This should feel significantly easier than Day 8.",
+                "Position 4 — Plank position: Hold a plank (or modified on knees) and attempt 5 Flicks. This is extremely challenging — your pelvic floor must work while stabilizing your core.",
+                "Position 5 — Deep squat: 5 Anal Breaths (relaxation), then 5 Flicks from the bottom of the squat (contraction from a lengthened position).",
+                "Cool down: 5 standing Umbrella Breaths."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Muscle specificity principle: muscles strengthen best in the positions they're trained in. By training your pelvic floor across 5 different positions, you ensure it can activate effectively regardless of your body orientation. This is especially relevant because sexual activity involves constant position changes.",
+            "coachCorner": "The plank Flick is the hardest exercise in the entire protocol. If you can do even 3 clean Flicks in a plank, your pelvic floor control is elite. Don't worry if you struggle — the attempt itself is training your neuromuscular system."
+          }
+        },
+        {
+          "day": 27,
+          "headline": "Stress & Breathing Mastery",
+          "totalDuration": "10 min",
+          "exercises": [
+            {
+              "name": "Breath-Performance Connection",
+              "duration": "10 min",
+              "steps": [
+                "This session links pelvic floor function to stress management — because anxiety is the #1 performance killer.",
+                "Seated: 10 exhale-patterned Flicks. Inhale to relax, exhale to contract. The exhale naturally reduces sympathetic nervous activity.",
+                "Standing: Practice the 'Pre-Event Calming Sequence': 3 slow Umbrella Breaths → 5 quick Flicks → 3 more slow breaths. This 60-second sequence can be done anywhere before any stressful event.",
+                "Visualization: Spend 3 minutes mentally rehearsing confidence. Breathe, feel your pelvic floor strong and controlled, visualize your body responding exactly how you want it to.",
+                "Final: the '5-5-5' micro-practice. Do this 3 times daily going forward: 5 breaths + 5 Flicks + 5 breaths = 90 seconds. Done."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "Performance anxiety triggers the sympathetic nervous system ('fight or flight'), which diverts blood away from the penis to the large muscles. The breath techniques from Phase 1 directly activate the parasympathetic nervous system ('rest and digest'), which promotes blood flow TO the penis. The 'Pre-Event Calming Sequence' gives you a tool to switch gears in under 60 seconds.",
+            "coachCorner": "The 5-5-5 micro-practice is your permanent maintenance tool. It takes 90 seconds, can be done anywhere, and maintains all the gains you've built over 28 days. Do it morning, midday, and evening. That's 4.5 minutes a day for lifetime pelvic floor health."
+          }
+        },
+        {
+          "day": 28,
+          "headline": "Final Assessment & Graduation",
+          "totalDuration": "15 min",
+          "exercises": [
+            {
+              "name": "Graduation Circuit",
+              "duration": "12 min",
+              "steps": [
+                "Run through the Day 22 Performance Circuit one final time.",
+                "Notice every improvement: breath control, Flick power, endurance holds, position transitions, cardiovascular recovery.",
+                "Finish with the 5-Position Relaxation Flow from Day 5 as a cool-down."
+              ]
+            },
+            {
+              "name": "Final Self-Assessment",
+              "duration": "3 min",
+              "steps": [
+                "Record your final scores and compare with Day 1, Day 7, Day 14, and Day 21:",
+                "Perineal tension baseline (0–10).",
+                "Flick isolation quality — lying / seated / standing (0–10 each).",
+                "Maximum endurance hold with perfect form (seconds).",
+                "Integration quality — relax-to-contract switching speed (0–10).",
+                "Breath-pelvic floor coordination (0–10).",
+                "Overall pelvic floor awareness (0–10)."
+              ]
+            }
+          ],
+          "deepDive": {
+            "whyThisWorks": "28 days of structured pelvic floor training produces measurable improvements in muscle strength, coordination, and vascular function. Clinical studies show significant changes at 4–6 weeks with continued improvement through 12 weeks. You've built the foundation — maintenance keeps it.",
+            "coachCorner": "Your maintenance protocol going forward:\n\n• Daily: 5-5-5 micro-practice, 3× per day (4.5 min total)\n• 3× per week: Day 20 Full Integration Circuit (15 min)\n• Weekly: Day 25 Evening Relaxation Routine before bed\n• Monthly: Full Day 28 assessment to track sustained progress\n\nThis maintains all gains with ~30 minutes per week. Consistency beats intensity — always."
+          }
+        }
+      ]
+    }
+  ]
+}

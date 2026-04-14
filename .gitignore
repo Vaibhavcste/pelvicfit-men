@@ -3,3 +3,8 @@ chat.html
 node_modules/
 .vercel/
 .vercel
+research/
+pdf-generator/
+scripts/
+images/
+PROJECT_DOCS.md
