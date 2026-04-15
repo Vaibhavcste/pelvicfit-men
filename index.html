@@ -1108,7 +1108,11 @@ function submitEmail() {
     return;
   }
   userEmail = val;
-  trackEvent('Lead', { email: val });
+  // Use Meta Advanced Matching instead of sending raw email in event params
+  if (typeof fbq !== 'undefined') {
+    fbq('init', '27117930631145953', { em: val });
+  }
+  trackEvent('Lead');
 
   // Save quiz data to localStorage (survives Stripe redirect)
   const goalLabels = ['Stop PE','Firmness','Libido','Bladder'];
@@ -1292,7 +1296,7 @@ function upsellBtns() {
 }
 
 function handleUpsell() {
-  trackEvent('Purchase', { value: 29.97, currency: 'USD', content_name: 'Wellness Bundle' });
+  trackEvent('InitiateCheckout', { value: 29.97, currency: 'USD', content_name: 'Wellness Bundle' });
   // Redirect to Stripe Payment Link — Complete Wellness Bundle $29.97
   window.location.href = 'https://buy.stripe.com/00w3cw6LXcKpbHp95Cb3q02?prefilled_email=' + encodeURIComponent(userEmail);
 }
@@ -1344,7 +1348,7 @@ function downsellBtns() {
 }
 
 function handleDownsell() {
-  trackEvent('Purchase', { value: 9.97, currency: 'USD', content_name: 'Starter Plan' });
+  trackEvent('InitiateCheckout', { value: 9.97, currency: 'USD', content_name: 'Starter Plan' });
   // Redirect to Stripe Payment Link — Starter Plan $9.97
   window.location.href = 'https://buy.stripe.com/eVqbJ28U5eSxaDlfu0b3q00?prefilled_email=' + encodeURIComponent(userEmail);
 }
@@ -1460,15 +1464,19 @@ function submitQuizData(email) {
 
 // ─── TRACKING EVENTS ────────────────────────────────
 function trackEvent(eventName, params = {}) {
-  console.log('📊 Track:', eventName, params);
-  // Meta Pixel
+  // Generate unique event ID for deduplication (browser + CAPI)
+  const eventId = eventName + '_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+  console.log('📊 Track:', eventName, params, 'eventID:', eventId);
+  // Meta Pixel — with eventID for CAPI deduplication
   if (typeof fbq !== 'undefined') {
-    try { fbq('track', eventName, params); } catch(e) {}
+    try { fbq('track', eventName, params, { eventID: eventId }); } catch(e) {}
   }
   // GA4
   if (typeof gtag !== 'undefined') {
     try { gtag('event', eventName, params); } catch(e) {}
   }
+  // Store last event ID for potential CAPI matching
+  window._lastEventId = eventId;
 }
 
 // ─── SCREEN NAVIGATION HELPER ────────────────────────
@@ -1568,7 +1576,10 @@ if (stripeReturn === 'success') {
   trackEvent('Purchase', {
     value: purchaseValues[purchaseType] || 19.97,
     currency: 'USD',
-    content_name: purchaseType
+    content_name: purchaseType,
+    content_ids: [purchaseType],
+    content_type: 'product',
+    num_items: 1
   });
 
   // Stage 2: Create protocol + activate customer
