@@ -5,9 +5,12 @@
  * 1. Generates a unique access token
  * 2. Updates Brevo: move to Customers list, set STATUS=customer, store token
  * 3. Sends delivery email with dashboard link
+ * 4. Fires Meta CAPI server-side Purchase event (for tracking accuracy)
  * 
  * No external DB required — Brevo stores the profile, localStorage stores progress.
  */
+
+import { createHash } from 'crypto';
 
 function generateToken() {
   const chars = 'abcdefghijklmnopqrstuvwxyz0123456789';
@@ -28,6 +31,66 @@ function mapGoalToPlan(goal) {
   return map[goal] || 'firmness';
 }
 
+/**
+ * SHA256 hash helper for Meta CAPI user data
+ * Meta requires lowercase, trimmed, SHA256 hashes for PII fields
+ */
+function sha256(value) {
+  return createHash('sha256').update(value.toLowerCase().trim()).digest('hex');
+}
+
+/**
+ * Fire a server-side Purchase event to Meta Conversions API
+ * This runs server-side, immune to ad blockers and iOS tracking restrictions
+ * Deduplicates with the browser-side pixel event via matching eventId
+ */
+async function sendMetaCAPI({ email, value, currency, contentIds, tier, eventId, ip, userAgent, sourceUrl }) {
+  const META_ACCESS_TOKEN = process.env.META_ACCESS_TOKEN;
+  const PIXEL_ID = process.env.META_PIXEL_ID || '27117930631145953';
+
+  if (!META_ACCESS_TOKEN) {
+    console.warn('⚠️ META_ACCESS_TOKEN not set — skipping CAPI event');
+    return { skipped: true, reason: 'no_access_token' };
+  }
+
+  const eventData = {
+    data: [{
+      event_name: 'Purchase',
+      event_time: Math.floor(Date.now() / 1000),
+      event_id: eventId || undefined,  // Matches browser-side eventID for dedup
+      action_source: 'website',
+      event_source_url: sourceUrl || 'https://pelvicfit.xyz',
+      user_data: {
+        em: [sha256(email)],           // SHA256 hashed email
+        client_ip_address: ip || undefined,
+        client_user_agent: userAgent || undefined,
+      },
+      custom_data: {
+        currency: currency || 'USD',
+        value: parseFloat(value) || 19.97,
+        content_ids: contentIds || [tier || 'premium'],
+        content_type: 'product',
+        num_items: 1,
+      }
+    }],
+    access_token: META_ACCESS_TOKEN,
+  };
+
+  try {
+    const resp = await fetch(`https://graph.facebook.com/v19.0/${PIXEL_ID}/events`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(eventData),
+    });
+    const result = await resp.json();
+    console.log('✅ Meta CAPI Purchase event sent:', JSON.stringify(result));
+    return { success: true, ...result };
+  } catch (err) {
+    console.error('❌ Meta CAPI error:', err.message);
+    return { success: false, error: err.message };
+  }
+}
+
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
@@ -39,8 +102,12 @@ export default async function handler(req, res) {
   if (!BREVO_API_KEY) return res.status(500).json({ error: 'Email service not configured' });
 
   try {
-    const { email, goal, experience, score, tier, quizAnswers } = req.body;
+    const { email, goal, experience, score, tier, quizAnswers, eventId } = req.body;
     if (!email) return res.status(400).json({ error: 'Email required' });
+
+    // Extract client IP + User Agent for CAPI match quality
+    const clientIp = req.headers['x-forwarded-for']?.split(',')[0]?.trim() || req.socket?.remoteAddress;
+    const clientUa = req.headers['user-agent'];
 
     const UNPAID_LIST_ID = parseInt(process.env.BREVO_LIST_UNPAID || '4');
     const CUSTOMER_LIST_ID = parseInt(process.env.BREVO_LIST_CUSTOMERS || '5');
@@ -163,12 +230,27 @@ export default async function handler(req, res) {
       }),
     });
 
+    // 4. Fire Meta CAPI server-side Purchase event (fire-and-forget)
+    const purchaseValues = { premium: 19.97, bundle: 29.97, starter: 9.97 };
+    const capiResult = await sendMetaCAPI({
+      email,
+      value: purchaseValues[tier] || 19.97,
+      currency: 'USD',
+      contentIds: [tier || 'premium'],
+      tier: tier || 'premium',
+      eventId,            // Matches browser-side eventID for deduplication
+      ip: clientIp,
+      userAgent: clientUa,
+      sourceUrl: 'https://pelvicfit.xyz',
+    });
+
     return res.status(200).json({
       success: true,
       token,
       accessUrl,
       plan,
       tier: tier || 'premium',
+      capi: capiResult.skipped ? 'skipped' : 'sent',
       message: 'Protocol created, customer activated, delivery email sent',
     });
 

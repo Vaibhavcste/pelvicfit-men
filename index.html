@@ -1595,6 +1595,7 @@ if (stripeReturn === 'success') {
         score: savedQuiz.score,
         tier: purchaseType,
         quizAnswers: savedQuiz.answers,
+        eventId: window._lastEventId || null,  // Pass to server for Meta CAPI deduplication
       })
     })
     .then(r => r.json())
