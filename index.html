@@ -1127,6 +1127,7 @@ function submitEmail() {
   // Save quiz data to localStorage (survives Stripe redirect)
   const goalLabels = ['Stop PE','Firmness','Libido','Bladder'];
   const levelLabels = ['Beginner','Intermediate','Advanced'];
+  const _utmParams = new URLSearchParams(window.location.search);
   const quizPayload = {
     email: val,
     goal: goalLabels[answers[0]] || 'Unknown',
@@ -1137,6 +1138,11 @@ function submitEmail() {
     answers: answers,
     timestamp: new Date().toISOString(),
     referrer: document.referrer || 'direct',
+    utm_source: _utmParams.get('utm_source') || '',
+    utm_medium: _utmParams.get('utm_medium') || '',
+    utm_campaign: _utmParams.get('utm_campaign') || '',
+    utm_content: _utmParams.get('utm_content') || '',
+    landing_page: document.referrer.includes('/lp2') ? 'lp2_ugly' : document.referrer.includes('/lp') ? 'lp_premium' : 'quiz_direct',
   };
   localStorage.setItem('pf_quiz', JSON.stringify(quizPayload));
 
@@ -1445,6 +1451,7 @@ function renderThankYou() {
 function submitQuizData(email) {
   const goalLabels = ['Stop PE','Firmness','Libido','Bladder'];
   const levelLabels = ['Beginner','Intermediate','Advanced'];
+  const _utm = new URLSearchParams(window.location.search);
   const payload = {
     email: email,
     quizData: {
@@ -1456,6 +1463,9 @@ function submitQuizData(email) {
       answers: answers,
       timestamp: new Date().toISOString(),
       referrer: document.referrer || 'direct',
+      utm_source: _utm.get('utm_source') || '',
+      utm_content: _utm.get('utm_content') || '',
+      landing_page: document.referrer.includes('/lp2') ? 'lp2_ugly' : document.referrer.includes('/lp') ? 'lp_premium' : 'quiz_direct',
     }
   };
 
