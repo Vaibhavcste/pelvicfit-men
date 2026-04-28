@@ -23,6 +23,7 @@
 - **Quiz Funnel:** https://pelvicfit.xyz
 - **Premium Landing Page:** https://pelvicfit.xyz/lp/
 - **Ugly/Raw Landing Page:** https://pelvicfit.xyz/lp2/
+- **Ugly/No-Quiz Direct Checkout:** https://pelvicfit.xyz/lp3/
 - **Dashboard:** https://pelvicfit.xyz/plan/{token}?plan={protocol}
 
 ### Key Dashboards

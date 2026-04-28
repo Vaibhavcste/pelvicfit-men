@@ -118,9 +118,25 @@ Built and deployed 3 landing page variants for A/B testing:
 
 | Variant | URL | Style | Description |
 |---------|-----|-------|-------------|
-| A: Quiz Direct | `pelvicfit.xyz` | Dark, interactive | Straight to quiz, no pre-sell |
-| B: Premium LP | `pelvicfit.xyz/lp/` | Dark, clinical | Infographics, study citations, trust badges, pills-vs-protocol table |
-| C: Ugly/Raw LP | `pelvicfit.xyz/lp2/` | Cream, serif font | ClickFunnels-style sales letter, red headlines, yellow highlights, price anchoring |
+| A: Quiz Direct | `pelvicfit.xyz` | Dark, interactive | Straight to quiz, no pre-sell — **PAUSED (0 purchases)** |
+| B: Premium LP | `pelvicfit.xyz/lp/` | Dark, clinical | Infographics, study citations, trust badges → quiz → checkout |
+| C: Ugly/Raw LP | `pelvicfit.xyz/lp2/` | Cream, serif font | Sales letter → quiz → checkout |
+| D: Ugly/No-Quiz | `pelvicfit.xyz/lp3/` | Cream, serif font | Sales letter → email field → Stripe direct (no quiz) |
+
+### Ad UTM Links
+```
+Quiz Direct (PAUSED):
+https://pelvicfit.xyz?utm_source=meta&utm_medium=paid&utm_campaign=pf_test&utm_content=quiz_direct
+
+LP1 — Premium:
+https://pelvicfit.xyz/lp/?utm_source=meta&utm_medium=paid&utm_campaign=pf_test&utm_content=lp_premium
+
+LP2 — Ugly + Quiz:
+https://pelvicfit.xyz/lp2/?utm_source=meta&utm_medium=paid&utm_campaign=pf_test&utm_content=lp_ugly
+
+LP3 — Ugly + No Quiz (NEW):
+https://pelvicfit.xyz/lp3/?utm_source=meta&utm_medium=paid&utm_campaign=pf_test&utm_content=lp_noquiz
+```
 
 **Work done on LP upgrade (Variant B):**
 - Generated clinical anatomy and hypertonic-vs-healthy infographics
