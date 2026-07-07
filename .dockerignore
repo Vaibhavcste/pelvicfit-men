@@ -1,0 +1,10 @@
+.git
+.vercel
+.env
+.env.*
+node_modules
+npm-debug.log*
+.DS_Store
+PF-project creatives
+ads
+docs
